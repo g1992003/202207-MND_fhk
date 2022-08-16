@@ -1,0 +1,401 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+@import "base/mixin";
+@import "template/topmenu";
+
+$color_type_0: #4f4f4fff;
+$color_type_1: rgb(255, 255, 255);
+$color_type_2: rgb(79, 79, 79);
+
+$font_type_0: 32px/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_1: 1em/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_2: 0.75em/1.5 "Noto Sans", Helvetica, Arial, serif;
+
+.video {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_1;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-tag__menu.layout {
+    position: relative;
+  }
+  &-video__main {
+    @include flex-column;
+  }
+  &-video__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout5 {
+    position: relative;
+    flex-grow: 1;
+    width: 80.16%;
+    margin: 110px auto 54px;
+    @include xl {
+      margin: 60px auto 54px;
+    }
+    @include lg {
+      margin: 36px auto 54px;
+    }
+  }
+  &-title.layout {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+  }
+  &-flex1 {
+    @include h-center-content;
+  }
+  &-flex1.layout {
+    position: relative;
+    width: 99.77%;
+    margin: 105px auto 0px;
+    @include xl {
+      margin: 60px auto 0px;
+    }
+    @include lg {
+      margin: 40px auto 0px;
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 138px;
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 3px 0px 0px;
+    &:hover{
+      .icon_1{
+        opacity: 0;
+      }
+      .icon_2{
+        opacity: 1;
+      }
+      .video_txt{
+        color: #1B597C;
+        font-weight: 700;
+      }
+    }
+  }
+  &-image8 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image8.layout {
+    position: relative;
+    min-height: 68px;
+    width: 72px;
+    min-width: 72px;
+    margin: 0px auto;
+    height: 72px;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+  }
+  &-big-title-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-big-title-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 30px 0px 0px;
+  }
+  &-big-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_2;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    transition: all 0.75s;
+    line-height: 1.15;
+    .tw{
+      line-height: 1;
+      font-family: "Noto Sans TC";
+    }
+    .en{
+      line-height: 1;
+    }
+    @include xl {
+      font-size: 30px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 28px;
+    }
+  }
+  &-big-title-span0 {
+    @include font-face($font_type_1, $color_type_0, 3.2px);
+  }
+  &-big-title-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+  }
+  &-flex-spacer {
+    flex: 0 0 auto;
+    min-width: 99px;
+    @include xl {
+      min-width: 50px;
+    }
+    @include lg {
+      min-width: 35px;
+    }
+  }
+  &-flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-icon.layout {
+    position: relative;
+    height: 72px;
+    width: 72px;
+    min-width: 72px;
+    margin: 0px auto;
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+  }
+  &-big-title-box.layout1 {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 30px 0px 0px;
+  }
+  &-big-title1-span0 {
+    @include font-face($font_type_1, $color_type_0, 3.2px);
+  }
+  &-big-title1-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+  }
+  &-flex-spacer1 {
+    flex: 0 0 auto;
+    min-width: 94px;
+    @include xl {
+      min-width: 50px;
+    }
+    @include lg {
+      min-width: 35px;
+    }
+  }
+  &-flex.layout2 {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+  }
+  &-big-title-box.layout2 {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 30px 0px 0px;
+  }
+  &-flex-spacer2 {
+    flex: 0 0 auto;
+    min-width: 94px;
+    @include xl {
+      min-width: 50px;
+    }
+    @include lg {
+      min-width: 35px;
+    }
+  }
+  &-flex.layout3 {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-image5 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image5.layout {
+    position: relative;
+    height: 72px;
+    width: 66px;
+    min-width: 66px;
+    margin: 0px auto;
+  }
+  &-big-title-box.layout3 {
+    position: relative;
+    margin: 30px 0px 0px;
+  }
+  &-flex.layout4 {
+    position: relative;
+    margin: 95px 0px 0px;
+    @include xl {
+      margin: 60px 0px 0px;
+    }
+    @include lg {
+      margin: 46px 0px 0px;
+    }
+  }
+  &-flex2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-flex2.layout {
+    position: relative;
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 736px;
+  }
+  &-component {
+    flex-grow: 1;
+  }
+  &-component.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-spacer3 {
+    flex: 0 1 67px;
+  }
+  &-flex-item5 {
+    @include flex-column;
+    position: relative;
+    width: calc( (100% - 65px ) / 2);
+    margin-right: 65px;
+    margin-top: 20px;
+    @include xl{
+      width: calc( (100% - 50px ) / 2);
+      margin-right: 50px;
+    }
+    @include lg{
+      width: calc( (100% - 35px ) / 2);
+      margin-right: 35px;
+    }
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+  }
+  &-flex3 {
+    display: flex;
+  }
+  &-flex3.layout {
+    position: relative;
+    margin: 34px 0px 0px;
+  }
+  &-flex-item6 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 736px;
+  }
+  &-flex-spacer4 {
+    flex: 0 1 67px;
+  }
+  &-flex-item7 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 736px;
+  }
+  &-flex-item8 {
+    @include flex-column;
+    position: relative;
+  }
+  &-component.layout1 {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 74px auto 0px;
+    @include xl {
+      margin: 46px auto 0px;
+    }
+    @include lg {
+      margin: 36px auto 0px;
+    }
+  }
+  &-footer.layout {
+    position: relative;
+  }
+  .icon_1, .video_txt{    
+    transition: all 0.75s;
+  }
+  .icon_2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 0.75s;
+  }
+  .title-title{
+    line-height: 1.1;
+    .en{
+      font-size: 36px;
+      @include xl {
+        font-size: 32px;
+      }
+      @include lg {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+.tag-menu-tag__menu{
+    ul > li{
+        transition: all 0.75s;
+        &.active{
+            background: #1B597C;
+            pre{
+                font-weight: 700;
+                color: #fff;
+                font-family: "Noto Sans", "Noto Sans TC";
+                .en{
+                  letter-spacing: 0;
+                }
+            }
+        }
+    }
+}
+#top-menu-ul{
+    margin-top: 6.3em;
+    .tw{
+        font-size: 32px;
+        font-family: "Noto Sans", "Noto Sans TC";
+    }
+    .en{
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+}
+#top-menu-ul-1{
+    margin-top: 6em;
+}
+.video-flex.layout4.mt75{
+    margin-top: 75px;
+}

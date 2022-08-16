@@ -1,0 +1,201 @@
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;;
+    font-weight: 400;
+    margin-top: 28px;
+    dt,
+    dd {
+        vertical-align: baseline;
+        display: inline-block;
+        text-align: center;
+        transition: all 0.5s ease;
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            height: 100%;
+            span{
+                color: #4F4F4F;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+    dd {
+        position: relative;
+        cursor: pointer;
+        width: 57px;
+        height: 57px;
+        background: url('../images/Rectangle 12page.jpg') center / contain no-repeat;
+        transition: all 0.5s ease;
+        margin: 0 13px;
+        @include mediaquery(768px, null) {
+            &:hover{
+                background: url('../images/Rectangle 11hover.jpg') center / contain no-repeat;
+                a span{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    dd.active {
+        background: url('../images/Rectangle 11hover.jpg') center / contain no-repeat;
+        a span{
+            color: #fff;
+        }
+    }
+
+    dt.rtbn a,
+    dt.ltbn a {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        transition: 0.5s;
+        transition: 0.5s ease;
+    }
+    
+
+    dt.ltbn a {
+        position: relative;
+        margin-left: 24px;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Vectorleft.jpg') center / 12px 23px no-repeat;
+            transition: 0.5s ease;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Vectorlefr_hover.jpg') center / 12px 23px no-repeat;
+            transition: 0.5s ease;
+            opacity: 0;
+        }    
+    }
+
+    dt.rtbn a {
+        position: relative;
+        margin-right: 24px;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Vectorright.jpg') center / 12px 23px no-repeat;
+            transition: 0.5s ease;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Vectorright_hover.jpg') center / 12px 23px no-repeat;
+            transition: 0.5s ease;
+            opacity: 0;
+        }
+        
+    }
+    
+    dt.rtbn_up a,
+    dt.ltbn_up a {
+        width: 14px;
+        height: 15px;
+        margin: 0 auto;
+        transition: 0.5s;
+        transition: 0.5s ease;
+    }
+    dt.ltbn_up a {
+        position: relative;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Group 22left-up.jpg') center / 14px 15px no-repeat;
+            transition: 0.5s ease;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Group 22lefr_up_hover.jpg') center / 14px 15px no-repeat;
+            transition: 0.5s ease;
+            opacity: 0;
+        }    
+    }
+
+    dt.rtbn_up a {
+        position: relative;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Group 21right-up.png') center / 14px 15px no-repeat;
+            transition: 0.5s ease;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Group 21right_up_hover.jpg') center / 14px 15px no-repeat;
+            transition: 0.5s ease;
+            opacity: 0;
+        }
+        
+    }
+    .ltbn, .rtbn, .ltbn_up, .rtbn_up{
+        &.nopage{
+            opacity: 0.2;
+            pointer-events: none;
+        }
+    }
+}
+
+

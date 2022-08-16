@@ -1,0 +1,263 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: #ffffffff;
+$color_type_1: rgb(255, 255, 255);
+
+$font_type_0: 22px/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_1: 1em/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
+
+.headerS {
+  &-main {
+    @include flex-column;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-header__scroll {
+    @include flex-column;
+  }
+  &-header__scroll.layout {
+    position: relative;
+    height: 148px;
+  }
+  &-group {
+    @include flex-column;
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-group.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 30px 34px 16px;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 220px;
+    @include xl {
+      flex: 0 1 200px;
+    }
+    @include lg {
+      flex: 0 1 180px;
+    }
+  }
+  &-logo {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-logo.layout {
+    position: relative;
+    flex-grow: 1;
+    min-height: 103px;
+    width: 220px;
+    min-width: 220px;
+    @include xl {
+      width: 200px;
+      min-width: 200px;
+      margin: 0px;
+    }
+    @include lg {
+      width: 180px;
+      min-width: 180px;
+    }
+  }
+//   &-flex-spacer {
+//     flex: 0 1 350px;
+//   }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 auto;
+  }
+  &-nav__scroll {
+    display: flex;
+  }
+  &-nav__scroll.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 16px 0px 32px;
+  }
+  &-nav__scroll-item {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-txt-box {
+    @include h-center-content;
+  }
+  &-txt-box.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-txt {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    line-height: 1.1;
+  }
+  &-txt-span0 {
+    @include font-face($font_type_1, $color_type_0, 2.2px);
+    line-height: 1;
+  }
+  &-txt-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+    line-height: 1;
+  }
+  &-nav__scroll-spacer {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-nav__scroll-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 71px;
+  }
+  &-txt1-span0 {
+    @include font-face($font_type_1, $color_type_0, 2.2px);
+    line-height: 1;
+  }
+  &-txt1-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+    line-height: 1;
+  }
+  &-nav__scroll-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 102px;
+  }
+  &-nav__scroll-spacer1 {
+    flex: 1 0 auto;
+    min-width: 60px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+  }
+  &-nav__scroll-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 46px;
+  }
+  &-img {
+    background: var(--src) center center / contain no-repeat;
+    width: 100%;
+    height: 100%;
+    transition: all 0.75s;
+  }
+  &-nav__scroll-spacer2 {
+    flex: 1 0 auto;
+    min-width: 60px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+  }
+  &-nav__scroll-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 46px;
+  }
+}
+
+.header__scroll.layout{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.75s;
+    &.scroll_show{
+        z-index: 10;
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+    .headerS-nav__scroll{
+        .header_ch{
+            @include lg{
+                font-size: 20px;
+            }
+            @media (max-width: 1100px) {
+                font-size: 18px;
+            }
+        }
+        .header_en{
+            @include lg{
+                font-size: 16px;
+            }
+            @media (max-width: 1100px) {
+                font-size: 15px;
+            }
+        }
+        
+    }
+}
+.music{
+    .headerS-img.pause{
+        background: url('../images/assets/playno.png') center / contain no-repeat;
+        transition: all 0.75s;
+    }
+}
+
+.headerS-nav__scroll > a {
+  &.active{
+    position: relative;
+    transition: all 0.75s;
+    &::after{
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: -10%;
+      width: 120%;
+      height: 2px;
+      background: #fff;
+      @include xl {
+        left: -5%;
+        width: 110%;
+        height: 1px;
+      }
+    }
+  }
+}

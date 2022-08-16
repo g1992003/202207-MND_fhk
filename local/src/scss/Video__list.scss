@@ -1,0 +1,89 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(79, 79, 79);
+
+$font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.video-list {
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout {
+    position: relative;
+    &:hover{
+      .video-list-background{
+        border: 5px solid #1B597C;
+      }
+      .video-list-video__txt{
+        color: #1B597C;
+        font-weight: 700;
+      }
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-group {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &-background {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+    border: 5px solid transparent;
+    transition: all 0.75s;
+  }
+  &-group1 {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &-image1 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-image1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 1px 0px;
+  }
+  &-video__txt-box {
+    @include h-center-content;
+  }
+  &-video__txt-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 14px auto 74px;
+    @include xl {
+      margin: 14px auto 50px;
+    }
+    @include lg {
+      margin: 14px auto 30px;
+    }
+  }
+  &-video__txt {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 2.0999999999999996px;
+    white-space: pre-wrap;
+    transition: all 0.75s;
+    line-height: 1.5;
+    font-family: "Noto Sans", "Noto Sans TC";
+  }
+}

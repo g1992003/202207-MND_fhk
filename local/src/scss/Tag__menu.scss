@@ -1,0 +1,185 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(240, 240, 240);
+$color_type_1: rgb(79, 79, 79);
+
+$font_type_0: 20px/1.2 "Noto Sans", Helvetica, Arial, serif;
+
+.tag-menu {
+  &-tag__menu {
+    @include flex-column;
+  }
+  &-tag__menu.layout {
+    position: relative;
+  }
+  &-block1 {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-block1.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-tag__menu1 {
+    @include h-center-content;
+  }
+  &-tag__menu1.layout {
+    position: relative;
+    flex-grow: 1;
+    width: 63.54%;
+    margin: 0 auto;
+    // margin: 33px 17.19% 39px 19.27%;
+    @include xxl {
+      width: 99.84%;
+      // margin: 33px auto 39px;
+    }
+    // @include xl {
+    //   margin: 30px auto;
+    // }
+    // @include lg {
+    //   margin: 25px auto;
+    // }
+  }
+  &-tag__menu-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 88px;
+  }
+  &-subtitle-box {
+    @include h-center-content;
+    padding: 33px 34px;
+    transition: all 0.75s;
+    @include xl {
+      padding: 30px 20px;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      padding: 25px 10px;
+    }
+    &:hover{
+      background-color: #1B597C;
+      pre{
+        font-weight: 700;
+        color: #fff;
+      }
+    }
+  }
+  &-subtitle-box.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-subtitle {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 2px;
+    white-space: pre-wrap;
+    transition: all 0.75s;
+    line-height: 1.35;
+    @include xl {
+      font-size: 18px;
+      text-align: center;
+    }
+    .tw{
+      font-family: "Noto Sans TC";
+    }
+    .en{
+      letter-spacing: 0;
+    }
+  }
+  // &-tag__menu-spacer {
+  //   flex: 0 0 auto;
+  //   min-width: 69px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  // &-tag__menu-spacer1 {
+  //   flex: 0 0 auto;
+  //   min-width: 68px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  // &-tag__menu-spacer2 {
+  //   flex: 0 0 auto;
+  //   min-width: 68px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  // &-tag__menu-spacer3 {
+  //   flex: 0 0 auto;
+  //   min-width: 68px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  // &-tag__menu-spacer4 {
+  //   flex: 0 0 auto;
+  //   min-width: 67px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  &-tag__menu-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 111px;
+  }
+  // &-tag__menu-spacer5 {
+  //   flex: 0 0 auto;
+  //   min-width: 67px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  &-tag__menu-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 100px;
+  }
+  // &-tag__menu-spacer6 {
+  //   flex: 0 0 auto;
+  //   min-width: 68px;
+  //   @include xl {
+  //     min-width: 40px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  &-tag__menu-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 94px;
+  }
+}

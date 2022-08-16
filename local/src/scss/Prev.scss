@@ -1,0 +1,35 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(116, 116, 116);
+$color_type_1: rgb(255, 255, 255);
+
+$font_type_0: 20px/1.89 "Noto Sans TC", Helvetica, Arial, serif;
+
+.prev {
+  &-prev {
+    @include flex-column;
+    background-color: $color_type_1;
+    box-shadow: 0px 0px 8.708333969116211px 0px rgba(0, 0, 0, 0.14901960784313725);
+  }
+  &-prev.layout {
+    position: relative;
+    border: 2px solid #fff;
+    transition: all 0.75s;
+    &:hover{
+      border: 2px solid #1B597C;
+      .prev-prev__txt{
+        color: #1B597C;
+      }
+    }
+  }
+  &-prev__txt {
+    @include font-face($font_type_0, $color_type_0, 1.5999999999999996px);
+  }
+  &-prev__txt.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 5px 23px;
+    transition: all 0.75s;
+  }
+}

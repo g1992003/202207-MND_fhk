@@ -1,0 +1,176 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+
+.song {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-tag__menu.layout {
+    position: relative;
+  }
+  &-song__main {
+    @include flex-column;
+  }
+  &-song__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+    width: 66.46%;
+    margin: 90px auto 54px;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-title {
+    flex-grow: 1;
+  }
+  &-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+    margin: 90px 0px 0px;
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex1 {
+    display: flex;
+  }
+  &-flex1.layout {
+    position: relative;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 352px;
+  }
+  &-component {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+  }
+  &-flex-spacer {
+    flex: 0 1 110px;
+    @include xl {
+      flex: 0 1 40px;
+    }
+    @include lg {
+      flex: 0 1 20px;
+    }
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 352px;
+  }
+  &-component1 {
+    flex-grow: 1;
+  }
+  &-component1.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 352px;
+  }
+  &-component2 {
+    flex-grow: 1;
+  }
+  &-component2.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex2 {
+    display: flex;
+  }
+  &-flex2.layout {
+    position: relative;
+    margin: 34px 0px 0px;
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 352px;
+  }
+  &-component3 {
+    flex-grow: 1;
+  }
+  &-component3.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-item5 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 352px;
+  }
+  &-component4 {
+    flex-grow: 1;
+  }
+  &-component4.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-item6 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 352px;
+  }
+  &-component5 {
+    flex-grow: 1;
+  }
+  &-component5.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-page__list.layout {
+    position: relative;
+    width: 380px;
+    min-width: 380px;
+    margin: 74px auto 0px;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+}
+
+.tag-menu-tag__menu{
+    ul > li{
+        transition: all 0.75s;
+        &.active{
+            background: #1B597C;
+            pre{
+                color: #fff;
+            }
+        }
+    }
+}

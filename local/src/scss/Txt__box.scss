@@ -1,0 +1,416 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: #ffffffff;
+$color_type_1: rgb(255, 255, 255);
+
+$font_type_0: 32px/1.6 "Noto Sans", Helvetica, Arial, serif;
+$font_type_1: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
+$font_type_2: 1em/1.6 "Noto Sans", Helvetica, Arial, serif;
+$font_type_3: 0.9375em/1.6 "Noto Sans", Helvetica, Arial, serif;
+
+.txt-box {
+  &-flex {
+    display: flex;
+  }
+  &-flex.layout {
+    position: relative;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 505px;
+  }
+  &-flex1 {
+    @include flex-column;
+  }
+  &-flex1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 4px;
+    @include lg {
+      margin: 0px;
+    }
+  }
+  &-icon1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-icon1.layout {
+    position: relative;
+    height: 64px;
+    width: 65px;
+    min-width: 65px;
+    margin: 0px auto;
+    @include xl {
+      height: 55px;
+    }
+    @include lg {
+      height: 50px;
+    }
+  }
+  &-f-title1-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-f-title1-box.layout {
+    position: relative;
+    width: 98.57%;
+    margin: 35px auto 0px;
+    @include xl {
+      margin: 22px auto 0px;
+    }
+  }
+  &-f-title1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 3.2px;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    @include xl {
+      font-size: 28px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 26px;
+    }
+  }
+  &-f-title1-span0 {
+    @include font-face($font_type_2, $color_type_0, 3.2px);
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Noto Sans TC"
+  }
+  &-f-title1-span1 {
+    @include font-face($font_type_3, $color_type_0, 3px);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  &-f-subtitle1-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-f-subtitle1-box.layout {
+    position: relative;
+    flex: 1 0 auto;
+    margin: 32px 0px 0px;
+    @include xl {
+      margin: 26px 0px 0px;
+    }
+    @include lg {
+      margin: 22px 0px 0px;
+    }
+  }
+  &-f-subtitle1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_1;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    @include xl {
+      font-size: 22px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 20px;
+    }
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+  }
+  &-more {
+    flex-grow: 1;
+  }
+  &-more.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 52px auto 0px;
+    @include lg {
+      margin: 26px auto 0px;
+    }
+  }
+  &-flex-spacer {
+    flex: 0 1 93px;
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 646px;
+  }
+  &-flex2 {
+    @include flex-column;
+  }
+  &-flex2.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 4px;
+    @include lg {
+      margin: 0px;
+    }
+  }
+  &-icon2 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-icon2.layout {
+    position: relative;
+    height: 64px;
+    width: 81px;
+    min-width: 81px;
+    margin: 0px auto;
+    @include xl {
+      height: 55px;
+    }
+    @include lg {
+      height: 50px;
+    }
+  }
+  &-f-title2-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-f-title2-box.layout {
+    position: relative;
+    width: 98.57%;
+    margin: 35px auto 0px;
+    @include xl {
+      margin: 22px auto 0px;
+    }
+  }
+  &-f-title2 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 3.2px;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    @include xl {
+      font-size: 28px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 26px;
+    }
+  }
+  &-f-title2-span0 {
+    @include font-face($font_type_2, $color_type_0, 3.2px);
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Noto Sans TC"
+  }
+  &-f-title2-span1 {
+    @include font-face($font_type_3, $color_type_0, 3px);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  &-f-subtitle2-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-f-subtitle2-box.layout {
+    position: relative;
+    flex: 1 0 auto;
+    margin: 32px 0px 0px;
+    @include xl {
+      margin: 26px 0px 0px;
+    }
+    @include lg {
+      margin: 22px 0px 0px;
+    }
+  }
+  &-f-subtitle2 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_1;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    @include xl {
+      font-size: 22px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 20px;
+    }
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+  }
+  &-flex-spacer1 {
+    flex: 0 1 104px;
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 479px;
+  }
+  &-flex3 {
+    @include flex-column;
+  }
+  &-flex3.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 4px;
+  }
+  &-icon3 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-icon3.layout {
+    position: relative;
+    height: 64px;
+    width: 75px;
+    min-width: 75px;
+    margin: 0px auto;
+    @include xl {
+      height: 55px;
+    }
+    @include lg {
+      height: 50px;
+    }
+  }
+  &-f-title3-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-f-title3-box.layout {
+    position: relative;
+    width: 98.57%;
+    margin: 35px auto 0px;
+    @include xl {
+      margin: 22px auto 0px;
+    }
+  }
+  &-f-title3 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 3.2px;
+    white-space: pre-wrap;
+    line-height: 1.4;
+    @include xl {
+      font-size: 28px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 26px;
+    }
+  }
+  &-f-title3-span0 {
+    @include font-face($font_type_2, $color_type_0, 3.2px);
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Noto Sans TC"
+  }
+  &-f-title3-span1 {
+    @include font-face($font_type_3, $color_type_0, 3px);
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+  }
+  &-f-subtitle3-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-f-subtitle3-box.layout {
+    position: relative;
+    flex: 1 0 auto;
+    margin: 32px 0px 0px;
+    @include xl {
+      margin: 26px 0px 0px;
+    }
+    @include lg {
+      margin: 22px 0px 0px;
+    }
+  }
+  &-f-subtitle3 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_1;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    @include xl {
+      font-size: 22px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 20px;
+    }
+  }
+  &-flex-item5 {
+    @include flex-column;
+    position: relative;
+  }
+}

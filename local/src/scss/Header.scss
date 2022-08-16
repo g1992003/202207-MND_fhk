@@ -1,0 +1,333 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: #1b597cff;
+$color_type_1: rgb(255, 255, 255);
+$color_type_2: rgb(27, 89, 124);
+
+$font_type_0: 22px/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_1: 1em/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
+
+.header {
+    transition: all 0.75s;
+    &.hidden{
+        opacity: 0;
+        pointer-events: none
+    }
+  &-main {
+    @include flex-column;
+    background-color: $color_type_1;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-main-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+    height: min-content;
+  }
+  &-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 auto;
+  }
+  &-image2 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+//   &-flex-spacer {
+//     flex: 0 1 382px;
+//   }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 auto;
+  }
+  &-flex1 {
+    display: flex;
+  }
+  &-flex1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 95px;
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-txt-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-txt-box.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-txt {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_2;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    line-height: 0.45;
+    @include xl {
+      text-align: center;
+    }
+  }
+  &-txt-span0 {
+    @include font-face($font_type_1, $color_type_0, 2.2px);
+  }
+  &-txt-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+  }
+  &-flex-spacer1 {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 71px;
+  }
+  &-txt1-span0 {
+    @include font-face($font_type_1, $color_type_0, 2.2px);
+  }
+  &-txt1-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+  }
+  &-flex-spacer2 {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-flex-spacer3 {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item5 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-flex-spacer4 {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item6 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 102px;
+  }
+  &-txt1-box {
+    @include h-center-content;
+  }
+  &-txt1-box.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-txt1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_2;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    line-height: 0.45;
+  }
+  &-flex-spacer5 {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }    
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item7 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-txt2-span0 {
+    @include font-face($font_type_1, $color_type_0, 2.2px);
+  }
+  &-txt2-span1 {
+    @include font-face($font_type_2, $color_type_0, 0px);
+  }
+  &-flex-spacer6 {
+    flex: 1 0 auto;
+    min-width: 65px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item8 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-flex-spacer7 {
+    flex: 1 0 auto;
+    min-width: 69px;
+    @include xxl {
+      min-width: 40px;
+      display: flex;
+    }
+    @include xl {
+      min-width: 20px;
+    }
+    @include lg {
+        min-width: 10px;
+    }
+  }
+  &-flex-item9 {
+    @include flex-column;
+    position: relative;
+    flex: 1 0 auto;
+    min-width: 50px;
+  }
+  &-icon {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.24705882352941178));
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-icon.layout {
+    // position: relative;
+    height: 50px;
+    width: 50px;
+    min-width: 50px;
+    margin: 3px 0px 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.75s;
+    &.play_show{
+        opacity: 1;
+    }
+    @include xl {
+      width: 40px;
+      min-width: 40px;
+    }
+  }
+}
+header{
+    &.header{
+        .header_ch{
+            @include lg{
+                font-size: 20px;
+            }
+        }
+        .header_en{
+            @include lg{
+                font-size: 16px;
+            }
+        
+        }
+        
+    }
+}
+.index-banner__icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}

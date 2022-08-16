@@ -1,0 +1,80 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(79, 79, 79);
+
+$font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.psy-box {
+  &:hover{
+    .psy-box-image{
+      border: 5px solid #1B597C;
+    }
+    .psy-box-psy-title{
+      color: #1B597C;
+      font-weight: 700;
+    }
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout {
+    position: relative;
+    height: min-content;
+  }
+  &-image {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+    transition: all 0.75s;
+    border: 5px solid transparent;
+  }
+  &-image.layout {
+    position: relative;
+  }
+  &-psy-title-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-psy-title-box.layout {
+    position: relative;
+    width: 137px;
+    min-width: 137px;
+    margin: 22px auto 74px;
+    @include xl {
+      margin: 18px auto 60px;
+    }
+    @include lg {
+      margin: 15px auto 50px;
+    }
+  }
+  &-psy-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 2.1999999999999997px;
+    white-space: pre-wrap;
+    transition: all 0.75s;
+    line-height: 1.5;
+    @include xl {
+      font-size: 22px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.menu-list-group {
+  display: flex;
+  flex-direction: column;
+}
+.menu-list-group.layout {
+  position: relative;
+}
+.menu-list-menu__list-box {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1399px) {
+  .menu-list-menu__list-box {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+@media (max-width: 1199px) {
+  .menu-list-menu__list-box {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+.menu-list-menu__list-box.layout {
+  position: relative;
+  flex-grow: 1;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px 0px;
+}
+.menu-list-menu__list {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 22px/1.5 "Noto Sans", Helvetica, Arial, serif;
+  color: #1b597c;
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+@media (max-width: 1399px) {
+  .menu-list-menu__list {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .menu-list-menu__list {
+    font-size: 18px;
+  }
+}

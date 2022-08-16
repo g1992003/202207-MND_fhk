@@ -1,0 +1,141 @@
+
+.animated.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.animated.fadeInRight {
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+.animated.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.animated.fadeUp {
+    animation-name: fadeUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.asj[data-delay="100"]{
+    animation-delay: 0.1s;
+}
+.asj[data-delay="200"]{
+    animation-delay: 0.2s;
+}
+.asj[data-delay="300"]{
+    animation-delay: 0.3s;
+}
+.asj[data-delay="400"]{
+    animation-delay: 0.4s;
+}
+.asj[data-delay="500"]{
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeRotate {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes circle-r {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-180deg);
+    }
+}
+@keyframes circle-l {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+@keyframes star {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes starl {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+@keyframes idon {
+    0%{
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(2);
+    }
+}

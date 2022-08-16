@@ -1,0 +1,83 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+
+.project-detail {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-section1.layout {
+    position: relative;
+  }
+  &-project__detail__main {
+    @include flex-column;
+  }
+  &-project__detail__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+    // width: 463px;
+    // min-width: 463px;
+    margin: 112px auto 24px;
+    @include xl {
+      margin: 60px auto 24px;
+    }
+    @include lg {
+      margin: 36px auto 24px;
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-s-title {
+    flex-grow: 1;
+  }
+  &-s-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: 100%;
+    margin: 0px auto;
+  }
+  &-title.layout {
+    position: relative;
+    width: 463px;
+    min-width: 463px;
+    margin: 41px auto 46px;
+  }
+  &-prev.layout {
+    position: relative;
+    width: 161px;
+    min-width: 161px;
+    margin: 27px auto 0px;
+    @include xl {
+      margin: 20px auto 0px;
+    }
+    @include lg {
+      margin: 15px auto 0px;
+    }
+  }
+  &-section3.layout {
+    position: relative;
+  }
+  .title-title{
+    line-height: 1.15;
+    .en{
+      font-size: 36px;
+    }
+  }
+}

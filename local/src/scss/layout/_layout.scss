@@ -1,0 +1,122 @@
+html, body, *{
+    font-family: $font;
+    font-weight: 400;
+    &.loading {
+        opacity: 1;
+        visibility: visible;
+    }
+    .asj{
+        opacity: 0;
+    }
+}
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.porel{
+    position: relative;
+}
+.center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    margin: 0 auto;
+}
+//---------通用設定--------
+::selection {
+    background-color: #1B597C;
+    color: white;
+}
+.mo {
+    display: none;
+    @include mediaquery(null, 767px) {
+        display: block;
+    }
+}
+.pc {
+    display: none;
+    @include mediaquery(768px, null) {
+        display: block;
+    }
+}
+.ipad-m {
+    display: none;
+    @include mediaquery(null, 991px) {
+        display: block;
+    }
+}
+.ipad-p {
+    display: none;
+    @include mediaquery(992px, null) {
+        display: block;
+    }
+}
+
+.f-1{
+    flex: 1;
+}
+// ---------- 內頁通吃 ------------
+
+// 容器寬
+.container{
+    margin: 0 auto;
+    max-width: $maxwidth;
+}
+.container_1{
+    margin: 0 auto;
+    max-width: 1350px;
+    width: 92%;
+    .editor_box{
+        width: 81.78%;
+    }
+}
+.swiper_box{
+    position: relative;
+    margin: 0 auto 6.3em;
+    max-width: 1350px;
+    width: 92%;
+    .swiper{
+        width: 81.78%;
+    }
+    img{
+        max-width: 100%;
+    }
+    .swiper-pagination-bullet{
+        background: #D9D9D9;
+        opacity: 1;
+        width: 11px;
+        height: 11px;
+        margin: 0 10px;
+    }
+    .swiper-pagination-bullet-active{
+        background: #1B597C;
+        width: 14px;
+        height: 14px;
+    }
+    .swiper-button-prev{
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        &::after{
+            font-weight: 700;
+            color: #134563;
+        }
+    }
+    .swiper-button-next{
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        &::after{
+            font-weight: 700;
+            color: #134563;
+        }
+    }
+    .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: -4em;
+    }
+}

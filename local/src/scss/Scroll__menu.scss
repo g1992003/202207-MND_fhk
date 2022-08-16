@@ -1,0 +1,180 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(22, 67, 92);
+$color_type_1: rgb(27, 89, 124);
+
+.scroll-menu {
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+    height: 150px;
+  }
+  &-box {
+    background-color: $color_type_0;
+  }
+  &-box.layout {
+    position: absolute;
+    top: 0px;
+    height: 5px;
+    left: 0px;
+    right: 0px;
+    margin: 145px 0px 0px;
+  }
+  &-box1 {
+    background-color: $color_type_1;
+  }
+  &-box1.layout {
+    position: absolute;
+    top: 0px;
+    height: 145px;
+    left: 0px;
+    right: 0px;
+    margin: 0px 0px 5px;
+  }
+  &-flex {
+    display: flex;
+  }
+  &-flex.layout {
+    position: absolute;
+    top: 26px;
+    bottom: 21px;
+    left: 34px;
+    right: 34px;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 83px;
+  }
+  &-logo__img {
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-logo__img.layout {
+    position: relative;
+    height: 103px;
+    width: 83px;
+    min-width: 83px;
+  }
+  &-flex-spacer {
+    flex: 1;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  &-scroll__menu__list {
+    display: flex;
+    li{
+      margin-right: 65px;
+      @include xl {
+        margin-right: 30px;
+      }
+      @include lg {
+        margin-right: 20px;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+      &.active{
+        position: relative;
+        transition: all 0.5s;
+        &::after{
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: -10%;
+          width: 120%;
+          height: 2px;
+          background: #fff;
+          @include xl {
+            left: -5%;
+            width: 110%;
+            height: 1px;
+          }
+        }
+      }
+    }
+  }
+  &-scroll__menu__list.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 16px 0px 32px;
+  }
+  &-scroll__menu__list-item {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    // min-width: 95px;
+  }
+  &-scrioll__menu__list {
+    flex-grow: 1;
+  }
+  &-scrioll__menu__list.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  // &-scroll__menu__list-spacer {
+  //   flex: 1 0 auto;
+  //   min-width: 65px;
+  //   @include xl {
+  //     min-width: 30px;
+  //   }
+  //   @include lg {
+  //     min-width: 15px;
+  //   }
+  // }
+  &-scroll__menu__list-item1 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    // min-width: 71px;
+  }
+  &-scroll__menu__list-item2 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    width: 100px;
+  }
+  // &-scroll__menu__list-spacer1 {
+  //   flex: 1 0 auto;
+  //   min-width: 57px;
+  //   @include xl {
+  //     min-width: 30px;
+  //   }
+  //   @include lg {
+  //     min-width: 15px;
+  //   }
+  // }
+  &-scroll__menu__list-item3 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    // min-width: 46px;
+  }
+  &-scroll__menu__list-item4 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    width: 95px;
+  }
+  &-scrioll__menu__list1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-scrioll__menu__list1.layout {
+    position: relative;
+    height: 41px;
+    width: 46px;
+    margin: 10px 0px 4px;
+    @include xl {
+      margin: auto 0;
+      width: 40px;
+    }
+    @include lg {
+      width: 36px;
+    }
+  }
+}

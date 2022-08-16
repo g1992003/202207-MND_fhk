@@ -1,0 +1,29 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+.pagefooter {
+  &-footer {
+    @include flex-column;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+  &-block1 {
+    @include flex-column;
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-block1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 1px 0px 0px;
+  }
+  &-component.layout {
+    position: relative;
+    width: 95.05%;
+    margin: 360px 2.81% 0px 2.14%;
+  }
+  &-block3.layout {
+    position: relative;
+    margin: 45px 0px 0px;
+  }
+}

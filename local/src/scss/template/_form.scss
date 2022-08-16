@@ -1,0 +1,150 @@
+#crmWebToEntityForm{
+    margin-top: 97px;
+}
+
+label, #ozone-radio, #hydrogen-radio, #both-radio {
+    cursor: pointer;
+}
+label{
+    @include mediaquery(null, 767px){
+        margin-bottom: 0.65em;
+        display: inline-block;
+    }
+}
+.form-m{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+//文字框
+input:not([type='radio']), select, textarea{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 2px 0 7px;
+    width: 100%;
+    @include font-size(pxToRem(18),pxToRem(20));
+    @include mediaquery(null, 767px) {
+        margin-bottom: 2.2em;
+    }
+    &::placeholder{
+        color: #b2b2b2;
+    }
+}
+.col-2{
+    width: 48%;
+    margin-bottom: 2.5em;
+    @include mediaquery(null, 767px){
+        width: 100%;
+        margin-bottom: 0em;
+    }
+}
+textarea{
+    resize:none;//隱藏三角斜線
+    padding: 3px 0 40px;
+    @include mediaquery(null, 767px) {
+        margin-bottom: 2.8em;
+    }
+    &#question{
+        padding-bottom: 90px;
+        @include mediaquery(null, 767px) {
+            padding-bottom: 32px;
+        }
+    }
+}
+//必填提示字
+.required{
+    color: $warning-color;
+} 
+.req{
+    position: relative;
+    pointer-events: none;
+    &:before{
+        content: "＊";
+        position: absolute;
+        font-weight: bold;
+        top: -1em;
+        left: -1em;
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        color: $warning-color;
+        @include mediaquery(null, 575px){
+            transform: scale(0.8);
+            top: -0.2em;
+            left: -0.8em;
+        }
+    }
+}
+.re-txt{
+    font-size: 16px;
+    @include mediaquery(576px, null){
+        position: absolute;
+        bottom: -65px;
+        left: 0px;
+    }
+    @include mediaquery(null, 575px){
+        font-size: 16px;
+        margin: 0.15em 0 0.8em;
+    }
+    &.re-radio{
+        @include mediaquery(576px, null){
+            bottom: -72px;
+        }
+    }
+    &.re-area{
+        @include mediaquery(576px, null){
+            bottom: -128px;
+        }
+    }
+    &.re-qa{
+        @include mediaquery(576px, null){
+            bottom: -178px;
+        }
+    }
+    &.re-file{
+        @include mediaquery(576px, null){
+            bottom: -128px;
+        }
+        @include mediaquery(null, 575px){
+            position: absolute;
+            bottom: -128px;
+            left: 0px;
+        }
+    }
+}
+//送出按鈕
+.zcwf_col_fld .zcwf_button{
+    display: block;
+    cursor: pointer;
+    width: 178px;
+    background: $primary-color;
+    padding: 12px 0;
+    color: #fff;
+    text-align: center;
+    border: 1px solid $primary-color;
+    transition: all 0.5s;
+    -webkit-appearance: none;
+    @include font-size(pxToRem(20),pxToRem(22));
+    @include mediaquery(null, 575px) {
+        width: 158px;
+        padding: 11px 0;
+    }
+    @include mediaquery(768px, null) {
+        &:hover{
+            background: #fff;
+            color: $primary-color;
+        }
+    }
+}
+.zcwf_btn{
+    @include mediaquery(null, 767px){
+        display: flex;
+        justify-content: center;
+    }
+}
+.zcwf_btn:not(.btn){
+    @include mediaquery(768px, null){
+        margin-top: 2.5em;
+    }
+}

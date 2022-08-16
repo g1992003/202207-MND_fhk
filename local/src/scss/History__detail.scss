@@ -1,0 +1,124 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+$color_type_1: rgb(79, 79, 79);
+
+$font_type_0: 32px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.history-detail {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-section2__history__detail__main {
+    @include flex-column;
+  }
+  &-section2__history__detail__main.layout {
+    position: relative;
+  }
+  &-section2__flex {
+    @include flex-column;
+  }
+  &-section2__flex.layout {
+    position: relative;
+    flex-grow: 1;
+    // width: 17.81%;
+    margin: 100px auto 65px;
+    @include xl {
+      margin: 75px auto 50px;
+    }
+    @include lg {
+      margin: 50px auto 40px;
+    }
+  }
+  &-section2__flex-item {
+    @include flex-column;
+    position: relative;
+    margin-bottom: 2.4em;
+    &.bottom_box{
+      margin-bottom: 5.25em;
+    }
+  }
+  &-section2__txt-box {
+    display: flex;
+    justify-content: flex-end;
+    @include xl {
+      align-items: flex-start;
+      justify-content: flex-end;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: flex-end;
+    }
+  }
+  &-section2__txt-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-section2__txt {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: right;
+    letter-spacing: 3.2px;
+    white-space: pre-wrap;
+    @include xl {
+      font-size: 28px;
+      text-align: right;
+    }
+    @include lg {
+      font-size: 24px;
+    }
+  }
+  &-section2__title {
+    flex-grow: 1;
+  }
+  &-section2__title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-section2__prev {
+    flex-grow: 1;
+  }
+  &-section2__prev.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 40px auto 0px;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+  .title-title{
+    line-height: 1.1;
+    .en{
+      font-size: 36px;
+      @include xl {
+        font-size: 32px;
+      }
+      @include lg {
+        font-size: 28px;
+      }
+    }
+  }
+}

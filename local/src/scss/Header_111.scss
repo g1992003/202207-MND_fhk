@@ -1,0 +1,147 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+.header {
+  &-header {
+    display: flex;
+  }
+  &-header.layout {
+    position: relative;
+    height: min-content;
+    width: 94.48%;
+    margin: 48px auto 0px;
+  }
+  &-header-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 135px;
+  }
+  &-group {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &-logo__img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-header-spacer {
+    flex: 1;
+  }
+  &-header-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  &-menu {
+    display: flex;
+    li{
+      margin-right: 65px;
+      @include xl {
+        margin-right: 30px;
+      }
+      @include lg {
+        margin-right: 20px;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+      &.active{
+        position: relative;
+        transition: all 0.5s;
+        &::after{
+          content: "";
+          position: absolute;
+          bottom: -5px;
+          left: -10%;
+          width: 120%;
+          height: 2px;
+          background: rgb(27, 89, 124);
+          @include xl {
+            left: -5%;
+            width: 110%;
+            height: 1px;
+          }
+        }
+      }
+    }
+  }
+  &-menu.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 95px;
+  }
+  &-menu-item {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    // width: 95px;
+  }
+  &-menu__list {
+    flex-grow: 1;
+  }
+  &-menu__list.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+  }
+  // &-menu-spacer {
+  //   flex: 1 0 auto;
+  //   min-width: 65px;
+  //   @include xl {
+  //     min-width: 30px;
+  //   }
+  //   @include lg {
+  //     min-width: 20px;
+  //   }
+  // }
+  &-menu-item1 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+  }
+  &-menu-item2 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    width: 100px;
+  }
+  &-menu-item3 {
+    @include flex-column;
+    position: relative;
+    // flex: 1 0 auto;
+    width: 95px;
+  }
+  &-menu__list {
+    position: relative;
+    flex-grow: 1;
+  }
+  // &-menu__list.layout1 {
+  //   position: relative;
+  //   flex-grow: 1;
+  // }
+  // &-menu__list.layout2 {
+  //   position: relative;
+  //   flex-grow: 1;
+  // }
+  // &-menu__list.layout3 {
+  //   position: relative;
+  //   flex-grow: 1;
+  // }
+  // &-menu__list.layout4 {
+  //   position: relative;
+  //   flex-grow: 1;
+  // }
+  // &-menu__list.layout5 {
+  //   position: relative;
+  //   flex-grow: 1;
+  // }
+  // &-menu__list.layout6 {
+  //   position: relative;
+  //   flex-grow: 1;
+  // }
+}

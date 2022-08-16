@@ -1,0 +1,110 @@
+
+//上傳圖片
+label i{
+    font-size: 16px;
+    color: $primary-color;
+    margin-left: 1em;
+}
+.fileUpload{
+    cursor: pointer;
+}
+input#file-upload-button{
+    display: none !important;
+    position: relative !important;
+}
+.file-browse {
+    position:relative;
+    transition: all 0.75s;
+    @include font-size(pxToRem(20),pxToRem(18));
+    input[type=file] {
+        width: 178px;
+        height: 60px;   
+        padding: 0; 
+        border: 1px solid #000;
+        opacity: 0;
+        padding-left: 178px;
+        @include mediaquery(null, 575px) {
+            height: 53px;
+            margin: 0;
+        }
+    }    
+    .browse{
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;        
+        span{
+            display: block;
+            padding-right: 2.2em;
+            padding: 15px auto;
+            @include font-size(pxToRem(20),pxToRem(18));
+        }
+        i{
+            display: inline-block;
+            position: absolute;
+            margin-left: 0.85em;
+            width: 27px;
+            height: 27px;
+            background: url('../images/contact/upload_unhover_bt.png') center / contain no-repeat;
+            &::after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                background: url('../images/contact/upload_hover_bt.png') center / contain no-repeat;
+                transition: all 0.75s;
+            }
+        }
+    }
+    .file-browse-txt{
+        margin: 0.2em 0 0.25em;
+        color: #b2b2b2;
+        @include mediaquery(null, 575px) {
+            font-size: 16px;
+            margin: 0.6em 0 3.5em;
+        }
+    }
+    @include mediaquery(768px, null) {
+        &:hover .browse{
+            span{
+                color: $primary-color;
+                background: #fff;
+            }
+            i::after{
+                opacity: 1;
+            }
+        }
+    }
+}
+label[for='file']{
+    display: block;
+    margin-bottom: 0.7em;
+    @include mediaquery(null, 767px) {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+}
+form{
+    .pc{
+        display: inline-block;
+        @include mediaquery(null, 767px) {
+            display: none;
+        }
+    }
+    .mo{
+        display: none;
+        @include mediaquery(null, 767px) {
+            display: inline-block;
+            margin: 0 0 0 0.2em;
+            font-size: 16px;
+        }
+    }
+}
+.limit-img{
+    display: block;
+    color: $primary-color;
+    padding-bottom: 0.85em;
+}

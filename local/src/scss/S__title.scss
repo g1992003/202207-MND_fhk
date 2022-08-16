@@ -1,0 +1,58 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(79, 79, 79);
+
+$font_type_0: 32px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.s-title {
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+  }
+  &-s-title-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-s-title-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  &-s-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 2.4999999999999996px;
+    white-space: pre-wrap;
+    line-height: 1.1;
+    @include xl {
+      font-size: 29px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 26px;
+    }
+    .tw{
+      font-family: "Noto Sans TC";
+    }
+    .en{
+      font-size: 24px;
+    }
+  }
+}

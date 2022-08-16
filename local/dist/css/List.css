@@ -1,0 +1,99 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.list-page__list {
+  display: flex;
+}
+.list-page__list.layout {
+  position: relative;
+  width: 380px;
+  min-width: 380px;
+}
+.list-page__list-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 14px;
+}
+.list-image7 {
+  background: var(--src) center center/cover no-repeat;
+}
+.list-image7.layout {
+  position: relative;
+  height: 15px;
+  width: 14px;
+  min-width: 14px;
+  margin: 19px 0px 22px;
+}
+.list-page__list-spacer {
+  flex: 0 1 30px;
+}
+.list-page__list-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 11px;
+}
+.list-image6 {
+  background: var(--src) center center/cover no-repeat;
+}
+.list-image6.layout {
+  position: relative;
+  height: 23px;
+  width: 11px;
+  min-width: 11px;
+  margin: 15px 0px 18px;
+}
+.list-page__list-spacer1 {
+  flex: 0 1 25px;
+}
+.list-page__list-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 57px;
+}
+.list-block1 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/cover no-repeat;
+}
+.list-block1.layout {
+  position: relative;
+  flex-grow: 1;
+}
+.list-subtitle {
+  font: 20px/1.89 "Noto Sans", Helvetica, Arial, serif;
+  color: #4f4f4f;
+  letter-spacing: 0px;
+}
+.list-subtitle.layout {
+  position: relative;
+  flex-grow: 1;
+  margin: 8px 12px 10px 17px;
+}
+.list-page__list-spacer2 {
+  flex: 0 1 25px;
+}
+.list-page__list-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 57px;
+}
+.list-page__list-spacer3 {
+  flex: 0 1 24px;
+}
+.list-page__list-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 57px;
+}
+.list-page__list-spacer4 {
+  flex: 0 1 25px;
+}
+.list-page__list-item5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 11px;
+}

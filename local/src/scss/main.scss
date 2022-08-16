@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap');
+
+
+@import "base/reset";
+@import "base/variable";
+@import "base/mixin";
+
+@import "layout/layout";
+@import "layout/footer";
+
+
+@import "template/page";
+@import "template/editor";
+// @import "template/animation";

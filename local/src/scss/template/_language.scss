@@ -1,0 +1,20 @@
+.lang_tw {
+    .tw {
+        display: inline-block;
+    }
+    .en {
+        display: none !important;
+    }
+}
+.lang_en {
+    .tw {
+        display: none !important;
+    }
+    .en {
+        display: inline-block;
+    }
+    .pagetitle-en{
+        color: #000 !important;
+    }
+}
+

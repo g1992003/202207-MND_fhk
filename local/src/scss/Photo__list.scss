@@ -1,0 +1,68 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(79, 79, 79);
+
+$font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.photo-list {
+  &:hover{
+    .photo-list-image{
+      border: 5px solid #1B597C;
+    }
+    .photo-list-medium-title{
+      color: #1B597C;
+      font-weight: 700;
+    }
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout {
+    position: relative;
+  }
+  &-image {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+    transition: all 0.75s;
+  }
+  &-image.layout {
+    position: relative;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-medium-title-box {
+    @include h-center-content;
+  }
+  &-medium-title-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 40px auto 0px;
+    @include xl {
+      margin: 30px auto 0px;
+    }
+    @include lg {
+      margin: 20px auto 0px;
+    }
+  }
+  &-medium-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 2.4px;
+    white-space: pre-wrap;
+    transition: all 0.75s;
+  }
+}

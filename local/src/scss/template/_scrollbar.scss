@@ -1,0 +1,14 @@
+.pp-scrollable::-webkit-scrollbar{
+    width: 5px;
+    @include mediaquery(null, 767px){
+        width: 2px;
+    }
+}
+.pp-scrollable::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: 2.5px;
+}
+.pp-scrollable::-webkit-scrollbar-thumb{
+    background: $secondary-color;
+    border-radius: 2.5px;
+}

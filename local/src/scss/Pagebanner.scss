@@ -1,0 +1,38 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+.pagebanner {
+  &-banner {
+    @include flex-column;
+  }
+  &-banner.layout {
+    position: relative;
+    height: 950px;
+    overflow: hidden;
+    @include xl {
+      height: 800px;
+      margin: 0px;
+    }
+    @include lg {
+      height: 700px;
+    }
+  }
+  &-kv {
+    @include flex-column;
+    background: var(--src) left top / cover no-repeat;
+  }
+  &-kv.layout {
+    position: absolute;
+    top: 149px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  &-component {
+    flex-grow: 1;
+  }
+  &-component.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+}

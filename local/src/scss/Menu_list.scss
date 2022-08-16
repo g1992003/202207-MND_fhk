@@ -1,0 +1,51 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(27, 89, 124);
+
+$font_type_0: 22px/1.5 "Noto Sans", Helvetica, Arial, serif;
+
+.menu-list {
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+  }
+  &-menu__list-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-menu__list-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px 0px;
+  }
+  &-menu__list {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+    @include xl {
+      font-size: 20px;
+      text-align: center;
+    }
+    @include lg {
+      font-size: 18px;
+    }
+  }
+}

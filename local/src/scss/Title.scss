@@ -1,0 +1,89 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(27, 89, 124);
+
+$font_type_0: 700 48px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.title {
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+  }
+  &-title-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-title-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 4.400000000000001px;
+    white-space: pre-wrap;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    @include xl {
+        line-height: 0.75;
+    }
+    .tw{
+        font-size: 48px;
+        font-family: "Noto Sans", "Noto Sans TC";
+        @include xl {
+            font-size: 42px;
+            text-align: center;
+        }
+        @include lg {
+            font-size: 36px;
+        }
+    }
+    .en{
+        font-size: 32px;
+        letter-spacing: 0px;
+        font-family: "Noto Sans";
+        @include xl {
+            font-size: 28px;
+            text-align: center;
+        }
+        @include lg {
+            font-size: 24px;
+        }
+        &.fz36{
+            font-size: 36px;
+            @include xl {
+                font-size: 32px;
+              }
+              @include lg {
+                font-size: 28px;
+              }
+        }
+    }
+    .video_en{
+        margin: 4px 0 0 0.9em;
+    }
+  }
+}
+.video_flex{
+    display: flex;
+    align-items: center;
+}

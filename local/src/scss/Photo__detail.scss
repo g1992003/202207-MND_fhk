@@ -1,0 +1,256 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+@import "template/modal";
+
+$color_type_0: rgb(255, 255, 255);
+
+.photo-detail {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-photo__detail__main {
+    @include flex-column;
+  }
+  &-photo__detail__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout3 {
+    position: relative;
+    flex-grow: 1;
+    width: 72.45%;
+    margin: 56px auto 23px;
+    @include xl {
+      margin: 46px auto 23px;
+    }
+    @include lg {
+      margin: 36px auto 23px;
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-s-title {
+    flex-grow: 1;
+  }
+  &-s-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-title {
+    flex-grow: 1;
+  }
+  &-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 10px auto 0px;
+  }
+  &-flex.layout2 {
+    position: relative;
+    margin: 56px 0px 0px;
+    @include xl {
+      margin: 46px 0px 0px;
+    }
+    @include lg {
+      margin: 36px 0px 0px;
+    }
+  }
+  &-flex1 {
+    display: flex;
+  }
+  &-flex1.layout {
+    position: relative;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 448px;
+  }
+  &-flex.layout {
+    position: relative;
+    height: min-content;
+  }
+  &-image {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-image.layout {
+    position: relative;
+  }
+  &-image1 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-image1.layout {
+    position: relative;
+    margin: 19px 0px 0px;
+    @include xl {
+      margin: 14px 0px 0px;
+    }
+    @include lg {
+      margin: 9px 0px 0px;
+    }
+  }
+  &-flex-spacer {
+    flex: 0 1 16px;
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 927px;
+  }
+  &-image3 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: cover;
+    flex: 1;
+    object-position: center top;
+  }
+  &-flex2 {
+    display: flex;
+  }
+  &-flex2.layout {
+    position: relative;
+    margin: 19px 0px 0px;
+    @include xl {
+      margin: 14px 0px 0px;
+    }
+    @include lg {
+      margin: 9px 0px 0px;
+    }
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 687px;
+  }
+  &-image2 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-image2.layout {
+    position: relative;
+  }
+  &-flex-spacer1 {
+    flex: 0 1 17px;
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 687px;
+  }
+  &-flex3 {
+    display: flex;
+  }
+  &-flex3.layout {
+    position: relative;
+    margin: 18px 0px 0px 1px;
+    @include xl {
+      margin: 14px 0px 0px 1px;
+    }
+    @include lg {
+      margin: 9px 0px 0px 1px;
+    }
+  }
+  &-flex-item5 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 927px;
+  }
+  &-image4 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: cover;
+    flex: 1;
+    object-position: center top;
+  }
+  &-image4.layout {
+    position: relative;
+  }
+  &-flex-spacer2 {
+    flex: 0 1 15px;
+  }
+  &-flex-item6 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 448px;
+  }
+  &-flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-image.layout1 {
+    position: relative;
+    margin: 19px 0px 0px;
+    @include xl {
+      margin: 14px 0px 0px;
+    }
+    @include lg {
+      margin: 9px 0px 0px;
+    }
+  }
+  &-page__list.layout {
+    position: relative;
+    width: 381px;
+    min-width: 381px;
+    margin: 120px auto 0px;
+  }
+  &-prev {
+    flex-grow: 1;
+  }
+  &-prev.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 75px auto 0px;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+}
+
+.photo__list{
+  &:hover{
+    img{
+      border: 5px solid #1B597C;
+    }
+  }
+  img{
+    transition: all 0.75s;
+  }
+}

@@ -1,0 +1,508 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+$color_type_1: rgb(27, 89, 124);
+
+$font_type_0: 700 60px/1.2 "Noto Sans TC", Helvetica, Arial, serif;
+$font_type_1: 700 48px/1.89 "Noto Sans", Helvetica, Arial, serif;
+$font_type_2: 700 48px/1.2 "Noto Sans", Helvetica, Arial, serif;
+$font_type_3: 500 24px/1.89 "Noto Sans TC", Helvetica, Arial, serif;
+$font_type_4: 500 20px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.index {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner__banner {
+    @include flex-column;
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-banner__banner.layout {
+    position: relative;
+  }
+  &-banner__header.layout {
+    position: relative;
+    // width: 94.48%;
+    // margin: 48px auto 0px;
+  }
+  &-banner__group {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &-banner__block2 {
+    background: var(--src) left center / cover no-repeat;
+  }
+  &-banner__block2.layout {
+    position: absolute;
+    top: -82px;
+    bottom: -114px;
+    left: -285px;
+    right: -57px;
+  }
+  &-banner__flex {
+    @include flex-column;
+  }
+  &-banner__flex.layout {
+    position: relative;
+    height: min-content;
+    width: 756px;
+    min-width: 756px;
+    margin: 0px 0px 0px 0px;
+    @include xl {
+      width: 650px;
+      min-width: 650px;
+    }
+  }
+  &-banner__hero-title2 {
+    @include font-face($font_type_0, $color_type_1, 0px);
+    height: 72px;
+    overflow: hidden;
+    @include xl {
+      font-size: 50px;
+      text-align: left;
+    }
+  }
+  &-banner__hero-title2.layout {
+    position: relative;
+  }
+  &-banner__hero-title1 {
+    @include font-face($font_type_2, $color_type_1, 0px);
+    height: 58px;
+    overflow: hidden;
+    @include xl {
+      font-size: 40px;
+      text-align: left;
+    }
+  }
+  &-banner__hero-title1.layout {
+    position: relative;
+    margin: 27px 6px 0px 0px;
+    @include lg {
+      margin: 20px 6px 0px 0px;
+    }
+  }
+  &-banner__medium-title {
+    font: $font_type_3;
+    color: $color_type_1;
+    text-align: justify;
+    letter-spacing: 0px;
+    height: 182px;
+    overflow: hidden;
+    @include xl {
+      font-size: 20px;
+      text-align: justify;
+    }
+  }
+  &-banner__medium-title.layout {
+    position: relative;
+    margin: 38px 0px 0px;
+    @include lg {
+      margin: 30px 0px 0px;
+    }
+  }
+  &-banner__subtitle1 {
+    font: $font_type_4;
+    color: $color_type_1;
+    text-align: justify;
+    letter-spacing: 0px;
+    height: 189px;
+    overflow: hidden;
+    @include xl {
+      font-size: 17px;
+      text-align: justify;
+    }
+  }
+  &-banner__subtitle1.layout {
+    position: relative;
+    margin: 26px 0px 0px;
+  }
+  &-banner__icon {
+    background: var(--src) center center / cover no-repeat;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.24705882352941178));
+    width: 100%;
+    height: 100%;
+  }
+  &-history {
+    @include flex-column;
+  }
+  &-history.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 38px 0px 0px;
+  }
+  &-num {
+    @include flex-column;
+  }
+  &-num.layout {
+    position: relative;
+    width: 177px;
+    min-width: 177px;
+    margin: 0px auto;
+    @include xl {
+      width: 150px;
+      min-width: 150px;
+    }
+    @include lg {
+      width: 125px;
+      min-width: 125px;
+    }
+  }
+  &-img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-img.layout {
+    position: relative;
+  }
+  &-title.layout {
+    position: relative;
+    width: 99.4%;
+    margin: 46px auto 0px;
+    @include xl {
+      margin: 25px auto 0px;
+    }
+    @include lg {
+      margin: 15px auto 0px;
+    }
+  }
+  &-image1 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-image1.layout {
+    position: relative;
+    margin: 46px 0px 0px;
+  }
+  &-index__main {
+    @include flex-column;
+  }
+  &-index__main.layout {
+    position: relative;
+  }
+  &-group {
+    @include flex-column;
+  }
+  &-group.layout {
+    position: relative;
+    flex-grow: 1;
+    width: 89.22%;
+    margin: 85px 5.1% 21px 5.68%;
+    @include xl {
+      margin: 60px 5.1% 21px 5.68%;
+    }
+    @include lg {
+      margin: 40px 5.1% 21px 5.68%;
+    }
+  }
+  &-flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  &-flex1 {
+    display: flex;
+  }
+  &-flex1.layout {
+    position: relative;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 177px;
+    @include xl {
+      flex: 0 1 150px;
+    }
+    @include lg {
+      flex: 0 1 125px;
+    }
+  }
+  &-num.layout1 {
+    position: relative;
+    flex-grow: 1;
+    @include xl {
+      margin: 0px;
+    }
+  }
+  &-image4 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-image4.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-spacer {
+    flex: 0 1 39px;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+  }
+  &-title1 {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+  }
+  &-group1 {
+    @include flex-column;
+  }
+  &-group1.layout {
+    position: relative;
+    width: 792px;
+    margin: 87px auto 0px;
+    &::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 157.6%;
+        height: 0;
+        padding-bottom: 50%;
+        background: url('../images/video_bgcover.png') center / contain no-repeat;
+    }
+    @include xl {
+      width: 700px;
+      margin: 60px auto 0px;
+    }
+    @include lg {
+      width: 600px;
+      min-width: 600px;
+      margin: 0px auto;
+    }
+  }
+  &-image5 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.14901960784313725));
+    vertical-align: top;
+    object-fit: cover;
+    object-position: center top;
+    transition: all 0.75s;
+    aspect-ratio: 1 / 0.75;
+    &:hover{
+        border: 5px solid rgb(27,89,124);
+    }
+  }
+  &-image5.layout {
+    position: relative;
+    z-index: 1;
+  }
+  &-footer {
+    @include flex-column;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+  &-flex.layout3 {
+    position: relative;
+    flex-grow: 1;
+    margin: 21px 0px 0px;
+  }
+  &-group2 {
+    @include flex-column;
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-group2.layout {
+    position: relative;
+    height: min-content;
+  }
+  &-flex.layout2 {
+    position: relative;
+    flex-grow: 1;
+    width: 95.16%;
+    margin: 414px 2.71% 48px 2.14%;
+  }
+  &-group3 {
+    @include flex-column;
+  }
+  &-group3.layout {
+    position: relative;
+    height: min-content;
+    width: 177px;
+    min-width: 177px;
+    margin: 0px auto;
+    @include xl {
+      width: 150px;
+      min-width: 150px;
+    }
+    @include lg {
+      width: 125px;
+      min-width: 125px;
+    }
+  }
+  &-background {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-background.layout {
+    position: relative;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+  }
+  &-title2-box {
+    @include h-center-content;
+    @include xl {
+      align-items: flex-start;
+      justify-content: center;
+    }
+    @include lg {
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+  &-title2-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 27px auto 0px;
+    @include xl {
+      margin: 20px auto 0px;
+    }
+    @include lg {
+      margin: 15px auto 0px;
+    }
+  }
+  &-title2 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_1;
+    color: $color_type_0;
+    text-align: center;
+    letter-spacing: 4.8px;
+    white-space: pre-wrap;
+    line-height: 1;
+    .tw{
+        font-size: 48px;
+        font-family: "Noto Sans TC";
+        @include xl {
+          font-size: 42px;
+          text-align: center;
+        }
+        @include lg {
+          font-size: 36px;
+        }
+    }
+    .en{
+        font-size: 32px;
+        letter-spacing: 0;
+        @include xl {
+          font-size: 28px;
+          text-align: center;
+        }
+        @include lg {
+          font-size: 24px;
+        }
+    }
+  }
+  &-component.layout {
+    position: relative;
+    margin: 36px 0px 0px;
+  }
+  &-component.layout1 {
+    position: relative;
+  }
+}
+
+
+@import "base/variable";
+@import "base/mixin";
+
+.table{
+    width: 88%;
+    max-width: 1634px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 2.65% auto 2.2%;
+    @media (max-width: 1400px) {
+        font-size: 28px;
+    }
+    @media (max-width: 1200px) {
+        font-size: 24px;
+    }
+}
+table, th, td{
+    text-align: left;
+    border: 1px solid #747474;
+}
+th{
+    padding: 24px 47px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-right: 1px solid #fff;
+    &:last-child{
+      border-right: 1px solid #747474;  
+    }
+    @media (min-width: 992px) {
+      padding: 22px 20px;
+    }
+    @media (min-width: 1400px) {
+      padding: 24px 32px;
+    }
+}
+td{
+    line-height: 1.9;
+    font-family: "Noto Sans TC",sans-serif;
+    width: calc(100% / 4);
+    a{
+        padding: 34px 47px 36px;
+        display: block;
+        color: #747474;
+        transition: all 0.75s;
+        font-weight: 400;
+        line-height: 1.35;
+        @media (max-width: 1400px) {
+            padding: 21px 32px;
+        }
+        @media (max-width: 1200px) {
+            padding: 22px 20px;
+        }
+        &:hover{
+            color: $primary-color;
+            font-weight: 700;
+        }
+    }
+}
+thead{
+    background-color: #0E4361;
+    color: #fff;
+}

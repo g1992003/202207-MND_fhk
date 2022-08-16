@@ -1,0 +1,98 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(79, 79, 79);
+
+$font_type_0: 20px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.list {
+  &-page__list {
+    display: flex;
+  }
+  &-page__list.layout {
+    position: relative;
+    width: 380px;
+    min-width: 380px;
+  }
+  &-page__list-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 14px;
+  }
+  &-image7 {
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-image7.layout {
+    position: relative;
+    height: 15px;
+    width: 14px;
+    min-width: 14px;
+    margin: 19px 0px 22px;
+  }
+  &-page__list-spacer {
+    flex: 0 1 30px;
+  }
+  &-page__list-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 11px;
+  }
+  &-image6 {
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-image6.layout {
+    position: relative;
+    height: 23px;
+    width: 11px;
+    min-width: 11px;
+    margin: 15px 0px 18px;
+  }
+  &-page__list-spacer1 {
+    flex: 0 1 25px;
+  }
+  &-page__list-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 57px;
+  }
+  &-block1 {
+    @include flex-column;
+    background: var(--src) center center / cover no-repeat;
+  }
+  &-block1.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-subtitle {
+    @include font-face($font_type_0, $color_type_0, 0px);
+  }
+  &-subtitle.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 8px 12px 10px 17px;
+  }
+  &-page__list-spacer2 {
+    flex: 0 1 25px;
+  }
+  &-page__list-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 57px;
+  }
+  &-page__list-spacer3 {
+    flex: 0 1 24px;
+  }
+  &-page__list-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 57px;
+  }
+  &-page__list-spacer4 {
+    flex: 0 1 25px;
+  }
+  &-page__list-item5 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 11px;
+  }
+}

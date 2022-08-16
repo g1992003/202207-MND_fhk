@@ -1,0 +1,12 @@
+.btn-more{
+    transition: all 0.75s;
+    &:hover{
+        background-color: #1B597C;
+        .btn-more-subtitle2{
+            color: #fff;
+        }
+    }
+}
+.btn-more-subtitle2{
+    transition: all 0.75s;
+}

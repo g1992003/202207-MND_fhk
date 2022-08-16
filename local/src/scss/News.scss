@@ -1,0 +1,217 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+@import "template/modal-news";
+
+$color_type_0: rgb(116, 116, 116);
+$color_type_1: rgb(255, 255, 255);
+
+$font_type_0: 20px/1.89 "Noto Sans TC", Helvetica, Arial, serif;
+
+.new {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_1;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-section2__news__main {
+    @include flex-column;
+  }
+  &-section2__news__main.layout {
+    position: relative;
+  }
+  &-section2__flex {
+    @include flex-column;
+  }
+  &-section2__flex.layout {
+    position: relative;
+    flex-grow: 1;
+    width: 91.72%;
+    margin: 109px auto 72px;
+    @include xl {
+      margin: 46px auto;
+    }
+    @include lg {
+      margin: 36px auto;
+    }
+  }
+  &-section2__flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-section2__title {
+    flex-grow: 1;
+  }
+  &-section2__title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-section2__flex1 {
+    display: flex;
+  }
+  &-section2__flex1.layout {
+    position: relative;
+    margin: 100px 0px 0px;
+    @include xl {
+      margin: 60px 0px 0px;
+    }
+    @include lg {
+      margin: 40px 0px 0px;
+    }
+  }
+  &-section2__flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 402px;
+  }
+  &-section2__image {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+    transition: all 0.75s;
+    &:hover{
+      border: 5px solid #1B597C;
+    }
+  }
+  &-section2__image.layout {
+    position: relative;
+  }
+  &-section2__flex-spacer {
+    flex: 0 1 51px;
+    @include xl {
+      flex: 0 1 50px;
+    }
+    @include lg {
+      flex: 0 1 30px;
+    }
+  }
+  &-section2__flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 402px;
+  }
+  &-section2__flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 402px;
+  }
+  &-section2__flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 402px;
+  }
+  &-section2__flex2 {
+    display: flex;
+  }
+  &-section2__flex2.layout {
+    position: relative;
+    width: 380px;
+    min-width: 380px;
+    margin: 96px auto 0px;
+    @include xl {
+      margin: 60px auto 0px;
+    }
+    @include lg {
+      margin: 40px auto 0px;
+    }
+  }
+  &-section2__flex-item5 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 161px;
+  }
+  &-section2__block1 {
+    @include flex-column;
+  }
+  &-section2__block1.layout {
+    position: relative;
+    height: min-content;
+    width: 161px;
+    min-width: 161px;
+  }
+  &-section2__block2 {
+    @include flex-column;
+    background-color: $color_type_1;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.14901960784313725);
+    border: 2px solid #fff;
+    transition: all 0.75s;
+    &:hover{
+      border: 2px solid #1B597C;
+      .new-section2__buttom, .new-section2__buttom1{
+        color: #1B597C;
+      }
+    }
+  }
+  &-section2__block2.layout {
+    position: relative;
+    height: min-content;
+    width: 161px;
+    min-width: 161px;
+  }
+  &-section2__buttom {
+    @include font-face($font_type_0, $color_type_0, 1.4999999999999996px);
+  }
+  &-section2__buttom.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 4px 36px;
+  }
+  &-section2__flex-spacer1 {
+    flex: 0 0 auto;
+    min-width: 58px;
+    @include xl {
+      min-width: 40px;
+    }
+    @include lg {
+      min-width: 25px;
+    }
+  }
+  &-section2__flex-item6 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 161px;
+  }
+  &-section2__buttom1 {
+    @include font-face($font_type_0, $color_type_0, 1.5999999999999996px);
+  }
+  &-section2__buttom1.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 6px 36px;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+  .title-title{
+    line-height: 1.1;
+    .tw{
+      font-family: "Noto Sans", "Noto Sans TC";
+    }
+    .en{
+      font-size: 36px;
+      @include xl {
+        font-size: 32px;
+      }
+      @include lg {
+        font-size: 28px;
+      }
+    }
+  }
+}

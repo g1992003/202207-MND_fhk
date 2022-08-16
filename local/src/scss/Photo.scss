@@ -1,0 +1,132 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+
+.photo {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1921px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-photo__main {
+    @include flex-column;
+  }
+  &-photo__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+    width: 80.11%;
+    margin: 56px auto 32px;
+    @include xl {
+      margin: 46px auto 32px;
+    }
+    @include lg {
+      margin: 36px auto 32px;
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-s-title {
+    flex-grow: 1;
+  }
+  &-s-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-title {
+    flex-grow: 1;
+  }
+  &-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 10px auto 0px;
+    @include xl {
+      margin: 7px auto 0px;
+    }
+    @include lg {
+      margin: 5px auto 0px;
+    }
+  }
+  &-flex.layout {
+    position: relative;
+    margin: 90px 0px 0px;
+    @include xxxl {
+      margin: 56px 0px 0px;
+    }
+    @include xl {
+      margin: 46px 0px 0px;
+    }
+    @include lg {
+      margin: 36px 0px 0px;
+    }
+  }
+  &-flex1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-flex1.layout {
+    position: relative;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    // flex: 0 1 736px;
+    width: calc((100% - 76px) / 2);
+    margin-right: 76px;
+    margin-top: 20px;
+    @include xl {
+      width: calc((100% - 50px) / 2);
+      margin-right: 50px;
+    }
+    @include lg {
+      width: calc((100% - 30px) / 2);
+      margin-right: 30px;
+    }
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+  }
+  &-component {
+    flex-grow: 1;
+  }
+  &-component.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-prev.layout {
+    position: relative;
+    width: 161px;
+    min-width: 161px;
+    margin: 75px auto 0px;
+    @include xl {
+      margin: 55px auto 0px;
+    }
+    @include lg {
+      margin: 40px auto 0px;
+    }
+  }
+  &-footer.layout {
+    position: relative;
+  }
+}

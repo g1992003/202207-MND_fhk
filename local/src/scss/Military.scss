@@ -1,0 +1,611 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+$color_type_1: rgb(79, 79, 79);
+
+$font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
+
+.military {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-section2__military__main {
+    @include flex-column;
+  }
+  &-section2__military__main.layout {
+    position: relative;
+  }
+  &-section2__flex {
+    @include flex-column;
+  }
+  &-section2__flex.layout4 {
+    position: relative;
+    flex-grow: 1;
+    width: 75.05%;
+    margin: 91px auto 40px;
+    @include xxxl {
+      margin: 56px auto 40px;
+    }
+    @include xl {
+      margin: 46px auto;
+    }
+    @include lg {
+      margin: 36px auto;
+    }
+  }
+  &-section2__flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-section2__title {
+    flex-grow: 1;
+  }
+  &-section2__title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-section2__group {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &-section2__flex1 {
+    display: flex;
+    @include xl {
+      flex-wrap: wrap;
+      row-gap: 16px;
+    }
+  }
+  &-section2__flex1.layout {
+    position: relative;
+    flex-grow: 1;
+    width: 99.86%;
+    margin: 0px auto;
+  }
+  &-section2__flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 206px;
+    @include xl {
+      flex: 0 0 calc(50% - 10px);
+      min-width: unset;
+    }
+  }
+  &-section2__flex.layout {
+    position: relative;
+    height: min-content;
+  }
+  &-section2__image4 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-section2__image4.layout {
+    position: relative;
+    width: 206px;
+    min-width: 206px;
+    margin: 0px 0px;
+    @include xl {
+      margin: 0px auto;
+    }
+  }
+  &-section2__medium-title-box {
+    @include h-center-content;
+  }
+  &-section2__medium-title-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 39px auto 0px;
+  }
+  &-section2__medium-title {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 2.0999999999999996px;
+    white-space: pre-wrap;
+  }
+  &-section2__flex-spacer {
+    flex: 1 1 150px;
+    @include xl {
+      flex: 0 0 20px;
+    }
+  }
+  &-section2__flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 236px;
+    @include xl {
+      flex: 0 0 calc(50% - 10px);
+      min-width: unset;
+    }
+  }
+  &-section2__flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+    margin: 21px 0px 0px;
+  }
+  &-section2__image1 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-section2__image1.layout {
+    position: relative;
+    width: 236px;
+    min-width: 236px;
+    margin: 0px 0px;
+    @include xl {
+      margin: 0px auto;
+    }
+  }
+  &-section2__medium-title1-box {
+    @include h-center-content;
+  }
+  &-section2__medium-title1-box.layout {
+    position: relative;
+    width: 236px;
+    min-width: 236px;
+    margin: 59px auto 0px;
+  }
+  &-section2__medium-title1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 2.1999999999999997px;
+    white-space: pre-wrap;
+  }
+  &-section2__flex-spacer1 {
+    flex: 1 1 150px;
+    @include xl {
+      display: none;
+    }
+  }
+  &-section2__flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 259px;
+    @include xl {
+      flex: 0 0 calc(50% - 10px);
+      min-width: unset;
+    }
+  }
+  &-section2__flex.layout2 {
+    position: relative;
+    flex-grow: 1;
+    margin: 12px 0px 0px;
+  }
+  &-section2__image2 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-section2__image2.layout {
+    position: relative;
+    width: 259px;
+    min-width: 259px;
+    margin: 0px 0px;
+    @include xl {
+      margin: 0px auto;
+    }
+  }
+  &-section2__medium-title2-box {
+    @include h-center-content;
+  }
+  &-section2__medium-title2-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 50px auto 0px;
+  }
+  &-section2__medium-title2 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 2.1999999999999997px;
+    white-space: pre-wrap;
+  }
+  &-section2__flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 279px;
+    @include xl {
+      flex: 0 0 calc(50% - 10px);
+      min-width: unset;
+    }
+  }
+  &-section2__flex.layout3 {
+    position: relative;
+    flex-grow: 1;
+    margin: 11px 0px 0px;
+  }
+  &-section2__image3 {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+  }
+  &-section2__image3.layout {
+    position: relative;
+    width: 279px;
+    min-width: 279px;
+    margin: 0px 0px;
+    @include xl {
+      margin: 0px auto;
+    }
+  }
+  &-section2__medium-title3-box {
+    @include h-center-content;
+  }
+  &-section2__medium-title3-box.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 49px auto 0px;
+  }
+  &-section2__medium-title3 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_0;
+    color: $color_type_1;
+    text-align: center;
+    letter-spacing: 2.1999999999999997px;
+    white-space: pre-wrap;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+}
+
+.military_btn{
+  &:hover{
+    pre{
+      color: #1B597C;
+      font-weight: 700;
+    }
+  }
+  pre{
+    transition: all 0.75s;
+  }
+}
+
+$color_type_5: #1b597cff;
+$color_type_6: #4f4f4fff;
+$color_type_2: rgb(255, 255, 255);
+$color_type_3: rgb(27, 89, 124);
+$color_type_4: rgb(79, 79, 79);
+
+$font_type_6: 700 22px/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_1: 22px/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_2: 700 1em/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_3: 700 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_4: 1em/1.5 "Noto Sans", Helvetica, Arial, serif;
+$font_type_5: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
+
+.military-2 {
+  &-photoList {
+    @include flex-column;
+  }
+  &-photoList.layout {
+    position: relative;
+  }
+  &-flex {
+    display: flex;
+    @include xl {
+      flex-wrap: wrap;
+      align-content: flex-start;
+      row-gap: 16px;
+      justify-content: center;
+    }
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+    width: 86.98%;
+    margin: 72px auto;
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 247px;
+    @include xl {
+      flex: 0 0 calc(33.33333333333333% - 13.333333333333334px);
+    }
+    &:hover {
+        .military-2-subtitle1-span0, .military-2-subtitle1-span1{
+            font-weight: 700;
+            color: #1B597C;
+        }
+    }
+  }
+  &-flex1 {
+    @include flex-column;
+  }
+  &-flex1.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 0px 24px;
+  }
+  &-image5 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image5.layout {
+    position: relative;
+    height: 282px;
+    margin: 0px 21px 0px 20px;
+  }
+  &-subtitle1-box {
+    @include h-center-content;
+  }
+  &-subtitle1-box.layout {
+    position: relative;
+    width: 247px;
+    min-width: 247px;
+    margin: 39px 0px 0px;
+    @include xl {
+      margin: 39px auto 0px;
+    }
+  }
+  &-subtitle1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_6;
+    color: $color_type_3;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &-subtitle1-span0 {
+    @include font-face($font_type_4, $color_type_6, 2.2px);
+    transition: all 0.75s
+  }
+  &-subtitle1-span1 {
+    @include font-face($font_type_5, $color_type_6, 0px);
+    transition: all 0.75s;
+  }
+  &-flex-spacer {
+    flex: 0 1 104px;
+    @include xl {
+      display: flex;
+      flex: 0 0 20px;
+    }
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 259px;
+    @include xl {
+      flex: 0 0 calc(33.33333333333333% - 13.333333333333334px);
+    }
+    &:hover {
+        .military-2-subtitle-span0, .military-2-subtitle-span1{
+            font-weight: 700;
+            color: #1B597C;
+        }
+    }
+  }
+  &-flex2 {
+    @include flex-column;
+  }
+  &-flex2.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 12px 0px 0px;
+  }
+  &-image2 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image2.layout {
+    position: relative;
+    height: 259px;
+  }
+  &-subtitle-box {
+    @include h-center-content;
+  }
+  &-subtitle-box.layout {
+    position: relative;
+    width: 258px;
+    min-width: 258px;
+    margin: 50px 0px 0px;
+    @include xl {
+      margin: 50px auto 0px;
+    }
+  }
+  &-subtitle {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type_1;
+    color: $color_type_4;
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &-subtitle-span0 {
+    @include font-face($font_type_4, $color_type_6, 2.2px);
+    transition: all 0.75s
+  }
+  &-subtitle-span1 {
+    @include font-face($font_type_5, $color_type_6, 0px);
+    transition: all 0.75s
+  }
+  &-subtitle2-span0 {
+    @include font-face($font_type_4, $color_type_6, 2.2px);
+    transition: all 0.75s
+  }
+  &-subtitle2-span1 {
+    @include font-face($font_type_5, $color_type_6, 0px);
+    transition: all 0.75s
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 236px;
+    @include xl {
+      flex: 0 0 calc(33.33333333333333% - 13.333333333333334px);
+    }
+    &:hover {
+        .military-2-subtitle2-span0, .military-2-subtitle2-span1{
+            font-weight: 700;
+            color: #1B597C;
+        }
+    }
+  }
+  &-flex3 {
+    @include flex-column;
+  }
+  &-flex3.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 21px 0px 0px;
+  }
+  &-image1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image1.layout {
+    position: relative;
+    height: 241px;
+  }
+  &-subtitle-box.layout1 {
+    position: relative;
+    width: 246px;
+    min-width: 246px;
+    margin: 59px auto 0px;
+  }
+  &-subtitle2-span0 {
+    @include font-face($font_type_4, $color_type_6, 2.2px);
+  }
+  &-subtitle2-span1 {
+    @include font-face($font_type_5, $color_type_6, 0px);
+  }
+  &-flex-spacer1 {
+    flex: 0 1 104px;
+    @include xl {
+      display: none;
+    }
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 257px;
+    @include xl {
+      flex: 0 0 33%;
+      margin-top: 2em;
+    }
+    &:hover {
+        .military-2-subtitle2-span0, .military-2-subtitle2-span1{
+            font-weight: 700;
+            color: #1B597C;
+        }
+    }
+  }
+  &-flex4 {
+    @include flex-column;
+  }
+  &-flex4.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 21px 0px 24px;
+  }
+  &-image3 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image3.layout {
+    position: relative;
+    height: 241px;
+  }
+  &-subtitle-box.layout2 {
+    position: relative;
+    width: 262px;
+    min-width: 262px;
+    margin: 59px 0px 0px;
+    @include xl {
+      margin: 59px auto 0px;
+    }
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 255px;
+    @include xl {
+        flex: 0 0 33%;
+        margin-top: 2em;
+    }
+    &:hover {
+        .military-2-subtitle2-span0, .military-2-subtitle2-span1{
+            font-weight: 700;
+            color: #1B597C;
+        }
+    }
+  }
+  &-flex5 {
+    @include flex-column;
+  }
+  &-flex5.layout {
+    position: relative;
+    flex-grow: 1;
+    margin: 21px 0px 0px;
+  }
+  &-image4 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-image4.layout {
+    position: relative;
+    height: 241px;
+    margin: 0px 1px 0px 0px;
+  }
+  &-subtitle-box.layout3 {
+    position: relative;
+    width: 272px;
+    min-width: 272px;
+    margin: 59px 0px 0px;
+    @include xl {
+      margin: 59px auto 0px;
+    }
+  }
+}

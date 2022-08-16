@@ -1,0 +1,85 @@
+.news-items{
+    li{
+        background: #fff8f9;
+        margin-bottom: 20px;
+        transition: all 0.5s ease;
+        @include mediaquery(768px, null){
+            border-radius: 10px;
+            padding: 10px;
+            &:hover{
+                background: #fff;
+                box-shadow: 0 0 15px rgba(217, 55, 49, 0.35);
+                .news-title, .btn-more{
+                    color: #d93731;
+                }
+                .btn-more span::after{
+                    opacity: 1;
+                }
+            }
+        }
+        @include mediaquery(null, 767px){
+            border-radius: 5px;
+        }
+    }
+}
+.news-list{
+    @include mediaquery(768px, null){
+        display: flex;
+        align-items: center;
+    }
+    .time{
+        color: $primary-color;
+        font-weight: 600;
+        @include font-size(pxToRem(18),pxToRem(18));
+        span{
+            display: inline-block;
+            // padding: 22px 8px 12px 20px;
+            @include mediaquery(768px, null){
+                border-right: 2px solid $primary-color;
+                padding: 24px 31px;
+            }
+            @include mediaquery(null, 767px){
+                padding: 26px 20px 12px;
+                letter-spacing: -0.7px;
+            }
+        }
+    }
+    .txt-container{
+        width: 100%;
+        @include mediaquery(768px, null){
+            display: flex;
+            align-items: center;
+            padding: 0 50px 0 28px;
+        }
+        @include mediaquery(null, 767px){
+            padding: 0 20px 16px;
+        }
+        .news-title{
+            flex: 1;
+            color: #333;
+            font-weight: bold;
+            // margin-bottom: 0.25em;
+            transition: all 0.5s ease;
+            @include font-size(pxToRem(20),pxToRem(22));
+            @include mediaquery(null, 767px){
+                margin-bottom: 1.1em;
+            }
+            span{
+                @include clamp(1.5, 2);
+                height: auto;
+                max-height: 3em;
+                @include mediaquery(992px, null){
+                    margin-right: 3em;
+                }
+                @include mediaquery(768px, 991px){
+                    margin-right: 1.5em;
+                }
+                @include mediaquery(null, 767px) {
+                    @include clamp(1.25, 2);
+                    max-height: 2.5em;
+                    letter-spacing: -0.7px;
+                }
+            }
+        }
+    }
+}

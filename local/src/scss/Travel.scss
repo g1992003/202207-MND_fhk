@@ -1,0 +1,195 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+
+.travel {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-tag__list.layout {
+    position: relative;
+  }
+  &-travel__main {
+    @include flex-column;
+  }
+  &-travel__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout1 {
+    position: relative;
+    flex-grow: 1;
+    width: 80.16%;
+    margin: 56px auto 54px;
+    @include xl {
+      margin: 46px auto 54px;
+    }
+    @include lg {
+      margin: 36px auto 54px;
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-title {
+    flex-grow: 1;
+  }
+  &-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-flex.layout {
+    position: relative;
+    margin: 56px 0px 0px;
+    @include xl {
+      margin: 46px 0px 0px;
+    }
+    @include lg {
+      margin: 36px 0px 0px;
+    }
+  }
+  &-flex1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-flex1.layout {
+    position: relative;
+  }
+  &-flex-item1 {
+    @include flex-column;
+    position: relative;
+    width: calc((100% - 67px) / 2);
+    margin-right: 67px;
+    margin-top: 20px;
+    @include xl {
+      width: calc((100% - 40px) / 2);
+      margin-right: 40px;
+    }
+    @include lg {
+      width: calc((100% - 30px) / 2);
+      margin-right: 30px;
+    }
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+  }
+  &-component {
+    flex-grow: 1;
+  }
+  &-component.layout {
+    position: relative;
+    flex-grow: 1;
+  }
+  &-flex-spacer {
+    flex: 0 1 67px;
+    @include xl {
+      flex: 0 1 40px;
+    }
+    @include lg {
+      flex: 0 1 30px;
+    }
+  }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 736px;
+  }
+  &-flex2 {
+    display: flex;
+  }
+  &-flex2.layout {
+    position: relative;
+    margin: 34px 0px 0px;
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 736px;
+  }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 736px;
+  }
+  &-component1.layout {
+    position: relative;
+    width: 380px;
+    min-width: 380px;
+    margin: 74px auto 0px;
+    @include xxxl {
+      margin: 56px auto 0px;
+    }
+    @include xl {
+      margin: 46px auto 0px;
+    }
+    @include lg {
+      margin: 36px auto 0px;
+    }
+  }
+  &-footer.layout {
+    position: relative;
+  }
+}
+
+.swiper.mySwiper{
+    position: absolute;
+    z-index: 2;
+    margin-top: 149px;
+    width: 100%;
+    .swiper-pagination{
+        bottom: 35px;
+    }
+    .swiper-pagination-bullet{
+        background: #fff;
+        opacity: 1;
+        width: 14px;
+        height: 14px;
+        margin: 0 10px;
+    }
+    .swiper-pagination-bullet-active{
+        background: #1B597C;
+    }
+    .swiper-button-prev{
+        width: 106px;
+        height: 166px;
+        background: rgba(255,255,255,0.5);
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        &::after{
+            font-weight: 700;
+            color: #134563;
+            margin-left: 0.2em;
+        }
+    }
+    .swiper-button-next{
+        width: 106px;
+        height: 166px;
+        background: rgba(255,255,255,0.5);
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        &::after{
+            font-weight: 700;
+            color: #134563;
+            margin-right: 0.2em;
+        }
+    }
+}

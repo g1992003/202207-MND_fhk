@@ -1,0 +1,193 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$color_type_0: rgb(255, 255, 255);
+
+.project {
+  &-main {
+    @include flex-column;
+    background-color: $color_type_0;
+  }
+  &-main.layout {
+    position: relative;
+    overflow: hidden;
+    min-width: 0px;
+    max-width: 1920px;
+  }
+  &-banner.layout {
+    position: relative;
+  }
+  &-project__main {
+    @include flex-column;
+  }
+  &-project__main.layout {
+    position: relative;
+  }
+  &-flex {
+    @include flex-column;
+  }
+  &-flex.layout {
+    position: relative;
+    flex-grow: 1;
+    width: 87.92%;
+    margin: 118px auto 43px;
+    @include xl {
+      margin: 46px auto;
+    }
+    @include lg {
+      margin: 36px auto;
+    }
+  }
+  &-flex-item {
+    @include flex-column;
+    position: relative;
+  }
+  &-title {
+    flex-grow: 1;
+  }
+  &-title.layout {
+    position: relative;
+    flex-grow: 1;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px auto;
+  }
+  &-flex1 {
+    display: flex;
+  }
+  &-flex1.layout {
+    position: relative;
+    margin: 102px 0px 0px;
+    @include xl {
+      margin: 60px 0px 0px;
+    }
+    @include lg {
+      margin: 36px 0px 0px;
+    }
+  }
+  &-flex-item1 {
+    // @include flex-column;
+    position: relative;
+    // flex: 0 1 365px;
+  }
+  &-image3 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: cover;
+    object-position: center top;
+    transition: all 0.75s;
+    &:hover{
+      border: 5px solid #1B597C;
+    }
+  }
+  &-image3.layout {
+    position: relative;
+  }
+  &-m{
+    margin-right: 76px;
+    @include xl {
+      margin-right: 50px;
+    }
+    @include lg {
+      margin-right: 30px;
+    }
+    &:nth-child(4n){
+      margin-right: 0;
+    }
+  }
+  // &-flex-spacer {
+  //   flex: 0 1 76px;
+  //   @include xl {
+  //     flex: 0 1 50px;
+  //   }
+  //   @include lg {
+  //     flex: 0 1 30px;
+  //   }
+  // }
+  &-flex-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 386px;
+  }
+  &-image2 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+    transition: all 0.75s;
+    &:hover{
+      border: 5px solid #1B597C;
+    }
+  }
+  &-image2.layout {
+    position: relative;
+  }
+  &-flex-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 363px;
+  }
+  &-image1 {
+    border: 5px solid rgba(255, 255, 255, 0);
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center top;
+    transition: all 0.75s;
+    &:hover{
+      border: 5px solid #1B597C;
+    }
+  }
+  &-image1.layout {
+    position: relative;
+  }
+  // &-flex-spacer1 {
+  //   flex: 0 1 59px;
+  //   @include xl {
+  //     flex: 0 1 50px;
+  //   }
+  //   @include lg {
+  //     flex: 0 1 30px;
+  //   }
+  // }
+  &-flex-item4 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 363px;
+  }
+  &-page__list.layout {
+    position: relative;
+    width: 380px;
+    min-width: 380px;
+    margin: 75px auto 0px;
+  }
+  &-footer.layout {
+    position: relative;
+  }
+  .title-title{
+    line-height: 1.1;
+    .en{
+      font-size: 36px;
+      @include xl {
+        font-size: 32px;
+      }
+      @include lg {
+        font-size: 28px;
+      }
+    }
+  }
+  .page{
+    margin-top: 98px;
+    @include xl {
+    margin-top: 70px;
+    }
+    @include lg {
+    margin-top: 50px;
+    }
+  }
+}
