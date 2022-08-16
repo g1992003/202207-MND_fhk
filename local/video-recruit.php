@@ -67,7 +67,7 @@
           x="0px 736fr 0px"
           y="0fr minmax(0px, max-content) 0fr"
           absolute="true"
-          ><img class="video-list-background" src="dist/images/assets/a1f45b8a610588c4996f37de03a15b8a.png" alt="alt text" /></px-posize
+          ><img class="video-list-background" src="dist/images/4.jpg" alt="alt text" /></px-posize
         ><px-posize track-style='{"flexGrow":1}' x="299fr 18.75% 299fr" y="177fr minmax(0px, 138fr) 176fr"
           ><div class="video-list-group1"><img src="dist/images/assets/75328c9ddf5022e079b06edf8a2d4ace.png" alt="" class="video-list-image1 layout" /></div
         ></px-posize></div
@@ -98,7 +98,7 @@
           x="0px 736fr 0px"
           y="0fr minmax(0px, max-content) 0fr"
           absolute="true"
-          ><img class="video-list-background" src="dist/images/assets/a1f45b8a610588c4996f37de03a15b8a.png" alt="alt text" /></px-posize
+          ><img class="video-list-background" src="dist/images/1.jpg" alt="alt text" /></px-posize
         ><px-posize track-style='{"flexGrow":1}' x="299fr 18.75% 299fr" y="177fr minmax(0px, 138fr) 176fr"
           ><div class="video-list-group1"><img src="dist/images/assets/75328c9ddf5022e079b06edf8a2d4ace.png" alt="" class="video-list-image1 layout" /></div
         ></px-posize></div
@@ -129,7 +129,7 @@
           x="0px 736fr 0px"
           y="0fr minmax(0px, max-content) 0fr"
           absolute="true"
-          ><img class="video-list-background" src="dist/images/assets/a1f45b8a610588c4996f37de03a15b8a.png" alt="alt text" /></px-posize
+          ><img class="video-list-background" src="dist/images/2.jpg" alt="alt text" /></px-posize
         ><px-posize track-style='{"flexGrow":1}' x="299fr 18.75% 299fr" y="177fr minmax(0px, 138fr) 176fr"
           ><div class="video-list-group1"><img src="dist/images/assets/75328c9ddf5022e079b06edf8a2d4ace.png" alt="" class="video-list-image1 layout" /></div
         ></px-posize></div
@@ -160,7 +160,7 @@
           x="0px 736fr 0px"
           y="0fr minmax(0px, max-content) 0fr"
           absolute="true"
-          ><img class="video-list-background" src="dist/images/assets/a1f45b8a610588c4996f37de03a15b8a.png" alt="alt text" /></px-posize
+          ><img class="video-list-background" src="dist/images/3.jpg" alt="alt text" /></px-posize
         ><px-posize track-style='{"flexGrow":1}' x="299fr 18.75% 299fr" y="177fr minmax(0px, 138fr) 176fr"
           ><div class="video-list-group1"><img src="dist/images/assets/75328c9ddf5022e079b06edf8a2d4ace.png" alt="" class="video-list-image1 layout" /></div
         ></px-posize></div

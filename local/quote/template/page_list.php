@@ -11,9 +11,9 @@
             <span></span>
         </a>
     </dt>
-    <dd><a href="#"><span>01</span></a></dd>
-    <dd class="active"><a href="#"><span>02</span></a></dd>
-    <dd><a href="#"><span>03</span></a></dd>
+    <dd class="active"><a href="javascript:;"><span>01</span></a></dd>
+    <dd><a href="javascript:;"><span>02</span></a></dd>
+    <dd><a href="javascript:;"><span>03</span></a></dd>
     <dt class="rtbn">
         <a href="javascript:;">
             <span></span>

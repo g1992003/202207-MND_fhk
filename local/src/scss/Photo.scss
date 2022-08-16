@@ -30,7 +30,7 @@ $color_type_0: rgb(255, 255, 255);
     position: relative;
     flex-grow: 1;
     width: 80.11%;
-    margin: 56px auto 32px;
+    margin: 113px auto 32px;
     @include xl {
       margin: 46px auto 32px;
     }
@@ -41,6 +41,7 @@ $color_type_0: rgb(255, 255, 255);
   &-flex-item {
     @include flex-column;
     position: relative;
+    margin-bottom: 2.1em;
   }
   &-s-title {
     flex-grow: 1;
@@ -118,7 +119,7 @@ $color_type_0: rgb(255, 255, 255);
     position: relative;
     width: 161px;
     min-width: 161px;
-    margin: 75px auto 0px;
+    margin: 98px auto 0px;
     @include xl {
       margin: 55px auto 0px;
     }
@@ -128,5 +129,8 @@ $color_type_0: rgb(255, 255, 255);
   }
   &-footer.layout {
     position: relative;
+  }
+  .page{
+    margin-top: 7px;
   }
 }

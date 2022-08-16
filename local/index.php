@@ -139,7 +139,7 @@
               </div>
             </div>
             <a href="javascript:;" class="index-group1 layout">
-              <img src="dist/images/assets/860282cf1a939c99c14718ebbdc2f47b.png" alt="" class="index-image5 layout" />
+              <img src="dist/images/1.jpg" alt="" class="index-image5 layout" />
             </a>
           </div>
         </div>

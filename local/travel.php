@@ -19,13 +19,16 @@
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="dist/images/travel.jpg" alt="">
+                    <img src="dist/images/5.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="dist/images/travel.jpg" alt="">
+                    <img src="dist/images/6.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="dist/images/travel.jpg" alt="">
+                    <img src="dist/images/7.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="dist/images/8.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -67,8 +70,8 @@
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout">
             <pre class="tag-menu--travel-medium-title">
-熱門景點
-Category1</pre
+<span class="tw">熱門景點</span>
+<span class="en">Popular Attractions</span></pre
             >
           </h2>
         </a>
@@ -85,8 +88,8 @@ Category1</pre
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout1">
             <pre class="tag-menu--travel-medium-title">
-節慶活動
-Category2</pre
+<span class="tw">節慶活動</span>
+<span class="en">Festival & Activity</span></pre
             >
           </h2>
         </a>
@@ -103,8 +106,8 @@ Category2</pre
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout2">
             <pre class="tag-menu--travel-medium-title">
-美食攻略
-Category3</pre
+<span class="tw">美食攻略</span>
+<span class="en">Food Map</span></pre
             >
           </h2>
         </a>
@@ -121,8 +124,8 @@ Category3</pre
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout">
             <pre class="tag-menu--travel-medium-title">
-精選行程
-Category4</pre
+<span class="tw">精選行程</span>
+<span class="en">Journey</span></pre
             >
           </h2>
         </a>
@@ -139,7 +142,7 @@ Category4</pre
 
 <div class="title title-group layout">
   <h1 class="title-title-box layout"><pre class="title-title"><span class="tw">熱門景點</span>
-<span class="en">CATEGORY1</span>
+<span class="en fz36">Popular Attractions</span>
 </pre></h1>
 </div>
 
@@ -151,10 +154,10 @@ Category4</pre
                 <div class="travel-component layout">
 
 <a href="travel-detail.php" class="travel-list travel-list-flex layout">
-  <img src="dist/images/assets/2cc1ca4096999a4b864403190a6e94e9.png" alt="" class="travel-list-image7 layout" />
+  <img src="dist/images/1.jpg" alt="" class="travel-list-image7 layout" />
   <div class="travel-list-flex-item">
-    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title">陽明山國家公園
-Yangmingshan National Park</pre></h2>
+    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title"><span class="tw">陽明山國家公園</span>
+<span class="en">Yangmingshan National Park</span></pre></h2>
   </div>
 </a>
 
@@ -164,10 +167,10 @@ Yangmingshan National Park</pre></h2>
                 <div class="travel-component layout">
 
 <a href="travel-detail.php" class="travel-list travel-list-flex layout">
-  <img src="dist/images/assets/2cc1ca4096999a4b864403190a6e94e9.png" alt="" class="travel-list-image7 layout" />
+  <img src="dist/images/2.jpg" alt="" class="travel-list-image7 layout" />
   <div class="travel-list-flex-item">
-    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title">陽明山國家公園
-Yangmingshan National Park</pre></h2>
+    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title"><span class="tw">陽明山國家公園</span>
+<span class="en">Yangmingshan National Park</span></pre></h2>
   </div>
 </a>
 
@@ -177,10 +180,10 @@ Yangmingshan National Park</pre></h2>
                 <div class="travel-component layout">
 
 <a href="travel-detail.php" class="travel-list travel-list-flex layout">
-  <img src="dist/images/assets/2cc1ca4096999a4b864403190a6e94e9.png" alt="" class="travel-list-image7 layout" />
+  <img src="dist/images/3.jpg" alt="" class="travel-list-image7 layout" />
   <div class="travel-list-flex-item">
-    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title">陽明山國家公園
-Yangmingshan National Park</pre></h2>
+    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title"><span class="tw">陽明山國家公園</span>
+<span class="en">Yangmingshan National Park</span></pre></h2>
   </div>
 </a>
 
@@ -190,10 +193,10 @@ Yangmingshan National Park</pre></h2>
                 <div class="travel-component layout">
 
 <a href="travel-detail.php" class="travel-list travel-list-flex layout">
-  <img src="dist/images/assets/2cc1ca4096999a4b864403190a6e94e9.png" alt="" class="travel-list-image7 layout" />
+  <img src="dist/images/4.jpg" alt="" class="travel-list-image7 layout" />
   <div class="travel-list-flex-item">
-    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title">陽明山國家公園
-Yangmingshan National Park</pre></h2>
+    <h2 class="travel-list-medium-title-box layout"><pre class="travel-list-medium-title"><span class="tw">陽明山國家公園</span>
+<span class="en">Yangmingshan National Park</span></pre></h2>
   </div>
 </a>
 

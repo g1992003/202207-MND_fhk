@@ -52,7 +52,7 @@
                 <div class="psychological-section2__component layout">
 
 <a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
-  <img src="dist/images/assets/ce3853e3d5cd748c282b67cdcc08f03d.png" alt="" class="psy-box-image layout" />
+  <img src="dist/images/3.jpg" alt="" class="psy-box-image layout" />
   <div class="psy-box-psy-title-box layout">
     <pre class="psy-box-psy-title">
 心理測驗01
@@ -67,7 +67,7 @@ Link01</pre
                 <div class="psychological-section2__component layout">
 
 <a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
-  <img src="dist/images/assets/ce3853e3d5cd748c282b67cdcc08f03d.png" alt="" class="psy-box-image layout" />
+  <img src="dist/images/4.jpg" alt="" class="psy-box-image layout" />
   <div class="psy-box-psy-title-box layout">
     <pre class="psy-box-psy-title">
 心理測驗01
@@ -82,23 +82,7 @@ Link01</pre
                 <div class="psychological-section2__component layout">
 
 <a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
-  <img src="dist/images/assets/ce3853e3d5cd748c282b67cdcc08f03d.png" alt="" class="psy-box-image layout" />
-  <div class="psy-box-psy-title-box layout">
-    <pre class="psy-box-psy-title">
-心理測驗01
-Link01</pre
-    >
-  </div>
-</a>
-                </div>
-              </div>
-
-              
-              <div class="psychological-section2__flex-item1">
-                <div class="psychological-section2__component layout">
-
-<a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
-  <img src="dist/images/assets/ce3853e3d5cd748c282b67cdcc08f03d.png" alt="" class="psy-box-image layout" />
+  <img src="dist/images/5.jpg" alt="" class="psy-box-image layout" />
   <div class="psy-box-psy-title-box layout">
     <pre class="psy-box-psy-title">
 心理測驗01
@@ -114,7 +98,7 @@ Link01</pre
                 <div class="psychological-section2__component layout">
 
 <a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
-  <img src="dist/images/assets/ce3853e3d5cd748c282b67cdcc08f03d.png" alt="" class="psy-box-image layout" />
+  <img src="dist/images/6.jpg" alt="" class="psy-box-image layout" />
   <div class="psy-box-psy-title-box layout">
     <pre class="psy-box-psy-title">
 心理測驗01
@@ -130,7 +114,23 @@ Link01</pre
                 <div class="psychological-section2__component layout">
 
 <a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
-  <img src="dist/images/assets/ce3853e3d5cd748c282b67cdcc08f03d.png" alt="" class="psy-box-image layout" />
+  <img src="dist/images/7.jpg" alt="" class="psy-box-image layout" />
+  <div class="psy-box-psy-title-box layout">
+    <pre class="psy-box-psy-title">
+心理測驗01
+Link01</pre
+    >
+  </div>
+</a>
+                </div>
+              </div>
+
+              
+              <div class="psychological-section2__flex-item1">
+                <div class="psychological-section2__component layout">
+
+<a href="javascript:;" target="_blank" class="psy-box psy-box-flex layout">
+  <img src="dist/images/8.jpg" alt="" class="psy-box-image layout" />
   <div class="psy-box-psy-title-box layout">
     <pre class="psy-box-psy-title">
 心理測驗01

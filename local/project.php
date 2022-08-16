@@ -46,16 +46,16 @@
           </div>
           <div class="project-flex1 layout">
             <a href="project-detail.php" class="project-flex-item1 project-m">
-              <img src="dist/images/assets/a3e7828b9d8fb184149a641f267892f9.png" alt="" class="project-image3 layout" />
+              <img src="dist/images/5.jpg" alt="" class="project-image3 layout" />
             </a>
             <a href="project-detail.php" class="project-flex-item1 project-m">
-              <img src="dist/images/assets/6449502625e0044c7c0fcc8c8849dbac.png" alt="" class="project-image3 layou" />
+              <img src="dist/images/6.jpg" alt="" class="project-image3 layou" />
             </a>
             <a href="project-detail.php" class="project-flex-item1 project-m">
-              <img src="dist/images/assets/d35c205bfe2b2a303beb2dbbe91fbb56.png" alt="" class="project-image3 layou" />
+              <img src="dist/images/7.jpg" alt="" class="project-image3 layou" />
             </a>
             <a href="project-detail.php" class="project-flex-item1 project-m">
-              <img src="dist/images/assets/f852a5e8c22127c332021ccd46b6a070.png" alt="" class="project-image3 layou" />
+              <img src="dist/images/8.jpg" alt="" class="project-image3 layou" />
             </a>
           </div>
 

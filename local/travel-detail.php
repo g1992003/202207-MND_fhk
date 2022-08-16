@@ -9,6 +9,7 @@
 
 </head>
 
+
 <body class="lang_tw">
     <?php
         include "quote/template/added.php";
@@ -17,15 +18,18 @@
       <div class="travel-detail-section1 layout">
         <section class="pagebanner pagebanner-banner layout">
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper">                
                 <div class="swiper-slide">
-                    <img src="dist/images/travel.jpg" alt="">
+                    <img src="dist/images/5.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="dist/images/travel.jpg" alt="">
+                    <img src="dist/images/6.jpg" alt="">
                 </div>
                 <div class="swiper-slide">
-                    <img src="dist/images/travel.jpg" alt="">
+                    <img src="dist/images/7.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="dist/images/8.jpg" alt="">
                 </div>
             </div>
             <div class="swiper-button-next"></div>
@@ -67,8 +71,8 @@
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout">
             <pre class="tag-menu--travel-medium-title">
-熱門景點
-Category1</pre
+<span class="tw">熱門景點</span>
+<span class="en">Popular Attractions</span></pre
             >
           </h2>
         </a>
@@ -85,8 +89,8 @@ Category1</pre
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout1">
             <pre class="tag-menu--travel-medium-title">
-節慶活動
-Category2</pre
+<span class="tw">節慶活動</span>
+<span class="en">Festival & Activity</span></pre
             >
           </h2>
         </a>
@@ -103,8 +107,8 @@ Category2</pre
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout2">
             <pre class="tag-menu--travel-medium-title">
-美食攻略
-Category3</pre
+<span class="tw">美食攻略</span>
+<span class="en">Food Map</span></pre
             >
           </h2>
         </a>
@@ -121,8 +125,8 @@ Category3</pre
           ></div>
           <h2 class="tag-menu--travel-medium-title-box layout">
             <pre class="tag-menu--travel-medium-title">
-精選行程
-Category4</pre
+<span class="tw">精選行程</span>
+<span class="en">Journey</span></pre
             >
           </h2>
         </a>
@@ -139,22 +143,22 @@ Category4</pre
 
 <div class="title title-group layout">
   <h1 class="title-title-box layout"><pre class="title-title"><span class="tw">士林夜市</span>
-<span class="en">SHILIN</span>
+<span class="en">Shilin</span>
 </pre></h1>
 </div>
 
             </div>
           </div>
           <div class="travel-detail-flex1 layout">
-            <a href="javascript:;" class="travel-detail-flex-item1">
+            <div class="travel-detail-flex-item1">
               <div class="travel-detail-group layout"><h3 class="travel-detail-subtitle layout"># 台北市</h3></div>
-            </a>
-            <a href="javascript:;" class="travel-detail-flex-item1">
+            </div>
+            <div class="travel-detail-flex-item1">
               <div class="travel-detail-group layout"><h3 class="travel-detail-subtitle layout"># 熱門夜市</h3></div>
-            </a>
-            <a href="javascript:;" class="travel-detail-flex-item1">
+            </div>
+            <div class="travel-detail-flex-item1">
               <div class="travel-detail-group layout"><h3 class="travel-detail-subtitle layout"># 熱門夜市熱門夜市熱門夜市</h3></div>
-            </a>
+            </div>
           </div>
           <div class="travel-detail-flex2 layout">
             <div class="travel-detail-flex-item3">
@@ -184,8 +188,8 @@ Category4</pre
                 <div class="travel-detail-flex-item8">
                   <h2 class="travel-detail-medium-title1-box layout">
                     <pre class="travel-detail-medium-title1">
-臺北市士林區 大東路、大南路、文化路、基河路
-Shilin District, Taipei City Dadong Road, Danan Road, Wenhua Road, Jihe Road</pre>
+<span class="tw">臺北市士林區 大東路、大南路、文化路、基河路</span>
+<span class="en">Shilin District, Taipei City Dadong Road, Danan Road, Wenhua Road, Jihe Road</span></pre>
                   </h2>
                 </div>
               </div>
@@ -193,20 +197,20 @@ Shilin District, Taipei City Dadong Road, Danan Road, Wenhua Road, Jihe Road</pr
           </div>
           
           <ul class="img__box">
-            <li class="active"><img src="dist/images/assets/e8246a8a7fd54a4ecc9bc078c557e534.png" alt="" class="travel-detail-image layout" /></li>
-            <li><img src="dist/images/assets/dc2d55484f3c9241c063f84c7eb0c8de.png" alt="" class="travel-detail-image layout" /></li>
-            <li><img src="dist/images/assets/f0f98ae326113b4d6e6ec3c6436bb665.png" alt="" class="travel-detail-image layout" /></li>
+            <li class="active"><img src="dist/images/1.jpg" alt="" class="travel-detail-image layout" /></li>
+            <li><img src="dist/images/2.jpg" alt="" class="travel-detail-image layout" /></li>
+            <li><img src="dist/images/3.jpg" alt="" class="travel-detail-image layout" /></li>
           </ul>
 
           <div class="travel-detail-flex5 layout">
-            <a href="javascript:;" class="travel-detail-flex-item9 img_travel">
-              <img src="dist/images/assets/e8246a8a7fd54a4ecc9bc078c557e534.png" alt="" class="travel-detail-image1 layout" />
+            <a href="javascript:;" class="travel-detail-flex-item9 img_travel active">
+              <img src="dist/images/1.jpg" alt="" class="travel-detail-image1 layout" />
             </a>
             <a href="javascript:;" class="travel-detail-flex-item10 img_travel">
-              <img src="dist/images/assets/dc2d55484f3c9241c063f84c7eb0c8de.png" alt="" class="travel-detail-image2 layout" />
+              <img src="dist/images/2.jpg" alt="" class="travel-detail-image2 layout" />
             </a>
             <a href="javascript:;" class="travel-detail-flex-item11 img_travel">
-              <img src="dist/images/assets/f0f98ae326113b4d6e6ec3c6436bb665.png" alt="" class="travel-detail-image1 layout" />
+              <img src="dist/images/3.jpg" alt="" class="travel-detail-image1 layout" />
             </a>
           </div>
 
@@ -243,7 +247,7 @@ Shilin District, Taipei City Dadong Road, Danan Road, Wenhua Road, Jihe Road</pr
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
-        spaceBetween: 30,
+        spaceBetween: 10,
         loop: true,
         pagination: {
           el: ".swiper-pagination",

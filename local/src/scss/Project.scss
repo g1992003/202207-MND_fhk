@@ -86,15 +86,20 @@ $color_type_0: rgb(255, 255, 255);
     position: relative;
   }
   &-m{
-    margin-right: 76px;
-    @include xl {
-      margin-right: 50px;
-    }
+    margin-right: 17px;
     @include lg {
-      margin-right: 30px;
+      margin-right: 15px;
     }
     &:nth-child(4n){
       margin-right: 0;
+    }
+    
+    img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1.06;
     }
   }
   // &-flex-spacer {

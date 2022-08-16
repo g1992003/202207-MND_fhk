@@ -79,7 +79,7 @@ Use laws and regulations to promote and standardize to strengthen the concept</p
       </dist>
       <div class="txt-box-flex-item5">
         <div class="txt-box-more layout">
-<a href=" " class="btn-more btn-more-btn__more layout"><div class="btn-more-subtitle2 layout">查看更多</div></a>
+<a href="project.php" class="btn-more btn-more-btn__more layout"><div class="btn-more-subtitle2 layout">查看更多</div></a>
 
         </div>
       </div>

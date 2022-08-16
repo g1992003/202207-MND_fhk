@@ -68,6 +68,13 @@ $font_type_0: 20px/1.89 "Noto Sans TC", Helvetica, Arial, serif;
     @include lg {
       margin: 40px 0px 0px;
     }
+    img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1.413;
+    }
   }
   &-section2__flex-item1 {
     @include flex-column;
@@ -102,16 +109,37 @@ $font_type_0: 20px/1.89 "Noto Sans TC", Helvetica, Arial, serif;
     @include flex-column;
     position: relative;
     flex: 0 1 402px;
+    img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1.413;
+    }
   }
   &-section2__flex-item3 {
     @include flex-column;
     position: relative;
     flex: 0 1 402px;
+    img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1.413;
+    }
   }
   &-section2__flex-item4 {
     @include flex-column;
     position: relative;
     flex: 0 1 402px;
+    img{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 1 / 1.413;
+    }
   }
   &-section2__flex2 {
     display: flex;

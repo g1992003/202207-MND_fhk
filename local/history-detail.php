@@ -60,13 +60,13 @@
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="dist/images/dh.jpg" alt="">
+                <img src="dist/images/2.jpg" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="dist/images/dh.jpg" alt="">
+                <img src="dist/images/3.jpg" alt="">
               </div>
               <div class="swiper-slide">
-                <img src="dist/images/dh.jpg" alt="">
+                <img src="dist/images/4.jpg" alt="">
               </div>
             </div>
           </div>

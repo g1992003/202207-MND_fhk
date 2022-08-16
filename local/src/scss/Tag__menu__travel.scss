@@ -107,6 +107,16 @@ $font_type_0: 24px/1.2 "Noto Sans", Helvetica, Arial, serif;
     letter-spacing: 2.4px;
     white-space: pre-wrap;
     transition: all 0.75s;
+    line-height: 1;
+    .tw{
+        font-size: 22px;
+        font-family: "Noto Sans TC";
+    }
+    .en{
+        font-size: 16px;
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
   }
   // &-flex-spacer {
   //   flex: 0 1 94px;

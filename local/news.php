@@ -59,19 +59,19 @@
           </div>
           <div class="new-section2__flex1 layout">
             <a href="javascript:;" class="new-section2__flex-item1 photo__list">
-              <img src="dist/images/assets/667d94b54f55336fbd778b7399ca5f8a.png" alt="" class="new-section2__image layout" />
+              <img src="dist/images/1.jpg" alt="" class="new-section2__image layout" />
             </a>
             <div class="new-section2__flex-spacer"></div>
             <a href="javascript:;" class="new-section2__flex-item2 photo__list">
-              <img src="dist/images/assets/afb3f720089c3d0f7bb0b537b52adc55.png" alt="" class="new-section2__image layout" />
+              <img src="dist/images/2.jpg" alt="" class="new-section2__image layout" />
             </a>
             <div class="new-section2__flex-spacer"></div>
             <a href="javascript:;" class="new-section2__flex-item3 photo__list">
-              <img src="dist/images/assets/3d0bd1904fef17eef52f865e40b28565.png" alt="" class="new-section2__image layout" />
+              <img src="dist/images/3.jpg" alt="" class="new-section2__image layout" />
             </a>
             <div class="new-section2__flex-spacer"></div>
             <a href="javascript:;" class="new-section2__flex-item4 photo__list">
-              <img src="dist/images/assets/e6fb7820589f845c1610c38c0dc3e63c.png" alt="" class="new-section2__image layout" />
+              <img src="dist/images/4.jpg" alt="" class="new-section2__image layout" />
             </a>
           </div>
           <div class="new-section2__flex2 layout">

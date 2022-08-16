@@ -1,0 +1,293 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.travel-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.travel-main.layout {
+  position: relative;
+  overflow: hidden;
+  min-width: 0px;
+  max-width: 1920px;
+}
+.travel-banner.layout {
+  position: relative;
+}
+.travel-tag__list.layout {
+  position: relative;
+}
+.travel-travel__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.travel-travel__main.layout {
+  position: relative;
+}
+.travel-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.travel-flex.layout1 {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 80.16%;
+  margin: 56px auto 54px;
+}
+@media (max-width: 1399px) {
+  .travel-flex.layout1 {
+    margin: 46px auto 54px;
+  }
+}
+@media (max-width: 1199px) {
+  .travel-flex.layout1 {
+    margin: 36px auto 54px;
+  }
+}
+.travel-flex-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.travel-title {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.travel-title.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+}
+.travel-flex.layout {
+  position: relative;
+  margin: 56px 0px 0px;
+}
+@media (max-width: 1399px) {
+  .travel-flex.layout {
+    margin: 46px 0px 0px;
+  }
+}
+@media (max-width: 1199px) {
+  .travel-flex.layout {
+    margin: 36px 0px 0px;
+  }
+}
+.travel-flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.travel-flex1.layout {
+  position: relative;
+}
+.travel-flex-item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: calc((100% - 67px) / 2);
+  margin-right: 67px;
+  margin-top: 20px;
+}
+@media (max-width: 1399px) {
+  .travel-flex-item1 {
+    width: calc((100% - 40px) / 2);
+    margin-right: 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .travel-flex-item1 {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+  }
+}
+.travel-flex-item1:nth-child(2n) {
+  margin-right: 0;
+}
+.travel-component {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.travel-component.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.travel-flex-spacer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 67px;
+          flex: 0 1 67px;
+}
+@media (max-width: 1399px) {
+  .travel-flex-spacer {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 40px;
+            flex: 0 1 40px;
+  }
+}
+@media (max-width: 1199px) {
+  .travel-flex-spacer {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 30px;
+            flex: 0 1 30px;
+  }
+}
+.travel-flex-item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 736px;
+          flex: 0 1 736px;
+}
+.travel-flex2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.travel-flex2.layout {
+  position: relative;
+  margin: 34px 0px 0px;
+}
+.travel-flex-item3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 736px;
+          flex: 0 1 736px;
+}
+.travel-flex-item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 736px;
+          flex: 0 1 736px;
+}
+.travel-component1.layout {
+  position: relative;
+  width: 380px;
+  min-width: 380px;
+  margin: 74px auto 0px;
+}
+@media (max-width: 2999px) {
+  .travel-component1.layout {
+    margin: 56px auto 0px;
+  }
+}
+@media (max-width: 1399px) {
+  .travel-component1.layout {
+    margin: 46px auto 0px;
+  }
+}
+@media (max-width: 1199px) {
+  .travel-component1.layout {
+    margin: 36px auto 0px;
+  }
+}
+.travel-footer.layout {
+  position: relative;
+}
+
+.swiper.mySwiper {
+  position: absolute;
+  z-index: 2;
+  margin-top: 149px;
+  width: 100%;
+}
+.swiper.mySwiper .swiper-pagination {
+  bottom: 35px;
+}
+.swiper.mySwiper .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+  margin: 0 10px;
+}
+.swiper.mySwiper .swiper-pagination-bullet-active {
+  background: #1B597C;
+}
+.swiper.mySwiper .swiper-button-prev {
+  width: 106px;
+  height: 166px;
+  background: rgba(255, 255, 255, 0.5);
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.swiper.mySwiper .swiper-button-prev::after {
+  font-weight: 700;
+  color: #134563;
+  margin-left: 0.2em;
+}
+.swiper.mySwiper .swiper-button-next {
+  width: 106px;
+  height: 166px;
+  background: rgba(255, 255, 255, 0.5);
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.swiper.mySwiper .swiper-button-next::after {
+  font-weight: 700;
+  color: #134563;
+  margin-right: 0.2em;
+}
+.swiper.mySwiper .title-title {
+  line-height: 1;
+}

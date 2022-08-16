@@ -45,12 +45,15 @@ $font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
     flex-grow: 1;
     min-width: 0px;
     width: fit-content;
-    margin: 40px auto 0px;
+    margin: 22px auto 74px;
     @include xl {
-      margin: 30px auto 0px;
+      margin: 18px auto 60px;
     }
     @include lg {
-      margin: 20px auto 0px;
+      margin: 15px auto 50px;
+    }
+    .tw{
+        font-family: "Noto Sans TC";
     }
   }
   &-medium-title {
@@ -64,5 +67,14 @@ $font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
     letter-spacing: 2.3px;
     white-space: pre-wrap;
     transition: all 0.75s;
+    line-height: 1.5;
+  }
+  
+  img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 0.667;
   }
 }
