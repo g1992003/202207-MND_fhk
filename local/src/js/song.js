@@ -1,25 +1,41 @@
-
 $(function () {
     
     //@prepros-prepend template/top_menu.js
-
-    var songSound = document.querySelector(".song_sound");
-    var songMusic = document.querySelector(".song_music");
-    var songList = document.querySelectorAll(".song-list");
-    var audioPlay = document.querySelector(".audio_music");
     
-    // songList.forEach((e ,i) => {
-    //     songList.addEventListener('click', function(){
-    //         audioPlay.pause();
-    //         if(songList.classList.contains('play')){
-    //             songMusic.pause();
-    //             songList.classList.remove('play')
-    //         }else{
-    //             songMusic.play();
-    //             songList.classList.add('play')
-    //         }
-    //     })
-    // });
+    var songVideo = document.querySelectorAll(".song_video");
+    var songList = document.querySelectorAll(".song_list");
+    var audioPlay = document.querySelector(".song_music");
+    var musicPlay = document.querySelector(".music_play");
+    let headerSPlay_img = document.querySelector(".headerS-nav__scroll-item4.music .headerS-img");
 
-});
+    songVideo.forEach(i => {
+        i.addEventListener('click', function(){
+            musicPlay.pause();
+            headerSPlay_img.classList.add('pause') 
+        })
+    })
 
+    songList.forEach(i => {
+        i.addEventListener('click', function(){
+            if(i.classList.contains('playNow')){
+                i.classList.remove('playNow')
+                audioPlay.pause()
+            }else{
+                i.classList.add('playNow')
+                audioPlay.play()
+                musicPlay.pause();
+                headerSPlay_img.classList.add('pause') 
+                siblings(i)
+            }
+        })
+    })
+    
+    function siblings(item){
+        var p = item.parentNode.children;
+        for(var i=0, pl=p.length; i<pl ;i++){
+            if(p[i] !== item){
+                p[i].classList.remove('playNow')
+            }
+        }
+    }
+})

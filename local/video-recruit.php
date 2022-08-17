@@ -52,7 +52,7 @@
               <div class="video-flex-item5">
                 <div class="video-component layout">
 
-<a href="javascript:;" target="_blank" class="video-list video-list-flex layout">
+<a href="javascript:;" target="_blank" class="video-list video-list-flex layout song_video">
   <div class="video-list-flex-item">
     <px-posize
       track-style='{"flexGrow":1}'
@@ -83,7 +83,7 @@
               <div class="video-flex-item5">
                 <div class="video-component layout">
 
-<a href="javascript:;" target="_blank" class="video-list video-list-flex layout">
+<a href="javascript:;" target="_blank" class="video-list video-list-flex layout song_video">
   <div class="video-list-flex-item">
     <px-posize
       track-style='{"flexGrow":1}'
@@ -114,7 +114,7 @@
               <div class="video-flex-item5">
                 <div class="video-component layout">
 
-<a href="javascript:;" target="_blank" class="video-list video-list-flex layout">
+<a href="javascript:;" target="_blank" class="video-list video-list-flex layout song_video">
   <div class="video-list-flex-item">
     <px-posize
       track-style='{"flexGrow":1}'
@@ -145,7 +145,7 @@
               <div class="video-flex-item5">
                 <div class="video-component layout">
 
-<a href="javascript:;" target="_blank" class="video-list video-list-flex layout">
+<a href="javascript:;" target="_blank" class="video-list video-list-flex layout song_video">
   <div class="video-list-flex-item">
     <px-posize
       track-style='{"flexGrow":1}'
@@ -187,6 +187,7 @@
         include "quote/template/footerPage.php";
     ?>
     <script src="dist/js/function.js"></script>
+    <script src="dist/js/song.js"></script>
 
     
 </body>

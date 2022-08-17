@@ -33,7 +33,7 @@ $color_type_0: rgb(255, 255, 255);
     position: relative;
     flex-grow: 1;
     width: 66.46%;
-    margin: 90px auto 54px;
+    margin: 119px auto 54px;
   }
   &-flex-item {
     @include flex-column;
@@ -54,7 +54,7 @@ $color_type_0: rgb(255, 255, 255);
   }
   &-group.layout {
     position: relative;
-    margin: 90px 0px 0px;
+    margin: 108px 0px 0px;
   }
   &-flex.layout {
     position: relative;
@@ -160,6 +160,9 @@ $color_type_0: rgb(255, 255, 255);
   }
   &-footer.layout {
     position: relative;
+  }
+  .title-title{
+    line-height: 1.05;
   }
 }
 
