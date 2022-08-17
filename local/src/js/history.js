@@ -1,4 +1,6 @@
 
+    //@prepros-prepend plugin/swiper-bundle.min.js
+
 $(function(){
 
     let winW = $(window).width();

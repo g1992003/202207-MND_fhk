@@ -149,7 +149,6 @@
         include "quote/template/footer.php";
     ?>
     <script src="dist/js/function.js"></script>
-    <!-- <script src="dist/js/index.js"></script> -->
 
     
 </body>

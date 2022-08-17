@@ -1,7 +1,6 @@
 <?php include "quote/template/head.php"; ?>
 <link rel="stylesheet" href="dist/css/Project__detail.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
 <link rel="stylesheet" type="text/css" href="dist/css/S__title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Prev.css" />
@@ -85,7 +84,6 @@
         include "quote/template/footerPage.php";
     ?>
     <script src="dist/js/function.js"></script>
-    <!-- <script src="dist/js/index.js"></script> -->
 
     
 </body>

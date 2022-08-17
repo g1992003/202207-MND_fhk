@@ -1,7 +1,6 @@
 <?php include "quote/template/head.php"; ?>
 <link rel="stylesheet" href="dist/css/News.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" />
 
 </head>
@@ -18,6 +17,10 @@
                 </div>
                 <div class="modal-content">
                     <img src="dist/images/assets/ef0b372d780a3ae13983d4ea41b660ca.jpg" alt="">
+                </div>
+                <div class="btn_box">
+                    <div class="btn_prev"></div>
+                    <div class="btn_next"></div>
                 </div>
             </div>
         </div>

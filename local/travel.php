@@ -1,8 +1,6 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 <link rel="stylesheet" href="dist/css/Travel.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
 <link rel="stylesheet" type="text/css" href="dist/css/Tag__menu__travel.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Travel__list.css" />
@@ -215,9 +213,8 @@
     <?php
         include "quote/template/footerPage.php";
     ?>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="dist/js/function.js"></script>
-    <!-- <script src="dist/js/index.js"></script> -->
+    <script src="dist/js/travel.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,

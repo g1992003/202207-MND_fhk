@@ -1,8 +1,6 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 <link rel="stylesheet" href="dist/css/History__detail.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" /> 
 <link rel="stylesheet" type="text/css" href="dist/css/Prev.css" />
 

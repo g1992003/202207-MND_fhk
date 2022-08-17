@@ -1,7 +1,6 @@
 <?php include "quote/template/head.php"; ?>
 <link rel="stylesheet" href="dist/css/Photo.css">
-<link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
+<link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" /> 
 <link rel="stylesheet" type="text/css" href="dist/css/S__title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Photo__list.css" />
@@ -181,7 +180,6 @@ and Electronic Force Command</span></pre></h1>
         include "quote/template/footerPage.php";
     ?>
     <script src="dist/js/function.js"></script>
-    <!-- <script src="dist/js/index.js"></script> -->
 
     
 </body>

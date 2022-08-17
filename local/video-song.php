@@ -1,7 +1,6 @@
 <?php include "quote/template/head.php"; ?>
 <link rel="stylesheet" href="dist/css/Song.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Video__list.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Song__list.css" />

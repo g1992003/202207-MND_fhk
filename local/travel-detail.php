@@ -1,8 +1,6 @@
  <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 <link rel="stylesheet" href="dist/css/Travel__detail.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
-<link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
 <link rel="stylesheet" type="text/css" href="dist/css/Tag__menu__travel.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Title.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Prev.css" />
@@ -240,7 +238,6 @@
     <?php
         include "quote/template/footerPage.php";
     ?>
-    </script><script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="dist/js/function.js"></script>
     <script src="dist/js/travel.js"></script>
 

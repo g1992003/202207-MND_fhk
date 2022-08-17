@@ -1,4 +1,5 @@
 
+    //@prepros-prepend plugin/swiper-bundle.min.js
 $(function(){
     
     $('.img_travel').on('click', function () {

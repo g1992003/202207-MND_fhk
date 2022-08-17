@@ -1,4 +1,7 @@
 
+    //@prepros-prepend plugin/swiper-bundle.min.js
+    //@prepros-prepend plugin/lightcase.js
+
 $(function(){
     
     $('.photo__list').on('click', function () {
@@ -22,6 +25,7 @@ $(function(){
         e.stopPropagation();
     }, false);
 
+        
 })
 
 

@@ -1,8 +1,4 @@
 <?php include "quote/template/head.php"; ?>
-<link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
 <link rel="stylesheet" href="dist/css/History.css">
 <link rel="stylesheet" type="text/css" href="dist/css/Pagebanner.css" />
 <link rel="stylesheet" type="text/css" href="dist/css/Scroll__menu.css" />  
@@ -173,7 +169,6 @@
     <?php
         include "quote/template/footerPage.php";
     ?>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="dist/js/function.js"></script>
     <script src="dist/js/history.js"></script>
 
