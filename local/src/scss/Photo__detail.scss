@@ -387,3 +387,130 @@ $color_type_0: rgb(255, 255, 255);
         object-fit: cover;
     }
 }
+
+#lightcase-case{
+    width: auto !important;
+    height: 90vh !important;
+    background-color: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    #lightcase-content{
+        background-color: #fff !important;
+        width: 100%;
+        height: 100%;
+        padding: 100px 100px 48px;
+    }
+    .lightcase-contentInner{
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 auto;
+        img{
+            width: auto !important;
+            max-width: 1920px !important;
+            height: 100% !important;
+            max-height: 100% !important;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    .lightcase-icon-close{
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        top: 35px;
+        right: 35px;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/assets/22482a3046b7598c2b6d9ddf65e19c12.png') center / contain no-repeat;
+        }
+        
+        &::after{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/Vectorx-h.jpg') center / contain no-repeat;
+            opacity: 0;
+            transition: all 0.75s;
+        }
+    }
+    .lightcase-icon-prev{
+        position: absolute;
+        width: 28px;
+        height: 60px;
+        left: 30px;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/btn_l.jpg') center / contain no-repeat;
+        }
+        
+        &::after{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/btn_l_h.jpg') center / contain no-repeat;
+            opacity: 0;
+            transition: all 0.75s;
+        }
+    }
+    .lightcase-icon-next{
+        position: absolute;
+        width: 28px;
+        height: 60px;
+        right: 30px;
+        &:hover{
+            &::after{
+                opacity: 1;
+            }
+        }
+        &::before{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/btn_r.jpg') center / contain no-repeat;
+        }
+        
+        &::after{
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../images/btn_r_h.jpg') center / contain no-repeat;
+            opacity: 0;
+            transition: all 0.75s;
+        }
+    }
+}
+.lightcase-open{
+    overflow: hidden;
+}

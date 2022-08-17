@@ -13,17 +13,6 @@
     ?>
     <main class="photo-detail photo-detail-main layout" data-menu="5">
 
-      <div id="modalBg">
-        <div id="myModal" class="modal">
-            <div class="closebtn" id="close">
-                <div class="close"></div>
-            </div>
-            <div class="modal-content">
-                <img src="dist/images/military.jpg" alt="">
-            </div>
-        </div>
-      </div>
-
       <div class="photo-detail-banner layout">
         <section class="pagebanner pagebanner-banner layout">
         <div style="--src:url(../images/military.jpg)" class="pagebanner-kv layout"></div>
@@ -245,7 +234,6 @@
         </div>
       </div>
     </div>
-
           <?php
               include "quote/template/page_list.php";
           ?>
@@ -273,6 +261,8 @@
             slideChange: function () {
                 $('.page dd').removeClass('active')
                 $('.page dd').eq(swiper.realIndex).addClass('active')
+                index_page(swiper.realIndex)
+                num = swiper.realIndex
             },
         },
       });
@@ -282,11 +272,69 @@
         $('.page dd').removeClass('active')
         $('.page dd').eq(index).addClass('active')
         swiper.slideTo(index)
+        index_page(index)
       });
-      
-      
+      $('.ltbn_up').on('click', function () {
+        swiper.slideTo(0)
+        index_page(0)
+      });
+      $('.rtbn_up').on('click', function () {
+        swiper.slideTo($('.page dd').length-1)
+        index_page($('.page dd').length-1)
+      });
 
-      $("a[data-rel^=lightcase]").lightcase();
+      let num = 0
+    $('.ltbn a').on('click', function () {
+        if(num == 0){
+            num = 0
+        }else{
+            num = num - 1
+        }
+        $('.page dd').removeClass('active')
+        $('.page dd').eq(num).addClass('active')
+        swiper.slideTo(num)
+        index_page(num)
+    });
+    $('.rtbn a').on('click', function () {
+        if(num == $('.page dd').length-1){
+            num = $('.page dd').length-1
+        }else{
+            num = num + 1
+        }
+        $('.page dd').removeClass('active')
+        $('.page dd').eq(num).addClass('active')
+        swiper.slideTo(num)
+        index_page(num)
+    });
+    
+      
+    function index_page(e){
+        if(e == 0){
+            $('.ltbn_up').addClass('nopage')
+            $('.ltbn').addClass('nopage')
+            $('.rtbn_up').removeClass('nopage')
+            $('.rtbn').removeClass('nopage')
+        }else if(e == $('.page dd').length-1){
+            $('.rtbn_up').addClass('nopage')
+            $('.rtbn').addClass('nopage')
+            $('.ltbn_up').removeClass('nopage')
+            $('.ltbn').removeClass('nopage')
+        }else{
+            $('.ltbn_up').removeClass('nopage')
+            $('.ltbn').removeClass('nopage')
+            $('.rtbn_up').removeClass('nopage')
+            $('.rtbn').removeClass('nopage')
+        }
+    }
+
+      $("a[data-rel^=lightcase]").lightcase({
+        onStart: {
+            function(){
+                $( ".lightcase-icon-close" ).appendTo( "#lightcase-case" );
+                $( "#lightcase-nav" ).appendTo( "#lightcase-case" );
+            }
+        },
+      });
     </script>
 
 </body>

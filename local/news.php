@@ -10,17 +10,28 @@
         include "quote/template/added.php";
     ?>
     <main class="new new-main layout" data-menu="1">
-      <div id="modalBg">
+        <div id="modalBg">
             <div id="myModal" class="modal">
                 <div class="closebtn" id="close">
                     <div class="close"></div>
                 </div>
-                <div class="modal-content">
-                    <img src="dist/images/assets/ef0b372d780a3ae13983d4ea41b660ca.jpg" alt="">
-                </div>
+                <ul class="modal-content">
+                    <li>
+                        <img src="dist/images/1.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="dist/images/2.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="dist/images/3.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="dist/images/4.jpg" alt="">
+                    </li>
+                </ul>
                 <div class="btn_box">
-                    <div class="btn_prev"></div>
-                    <div class="btn_next"></div>
+                    <a href="javascript:;" class="btn_prev no-page"></a>
+                    <a href="javascript:;" class="btn_next"></a>
                 </div>
             </div>
         </div>
@@ -101,7 +112,7 @@
         include "quote/template/footerPage.php";
     ?>
     <script src="dist/js/function.js"></script>
-    <script src="dist/js/photo.js"></script>
+    <script src="dist/js/news.js"></script>
 
     
 </body>

@@ -86,5 +86,16 @@ $font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
     transition: all 0.75s;
     line-height: 1.5;
     font-family: "Noto Sans", "Noto Sans TC";
+    .tw{
+        display: inline-block;
+        overflow: hidden;
+        height: 33px;
+    }
+    .en{
+        display: inline-block;
+        overflow: hidden;
+        height: 33px;
+        letter-spacing: 0;
+    }
   }
 }
