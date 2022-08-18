@@ -69,7 +69,11 @@
       <ul class="song_items">
             <li class="song_list">
                 <a href="javascript:;">
-                    <div class="song_img"></div>
+                    <div class="song_img">
+                        <div class="box">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
                     <div class="song_txt">
                         <div class="tw">我有一支槍</div>
                         <div class="en">Song</div>
@@ -79,7 +83,11 @@
             
             <li class="song_list">
                 <a href="javascript:;">
-                    <div class="song_img"></div>
+                    <div class="song_img">
+                        <div class="box">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
                     <div class="song_txt">
                         <div class="tw">我有一支槍</div>
                         <div class="en">Song</div>
@@ -89,7 +97,11 @@
             
             <li class="song_list">
                 <a href="javascript:;">
-                    <div class="song_img"></div>
+                    <div class="song_img">
+                        <div class="box">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
                     <div class="song_txt">
                         <div class="tw">我有一支槍</div>
                         <div class="en">Song</div>
@@ -99,7 +111,11 @@
             
             <li class="song_list">
                 <a href="javascript:;">
-                    <div class="song_img"></div>
+                    <div class="song_img">
+                        <div class="box">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
                     <div class="song_txt">
                         <div class="tw">我有一支槍</div>
                         <div class="en">Song</div>
@@ -109,7 +125,11 @@
             
             <li class="song_list">
                 <a href="javascript:;">
-                    <div class="song_img"></div>
+                    <div class="song_img">
+                        <div class="box">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
                     <div class="song_txt">
                         <div class="tw">我有一支槍</div>
                         <div class="en">Song</div>
@@ -119,7 +139,11 @@
             
             <li class="song_list">
                 <a href="javascript:;">
-                    <div class="song_img"></div>
+                    <div class="song_img">
+                        <div class="box">
+                            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                    </div>
                     <div class="song_txt">
                         <div class="tw">我有一支槍</div>
                         <div class="en">Song</div>
