@@ -1,5 +1,6 @@
 /* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
 @import "utils";
+@import "base/mixin";
 
 $color_type_0: rgb(79, 79, 79);
 
@@ -294,6 +295,9 @@ $font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
         line-height: 1.5;
         text-align: center;
         transition: all 0.75s;
+        span{
+            @include clamp(1.5, 1)
+        }
     }
 }
 @keyframes songMove_1 {

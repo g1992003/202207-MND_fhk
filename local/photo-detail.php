@@ -8,9 +8,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="photo-detail photo-detail-main layout" data-menu="5">
 
       <div class="photo-detail-banner layout">

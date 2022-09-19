@@ -12,7 +12,7 @@
 <span class="en">Control</span></pre></a>
       </li>
       <li class="tag-menu-tag__menu-item">
-        <a href="video-recruit.php" class="tag-menu-subtitle-box layout">
+        <a href="video-control.php" class="tag-menu-subtitle-box layout">
           <pre class="tag-menu-subtitle"><span class="tw">招募宣傳</span>
 <span class="en">Recruit</span>
 </pre

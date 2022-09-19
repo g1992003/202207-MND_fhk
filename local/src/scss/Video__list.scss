@@ -63,39 +63,30 @@ $font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
   &-video__txt-box.layout {
     position: relative;
     flex-grow: 1;
-    min-width: 0px;
-    width: fit-content;
-    margin: 14px auto 74px;
+    width: auto;
+    margin: 14px 5px 74px;
     @include xl {
-      margin: 14px auto 50px;
+      margin: 14px 5px 50px;
     }
     @include lg {
-      margin: 14px auto 30px;
+      margin: 14px 5px 30px;
     }
   }
   &-video__txt {
     overflow: visible;
-    margin-top: 0px;
-    margin-bottom: 0px;
     margin: 0px;
     font: $font_type_0;
     color: $color_type_0;
     text-align: center;
     letter-spacing: 2.0999999999999996px;
-    white-space: pre-wrap;
     transition: all 0.75s;
     line-height: 1.5;
     font-family: "Noto Sans", "Noto Sans TC";
-    .tw{
-        display: inline-block;
-        overflow: hidden;
-        height: 33px;
-    }
-    .en{
-        display: inline-block;
-        overflow: hidden;
-        height: 33px;
-        letter-spacing: 0;
+    span{
+        @include clamp(1.5, 1);
+        &.en{
+            letter-spacing: 0;
+        }
     }
   }
 }

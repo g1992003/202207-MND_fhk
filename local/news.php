@@ -6,9 +6,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="new new-main layout" data-menu="1">
         <div id="modalBg">
             <div id="myModal" class="modal">

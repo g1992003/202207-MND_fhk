@@ -7,9 +7,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="video video-main layout" data-menu="2" data-video="2">
       <div class="video-banner layout">
         <section class="pagebanner pagebanner-banner layout">
@@ -263,8 +260,8 @@
     ></px-posize>
   </div>
   <div class="video-list-flex-item">
-    <h2 class="video-list-video__txt-box layout"><pre class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
-<span class="en">Media</span></pre></h2>
+    <h2 class="video-list-video__txt-box layout"><div class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
+<span class="en">Media</span></div></h2>
   </div>
 </a>
 
@@ -294,8 +291,8 @@
     ></px-posize>
   </div>
   <div class="video-list-flex-item">
-    <h2 class="video-list-video__txt-box layout"><pre class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
-<span class="en">Media</span></pre></h2>
+    <h2 class="video-list-video__txt-box layout"><div class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
+<span class="en">Media</span></div></h2>
   </div>
 </a>
 
@@ -325,8 +322,8 @@
     ></px-posize>
   </div>
   <div class="video-list-flex-item">
-    <h2 class="video-list-video__txt-box layout"><pre class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
-<span class="en">Media</span></pre></h2>
+    <h2 class="video-list-video__txt-box layout"><div class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
+<span class="en">Media</span></div></h2>
   </div>
 </a>
 
@@ -356,8 +353,8 @@
     ></px-posize>
   </div>
   <div class="video-list-flex-item">
-    <h2 class="video-list-video__txt-box layout"><pre class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
-<span class="en">Media</span></pre></h2>
+    <h2 class="video-list-video__txt-box layout"><div class="video-list-video__txt"><span class="tw">毒品防治影片標題</span>
+<span class="en">Media</span></div></h2>
   </div>
 </a>
 

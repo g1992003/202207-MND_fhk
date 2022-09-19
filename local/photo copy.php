@@ -10,9 +10,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="photo photo-main layout" data-menu="5">
       <div class="photo-banner layout">
         <section class="pagebanner pagebanner-banner layout">

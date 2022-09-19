@@ -9,9 +9,6 @@
 
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="travel-detail travel-detail-main layout" data-menu="6">
       <div class="travel-detail-section1 layout">
         <section class="pagebanner pagebanner-banner layout">

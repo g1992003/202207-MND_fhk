@@ -58,7 +58,7 @@ Recruitment agency, recruitment list, military introduction, career planning, re
       </dist>
       <div class="txt-box-flex-item3">
         <div class="txt-box-more layout">
-<a href="video-recruit.php" class="btn-more btn-more-btn__more layout"><div class="btn-more-subtitle2 layout">查看更多</div></a>
+<a href="video-control.php" class="btn-more btn-more-btn__more layout"><div class="btn-more-subtitle2 layout">查看更多</div></a>
 
         </div>
       </div>

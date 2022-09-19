@@ -146,8 +146,8 @@ include "quote/template/head.php";
                       </div>
                       <div class="video-list-flex-item">
                         <h2 class="video-list-video__txt-box layout">
-                          <pre class="video-list-video__txt"><span class="tw"><?php echo $v["v_title_1"]; ?></span>
-<span class="en"><?php echo $v["v_title_2"]; ?></span></pre>
+                          <div class="video-list-video__txt"><span class="tw"><?php echo $v["v_title_1"]; ?></span>
+<span class="en"><?php echo $v["v_title_2"]; ?></span></div>
                         </h2>
                       </div>
                     </a>

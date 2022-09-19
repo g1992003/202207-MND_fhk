@@ -6,9 +6,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="military military-main layout" data-menu="5">
       <div class="military-banner layout">
         <section class="pagebanner pagebanner-banner layout">

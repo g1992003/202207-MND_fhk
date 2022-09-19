@@ -7,11 +7,7 @@
 
 </head>
 
-<body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
-    
+<body class="lang_tw">    
     <div class="song_sound">
         <audio controls class="song_music">
             <source src="" type="audio/mpeg">
@@ -83,8 +79,8 @@
                         </div>
                     </div>
                     <div class="song_txt">
-                        <div class="tw">我有一支槍</div>
-                        <div class="en">Song</div>
+                        <span class="tw">我有一支槍</span>
+                        <span class="en">Song</span>
                     </div>
                 </a>
             </li>
@@ -97,8 +93,8 @@
                         </div>
                     </div>
                     <div class="song_txt">
-                        <div class="tw">我有一支槍</div>
-                        <div class="en">Song</div>
+                        <span class="tw">我有一支槍</span>
+                        <span class="en">Song</span>
                     </div>
                 </a>
             </li>
@@ -111,8 +107,8 @@
                         </div>
                     </div>
                     <div class="song_txt">
-                        <div class="tw">我有一支槍</div>
-                        <div class="en">Song</div>
+                        <span class="tw">我有一支槍</span>
+                        <span class="en">Song</span>
                     </div>
                 </a>
             </li>
@@ -125,8 +121,8 @@
                         </div>
                     </div>
                     <div class="song_txt">
-                        <div class="tw">我有一支槍</div>
-                        <div class="en">Song</div>
+                        <span class="tw">我有一支槍</span>
+                        <span class="en">Song</span>
                     </div>
                 </a>
             </li>
@@ -139,8 +135,8 @@
                         </div>
                     </div>
                     <div class="song_txt">
-                        <div class="tw">我有一支槍</div>
-                        <div class="en">Song</div>
+                        <span class="tw">我有一支槍</span>
+                        <span class="en">Song</span>
                     </div>
                 </a>
             </li>
@@ -153,8 +149,8 @@
                         </div>
                     </div>
                     <div class="song_txt">
-                        <div class="tw">我有一支槍</div>
-                        <div class="en">Song</div>
+                        <span class="tw">我有一支槍</span>
+                        <span class="en">Song</span>
                     </div>
                 </a>
             </li>

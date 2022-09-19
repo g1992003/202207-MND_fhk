@@ -5,9 +5,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="index index-main layout" data-index="true">
       <section style="--src:url(../images/assets/64c06581d4848021b314b4da67807273.png)" class="index-banner__banner layout">
         

@@ -7,9 +7,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="history history-main layout" data-menu="0">
       <div class="history-banner layout">
         <section class="pagebanner pagebanner-banner layout">

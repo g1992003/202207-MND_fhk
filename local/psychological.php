@@ -7,9 +7,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="psychological psychological-main layout" data-menu="4">
       <div class="psychological-banner layout">
         <section class="pagebanner pagebanner-banner layout">

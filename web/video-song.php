@@ -106,8 +106,8 @@ include "quote/template/head.php";
                                             </div>
                                         </div>
                                         <div class="song_txt">
-                                            <div class="tw"><?php echo $v["v_title_1"]; ?></div>
-                                            <div class="en"><?php echo $v["v_title_2"]; ?></div>
+                                            <span class="tw"><?php echo $v["v_title_1"]; ?></span>
+                                            <span class="en"><?php echo $v["v_title_2"]; ?></span>
                                         </div>
                                     </a>
                                 </li>

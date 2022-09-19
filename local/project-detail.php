@@ -8,9 +8,6 @@
 </head>
 
 <body class="lang_tw">
-    <?php
-        include "quote/template/added.php";
-    ?>
     <main class="project-detail project-detail-main layout" data-menu="3">
       <div class="project-detail-section1 layout">
         <section class="pagebanner pagebanner-banner layout">
