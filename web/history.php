@@ -55,8 +55,8 @@ include "quote/template/head.php";
                                             <div class="year"><?php echo $v["h_year"]; ?></div>
                                             <div class="line"></div>
                                             <div class="title_name">
-                                                <p class="tw"><?php echo $v["h_title_1"]; ?></p>
-                                                <p class="en"><?php echo $v["h_title_2"]; ?></p>
+                                                <span class="tw"><?php echo $v["h_title_1"]; ?></span>
+                                                <span class="en"><?php echo $v["h_title_2"]; ?></span>
                                             </div>
                                         </a>
                                     </div>

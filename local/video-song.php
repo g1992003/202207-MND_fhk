@@ -14,9 +14,17 @@
     
     <div class="song_sound">
         <audio controls class="song_music">
-            <source src="dist/audio/002.mp3" type="audio/mpeg">
+            <source src="" type="audio/mpeg">
         </audio>
     </div>
+    <ul class="musicList" style="display: none">
+        <li data-src="dist/audio/001.mp3"></li>
+        <li data-src="dist/audio/002.mp3"></li>
+        <li data-src="dist/audio/003.mp3"></li>
+        <li data-src="dist/audio/004.mp3"></li>
+        <li data-src="dist/audio/005.mp3"></li>
+        <li data-src="dist/audio/006.mp3"></li>
+    </ul>
 
     <main class="song song-main layout" data-menu="2" data-video="3">
       <div class="song-banner layout">

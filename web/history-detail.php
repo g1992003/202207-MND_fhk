@@ -101,7 +101,7 @@ include "quote/template/head.php";
   include "quote/template/footerPage.php";
   ?>
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="dist/js/swiper-bundle.min.js"></script>
   <script src="dist/js/function.js"></script>
 
   <script>

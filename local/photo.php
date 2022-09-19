@@ -67,10 +67,10 @@ and Electronic Force Command</span></pre></h1>
   <img src="dist/images/1.jpg" alt="" class="photo-list-image layout" />
   <div class="photo-list-flex-item">
     <h2 class="photo-list-medium-title-box layout">
-      <pre class="photo-list-medium-title">
-109 壘球比賽
-109 Softball Game</pre
-      >
+        <div class="photo-list-medium-title">
+            <p>109 壘球比賽</p>
+            <p>109 Softball Game</p>
+        </div>
     </h2>
   </div>
 </a>
@@ -84,10 +84,10 @@ and Electronic Force Command</span></pre></h1>
   <img src="dist/images/2.jpg" alt="" class="photo-list-image layout" />
   <div class="photo-list-flex-item">
     <h2 class="photo-list-medium-title-box layout">
-      <pre class="photo-list-medium-title">
-109 壘球比賽
-109 Softball Game</pre
-      >
+        <div class="photo-list-medium-title">
+            <p>109 壘球比賽</p>
+            <p>109 Softball Game</p>
+        </div>
     </h2>
   </div>
 </a>
@@ -101,10 +101,10 @@ and Electronic Force Command</span></pre></h1>
   <img src="dist/images/3.jpg" alt="" class="photo-list-image layout" />
   <div class="photo-list-flex-item">
     <h2 class="photo-list-medium-title-box layout">
-      <pre class="photo-list-medium-title">
-109 壘球比賽
-109 Softball Game</pre
-      >
+        <div class="photo-list-medium-title">
+            <p>109 壘球比賽</p>
+            <p>109 Softball Game</p>
+        </div>
     </h2>
   </div>
 </a>
@@ -118,10 +118,10 @@ and Electronic Force Command</span></pre></h1>
   <img src="dist/images/4.jpg" alt="" class="photo-list-image layout" />
   <div class="photo-list-flex-item">
     <h2 class="photo-list-medium-title-box layout">
-      <pre class="photo-list-medium-title">
-109 壘球比賽
-109 Softball Game</pre
-      >
+        <div class="photo-list-medium-title">
+            <p>109 壘球比賽</p>
+            <p>109 Softball Game</p>
+        </div>
     </h2>
   </div>
 </a>
@@ -135,10 +135,10 @@ and Electronic Force Command</span></pre></h1>
   <img src="dist/images/5.jpg" alt="" class="photo-list-image layout" />
   <div class="photo-list-flex-item">
     <h2 class="photo-list-medium-title-box layout">
-      <pre class="photo-list-medium-title">
-109 壘球比賽
-109 Softball Game</pre
-      >
+        <div class="photo-list-medium-title">
+            <p>109 壘球比賽</p>
+            <p>109 Softball Game</p>
+        </div>
     </h2>
   </div>
 </a>
@@ -152,10 +152,10 @@ and Electronic Force Command</span></pre></h1>
   <img src="dist/images/6.jpg" alt="" class="photo-list-image layout" />
   <div class="photo-list-flex-item">
     <h2 class="photo-list-medium-title-box layout">
-      <pre class="photo-list-medium-title">
-109 壘球比賽
-109 Softball Game</pre
-      >
+        <div class="photo-list-medium-title">
+            <p>109 壘球比賽</p>
+            <p>109 Softball Game</p>
+        </div>
     </h2>
   </div>
 </a>

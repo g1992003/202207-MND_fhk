@@ -52,8 +52,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -64,8 +64,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -76,8 +76,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">Department</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -88,8 +88,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -100,8 +100,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -112,8 +112,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -124,8 +124,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -136,8 +136,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>
@@ -148,8 +148,8 @@
                                 <div class="year">96年</div>
                                 <div class="line"></div>
                                 <div class="title_name">
-                                    <p class="tw">政戰沿革</p>
-                                    <p class="en">History</p>
+                                    <span class="tw">政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革政戰沿革</span>
+                                    <span class="en">History History History History History History</span>
                                 </div>
                             </a>
                         </div>

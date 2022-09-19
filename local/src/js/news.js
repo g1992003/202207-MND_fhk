@@ -26,6 +26,8 @@ $(function(){
     }, false);
 
     let num = 0;
+    let lengthNum = $('.photo__list').length - 1
+    console.log(lengthNum)
     $('.new-section2__flex1 a').on('click', function(){
         let realIndex = $(this).index() / 2
         num = realIndex
@@ -40,8 +42,8 @@ $(function(){
         show(num)
     });
     $('.btn_next').on('click', function () {
-        if(num == 3){
-            num = 3
+        if(num == lengthNum){
+            num = lengthNum
         }else{
             num = num + 1
         }
@@ -51,7 +53,7 @@ $(function(){
         if(num == 0){
             $('.btn_prev').addClass('no-page')
             $('.btn_next').removeClass('no-page')
-        }else if(num == 3){
+        }else if(num == lengthNum){
             $('.btn_prev').removeClass('no-page')
             $('.btn_next').addClass('no-page')
         }else{

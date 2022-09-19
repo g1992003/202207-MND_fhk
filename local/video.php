@@ -49,7 +49,7 @@
           </div>
           <div class="video-flex1 layout">
             <div class="video-flex-item">
-              <a href="javascript:;" class="video-flex layout">
+              <a href="javascript:;" class="video-flex active layout">
                 <div style="--src:url(../images/assets/50c0f3cbd6d492073def413ef022f07f.jpg)" class="video-image8 layout icon_1"></div>
                 <div style="--src:url(../images/group1.png)" class="video-image8 layout icon_2"></div>
                 <div class="video-flex-item1">

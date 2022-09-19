@@ -106,9 +106,9 @@ and Electronic Force Command</span></pre>
                       <img src="<?php echo $img_data[$i]; ?>" alt="" class="photo-list-image layout" />
                       <div class="photo-list-flex-item">
                         <h2 class="photo-list-medium-title-box layout">
-                          <pre class="photo-list-medium-title">
-                          <?php echo $v["a_title_1"]; ?>
-                          <?php echo $v["a_title_2"]; ?></pre>
+                          <div class="photo-list-medium-title">
+                          <p><?php echo $v["a_title_1"]; ?></p>
+                          <p><?php echo $v["a_title_2"]; ?></p></div>
                         </h2>
                       </div>
                     </a>

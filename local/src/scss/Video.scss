@@ -90,6 +90,18 @@ $font_type_2: 0.75em/1.5 "Noto Sans", Helvetica, Arial, serif;
         font-weight: 700;
       }
     }
+    &.active{
+        .icon_1{
+          opacity: 0;
+        }
+        .icon_2{
+          opacity: 1;
+        }
+        .video_txt{
+          color: #1B597C;
+          font-weight: 700;
+        }
+    }
   }
   &-image8 {
     background: var(--src) center center / contain no-repeat;

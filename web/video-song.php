@@ -40,15 +40,19 @@ include "quote/template/head.php";
 
 <body class="lang_tw">
     <div class="song_sound">
-        <?php
+        <audio controls class="song_music">
+            <source src="" type="audio/mpeg">
+        </audio>
+    </div>
+    
+    <?php
         if ($data) {
             foreach ($data as $k => $v) { ?>
-                <audio controls class="song_music">
-                    <source src="<?php echo $v["v_url"]; ?>" type="audio/mpeg">
-                </audio>
+                <ul class="musicList" style="display: none">
+                    <li data-src="<?php echo $v["v_url"]; ?>"></li>
+                </ul>
         <?php  }
-        } ?>
-    </div>
+    } ?>
 
     <main class="song song-main layout" data-menu="2" data-video="3">
         <div class="song-banner layout">

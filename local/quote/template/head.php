@@ -19,6 +19,6 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="dist/css/common.css" />
     <link rel="stylesheet" type="text/css" href="dist/css/fonts.css" />
-    <script type="text/javascript" src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/px2code/posize/build/v1.00.6.js"></script>
+    <script type="text/javascript" src="dist/js/headroom.min.js"></script>
+    <script src="dist/js/v1.00.6.js"></script>
     <link rel="stylesheet" href="dist/css/main.css">
