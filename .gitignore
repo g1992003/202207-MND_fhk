@@ -1,9 +1,3 @@
-#dominator
-**/web/dominator/*
-!**/web/dominator/paging
-!**/web/dominator/index.php
-!**/web/dominator/system
-
 #dominator/paging
 web/dominator/paging/ckeditor
 web/dominator/paging/ckfinder

@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+view plaincopy to clipboardprint ?
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn_addPic {
+	display: block;
+	position: relative;
+	width: 50%;
+	height: 39px;
+	overflow: hidden;
+	border: 1px solid #AAA;
+	background: none repeat scroll 0 0 #F3F3F3;
+	color: #555;
+	cursor: pointer;
+	text-align: center;
+}
+
+.btn_addPic span {
+	display: block;
+	line-height: 39px;
+}
+
+.btn_addPic em {
+	background: url("../img/t014ce592c1a0b2d489.png") 0 0;
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	margin: 10px 5px 10px 0;
+	line-height: 20em;
+	vertical-align: middle;
+}
+
+.btn_addPic:hover em {
+	background-position: -19px 0;
+}
+.filebn{
+	font-family: "微軟正黑體";	
+}
+
+.filePrew {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 39px;
+	font-size: 100px; /* 增大不同浏览器的可点击区域 */
+	opacity: 0; /* 实现的关键点 */
+	filter: alpha(opacity = 0); /* 兼容IE */
+}
+
+#filename{
+	position: absolute;
+	top: 9px;
+	left: 180px;
+	font-family: "微軟正黑體";
+	
+}
