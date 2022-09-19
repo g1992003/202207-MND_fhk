@@ -128,8 +128,8 @@ include '../quote/head.php';
 													?>
 												</td>
 												<td style="text-align: center; vertical-align: middle; word-break:break-all;" width="40%">
-													<form action="../control/doupdate.php?db=<?php echo $db_name; ?>&id_name=<?php echo $id_name; ?>&id=<?php echo (int) $v[$id_name]; ?>" method="post" class="form-horizontal" id="form_update" name="form_update" enctype="multipart/form-data">
-														<button type="button" class="btn btn-primary btn-sm" onclick="doupdate();"><?php echo $cms_lang[23][$language]; ?></button>
+													<form action="../control/doupdate.php?db=<?php echo $db_name; ?>&id_name=<?php echo $id_name; ?>&id=<?php echo (int) $v[$id_name]; ?>" method="post" class="form-horizontal" id="form_update<?php echo $v[$id_name]; ?>" name="form_update" enctype="multipart/form-data">
+														<button type="button" class="btn btn-primary btn-sm" onclick="doupdate(<?php echo $v[$id_name]; ?>);"><?php echo $cms_lang[23][$language]; ?></button>
 														<button type="button" onclick="del(<?php echo $v[$id_name]; ?>);" class="btn btn-sm btn-danger">刪除</span></button>
 														<hr>
 														<input style="text-align: center;" type="text" class="form-control input-sm" id="p_img<?php echo (int) $v[$id_name]; ?>" name="<?php echo $img_name; ?>" value="<?php echo html_decode($v[$img_name]); ?>" />
@@ -167,8 +167,8 @@ include '../quote/head.php';
 		<?php include '../quote/del_box.php'; //刪除功能
 		?>
 
-		function doupdate() {
-			$("#form_update").submit();
+		function doupdate(id) {
+			$("#form_update" + id).submit();
 		};
 	</script>
 	<?php include '../quote/order_send.php'; //排序from表

@@ -1,7 +1,7 @@
 <?php 
 	//ini_set('session.cookie_secure','off');
 	header("X-Frame-Options: SAMEORIGIN");
-	$project_title = "資安通報";//專案名稱	
+	$project_title = "政戰園地";//專案名稱	
 	
 	/*
 	【後台語言包】
