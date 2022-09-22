@@ -110,7 +110,7 @@ include '../quote/head.php';
 													<?php echo html_decode($v[$year_name]); ?>
 												</td>
 												<td style="text-align: center; vertical-align: middle; word-break:break-all;" width="50%">
-													<?php echo html_decode($v[$title_name_1]); ?>
+													<?php echo html_decode($v[$title_name_1] . '<hr>' . $v[$title_name_2]); ?>
 												</td>
 											</tr>
 									<?php

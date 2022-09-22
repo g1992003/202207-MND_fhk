@@ -143,7 +143,7 @@ include '../quote/head.php';
 													?>
 												</td>
 												<td style="text-align: center; vertical-align: middle; word-break:break-all;" width="60%">
-													<?php echo  filter_var($v[$title_name_1], FILTER_SANITIZE_SPECIAL_CHARS); ?>
+													<?php echo html_decode($v[$title_name_1] . '<hr>' . $v[$title_name_2]); ?>
 												</td>
 											</tr>
 									<?php
