@@ -1,1 +1,79 @@
-.s-title-group{display:flex;flex-direction:column}.s-title-group.layout{position:relative}.s-title-s-title-box{display:flex;justify-content:center}@media (max-width:1399px){.s-title-s-title-box{align-items:flex-start;justify-content:center}}@media (max-width:1199px){.s-title-s-title-box{align-items:flex-start;justify-content:center}}.s-title-s-title-box.layout{position:relative;flex-grow:1;min-width:0px;width:100%;margin:0px 0px}.s-title-s-title{overflow:visible;margin-top:0px;margin-bottom:0px;margin:0px;font:32px/1.89 "Noto Sans",Helvetica,Arial,serif;color:rgb(79,79,79);text-align:center;letter-spacing:2.5px;white-space:pre-wrap;line-height:1.1}@media (max-width:1399px){.s-title-s-title{font-size:29px;text-align:center}}@media (max-width:1199px){.s-title-s-title{font-size:26px}}.s-title-s-title .tw{font-family:"Noto Sans TC"}.s-title-s-title .en{font-size:24px}
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.s-title-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.s-title-group.layout {
+  position: relative;
+}
+.s-title-s-title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 1399px) {
+  .s-title-s-title-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 1199px) {
+  .s-title-s-title-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.s-title-s-title-box.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 0px;
+  width: 100%;
+  margin: 0px 0px;
+}
+.s-title-s-title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 32px/1.89 "Noto Sans", Helvetica, Arial, serif;
+  color: rgb(79, 79, 79);
+  text-align: center;
+  letter-spacing: 2.5px;
+  white-space: pre-wrap;
+  line-height: 1.1;
+}
+@media (max-width: 1399px) {
+  .s-title-s-title {
+    font-size: 29px;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .s-title-s-title {
+    font-size: 26px;
+  }
+}
+.s-title-s-title .tw {
+  font-family: "Noto Sans TC";
+}
+.s-title-s-title .en {
+  font-size: 24px;
+}

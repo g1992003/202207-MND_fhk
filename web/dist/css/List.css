@@ -1,5 +1,7 @@
 /* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
 .list-page__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .list-page__list.layout {
@@ -8,10 +10,17 @@
   min-width: 380px;
 }
 .list-page__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  flex: 0 1 14px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 14px;
+          flex: 0 1 14px;
 }
 .list-image7 {
   background: var(--src) center center/cover no-repeat;
@@ -24,13 +33,22 @@
   margin: 19px 0px 22px;
 }
 .list-page__list-spacer {
-  flex: 0 1 30px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30px;
+          flex: 0 1 30px;
 }
 .list-page__list-item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  flex: 0 1 11px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 11px;
+          flex: 0 1 11px;
 }
 .list-image6 {
   background: var(--src) center center/cover no-repeat;
@@ -43,57 +61,102 @@
   margin: 15px 0px 18px;
 }
 .list-page__list-spacer1 {
-  flex: 0 1 25px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
 }
 .list-page__list-item2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  flex: 0 1 57px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 57px;
+          flex: 0 1 57px;
 }
 .list-block1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background: var(--src) center center/cover no-repeat;
 }
 .list-block1.layout {
   position: relative;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 .list-subtitle {
   font: 20px/1.89 "Noto Sans", Helvetica, Arial, serif;
-  color: #4f4f4f;
+  color: rgb(79, 79, 79);
   letter-spacing: 0px;
 }
 .list-subtitle.layout {
   position: relative;
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   margin: 8px 12px 10px 17px;
 }
 .list-page__list-spacer2 {
-  flex: 0 1 25px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
 }
 .list-page__list-item3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  flex: 0 1 57px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 57px;
+          flex: 0 1 57px;
 }
 .list-page__list-spacer3 {
-  flex: 0 1 24px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 24px;
+          flex: 0 1 24px;
 }
 .list-page__list-item4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  flex: 0 1 57px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 57px;
+          flex: 0 1 57px;
 }
 .list-page__list-spacer4 {
-  flex: 0 1 25px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
 }
 .list-page__list-item5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
-  flex: 0 1 11px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 11px;
+          flex: 0 1 11px;
 }

@@ -498,7 +498,15 @@ td{
         }
         &:hover{
             color: $primary-color;
-            font-weight: 700;
+            // font-weight: 700;
+        }
+        .en{
+            font-size: 20px;
+        }
+        .tw, .en{
+            @include clamp(1.35, 2);
+            height: auto;
+            max-height: (1.35 * 2) * 1em;
         }
     }
 }

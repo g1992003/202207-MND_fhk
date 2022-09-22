@@ -207,11 +207,11 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     width: 100%;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.75s;
+    transition: opacity 0.75s;
     &.scroll_show{
         z-index: 10;
         opacity: 1;
-        pointer-events: all;
+        pointer-events: all
     }
     
     .headerS-nav__scroll{
@@ -241,8 +241,7 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     }
 }
 
-.headerS-nav__scroll > a {
-  &.active{
+.headerS-nav__scroll > a:not(.nohover_icon) {
     position: relative;
     transition: all 0.75s;
     &::after{
@@ -253,11 +252,22 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
       width: 120%;
       height: 2px;
       background: #fff;
+      transition: all 0.75s;
+      opacity: 0;
       @include xl {
         left: -5%;
         width: 110%;
         height: 1px;
       }
+    }
+    &:hover{
+        &::after{
+            opacity: 1;
+        }
+    }
+  &.active{
+    &::after{
+        opacity: 1;
     }
   }
 }

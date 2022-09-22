@@ -1,1 +1,54 @@
-.pagebanner-banner{display:flex;flex-direction:column}.pagebanner-banner.layout{position:relative;height:950px;overflow:hidden}@media (max-width:1399px){.pagebanner-banner.layout{height:800px;margin:0px}}@media (max-width:1199px){.pagebanner-banner.layout{height:700px}}.pagebanner-kv{display:flex;flex-direction:column;background:var(--src) left top/cover no-repeat}.pagebanner-kv.layout{position:absolute;top:149px;bottom:0px;left:0px;right:0px}.pagebanner-component{flex-grow:1}.pagebanner-component.layout{position:relative;flex-grow:1}
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.pagebanner-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.pagebanner-banner.layout {
+  position: relative;
+  height: 950px;
+  overflow: hidden;
+}
+@media (max-width: 1399px) {
+  .pagebanner-banner.layout {
+    height: 800px;
+    margin: 0px;
+  }
+}
+@media (max-width: 1199px) {
+  .pagebanner-banner.layout {
+    height: 700px;
+  }
+}
+.pagebanner-kv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: var(--src) left top/cover no-repeat;
+}
+.pagebanner-kv.layout {
+  position: absolute;
+  top: 149px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.pagebanner-component {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.pagebanner-component.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}

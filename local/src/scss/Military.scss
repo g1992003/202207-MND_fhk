@@ -303,7 +303,7 @@ $font_type_0: 24px/1.89 "Noto Sans", Helvetica, Arial, serif;
   &:hover{
     pre{
       color: #1B597C;
-      font-weight: 700;
+    //   font-weight: 700;
     }
   }
   pre{
@@ -355,10 +355,13 @@ $font_type_5: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     }
     &:hover {
         .military-2-subtitle1-span0, .military-2-subtitle1-span1{
-            font-weight: 700;
+            // font-weight: 700;
             color: #1B597C;
         }
     }
+  }
+  &-subtitle, &-subtitle1{
+      line-height: 1 !important;
   }
   &-flex1 {
     @include flex-column;
@@ -423,7 +426,7 @@ $font_type_5: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     }
     &:hover {
         .military-2-subtitle-span0, .military-2-subtitle-span1{
-            font-weight: 700;
+            // font-weight: 700;
             color: #1B597C;
         }
     }
@@ -491,7 +494,7 @@ $font_type_5: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     }
     &:hover {
         .military-2-subtitle2-span0, .military-2-subtitle2-span1{
-            font-weight: 700;
+            // font-weight: 700;
             color: #1B597C;
         }
     }
@@ -539,7 +542,7 @@ $font_type_5: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     }
     &:hover {
         .military-2-subtitle2-span0, .military-2-subtitle2-span1{
-            font-weight: 700;
+            // font-weight: 700;
             color: #1B597C;
         }
     }
@@ -578,7 +581,7 @@ $font_type_5: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     }
     &:hover {
         .military-2-subtitle2-span0, .military-2-subtitle2-span1{
-            font-weight: 700;
+            // font-weight: 700;
             color: #1B597C;
         }
     }

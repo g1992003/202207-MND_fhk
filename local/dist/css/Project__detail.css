@@ -1,1 +1,113 @@
-.project-detail-main{display:flex;flex-direction:column;background-color:rgb(255,255,255)}.project-detail-main.layout{position:relative;overflow:hidden;min-width:0px;max-width:1920px}.project-detail-section1.layout{position:relative}.project-detail-project__detail__main{display:flex;flex-direction:column}.project-detail-project__detail__main.layout{position:relative}.project-detail-flex{display:flex;flex-direction:column}.project-detail-flex.layout{position:relative;flex-grow:1;margin:112px auto 24px}@media (max-width:1399px){.project-detail-flex.layout{margin:60px auto 24px}}@media (max-width:1199px){.project-detail-flex.layout{margin:36px auto 24px}}.project-detail-flex-item{display:flex;flex-direction:column;position:relative}.project-detail-s-title{flex-grow:1}.project-detail-s-title.layout{position:relative;flex-grow:1;min-width:0px;width:100%;margin:0px auto}.project-detail-title.layout{position:relative;width:463px;min-width:463px;margin:41px auto 46px}.project-detail-prev.layout{position:relative;width:161px;min-width:161px;margin:27px auto 0px}@media (max-width:1399px){.project-detail-prev.layout{margin:20px auto 0px}}@media (max-width:1199px){.project-detail-prev.layout{margin:15px auto 0px}}.project-detail-section3.layout{position:relative}.project-detail .title-title{line-height:1.15}.project-detail .title-title .en{font-size:36px}
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.project-detail-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.project-detail-main.layout {
+  position: relative;
+  overflow: hidden;
+  min-width: 0px;
+  max-width: 1920px;
+}
+.project-detail-section1.layout {
+  position: relative;
+}
+.project-detail-project__detail__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.project-detail-project__detail__main.layout {
+  position: relative;
+}
+.project-detail-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.project-detail-flex.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 112px auto 24px;
+}
+@media (max-width: 1399px) {
+  .project-detail-flex.layout {
+    margin: 60px auto 24px;
+  }
+}
+@media (max-width: 1199px) {
+  .project-detail-flex.layout {
+    margin: 36px auto 24px;
+  }
+}
+.project-detail-flex-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.project-detail-s-title {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.project-detail-s-title.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 0px;
+  width: 100%;
+  margin: 0px auto;
+}
+.project-detail-title.layout {
+  position: relative;
+  width: 463px;
+  min-width: 463px;
+  margin: 41px auto 46px;
+}
+.project-detail-prev.layout {
+  position: relative;
+  width: 161px;
+  min-width: 161px;
+  margin: 27px auto 0px;
+}
+@media (max-width: 1399px) {
+  .project-detail-prev.layout {
+    margin: 20px auto 0px;
+  }
+}
+@media (max-width: 1199px) {
+  .project-detail-prev.layout {
+    margin: 15px auto 0px;
+  }
+}
+.project-detail-section3.layout {
+  position: relative;
+}
+.project-detail .title-title {
+  line-height: 1.15;
+}
+.project-detail .title-title .en {
+  font-size: 36px;
+}

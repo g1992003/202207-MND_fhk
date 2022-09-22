@@ -1,1 +1,127 @@
-.title-group{display:flex;flex-direction:column}.title-group.layout{position:relative}.title-title-box{display:flex;justify-content:center}@media (max-width:1399px){.title-title-box{align-items:flex-start;justify-content:center}}@media (max-width:1199px){.title-title-box{align-items:flex-start;justify-content:center}}.title-title-box.layout{position:relative;flex-grow:1;min-width:0px;width:fit-content;margin:0px auto}.title-title{overflow:visible;margin-top:0px;margin-bottom:0px;margin:0px;font:700 48px/1.89 "Noto Sans",Helvetica,Arial,serif;color:rgb(27,89,124);text-align:center;letter-spacing:4.4px;white-space:pre-wrap;font-family:"Noto Sans TC",sans-serif;font-weight:700;line-height:1}@media (max-width:1399px){.title-title{line-height:0.75}}.title-title .tw{font-size:48px;font-family:"Noto Sans","Noto Sans TC"}@media (max-width:1399px){.title-title .tw{font-size:42px;text-align:center}}@media (max-width:1199px){.title-title .tw{font-size:36px}}.title-title .en{font-size:32px;letter-spacing:0px;font-family:"Noto Sans"}@media (max-width:1399px){.title-title .en{font-size:28px;text-align:center}}@media (max-width:1199px){.title-title .en{font-size:24px}}.title-title .en.fz36{font-size:36px}@media (max-width:1399px){.title-title .en.fz36{font-size:32px}}@media (max-width:1199px){.title-title .en.fz36{font-size:28px}}.title-title .video_en{margin:4px 0 0 0.9em}.video_flex{display:flex;align-items:center}
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.title-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.title-group.layout {
+  position: relative;
+}
+.title-title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media (max-width: 1399px) {
+  .title-title-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media (max-width: 1199px) {
+  .title-title-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.title-title-box.layout {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  min-width: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto;
+}
+.title-title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 700 48px/1.89 "Noto Sans", Helvetica, Arial, serif;
+  color: rgb(27, 89, 124);
+  text-align: center;
+  letter-spacing: 4.4px;
+  white-space: pre-wrap;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+@media (max-width: 1399px) {
+  .title-title {
+    line-height: 0.75;
+  }
+}
+.title-title .tw {
+  font-size: 48px;
+  font-family: "Noto Sans", "Noto Sans TC";
+}
+@media (max-width: 1399px) {
+  .title-title .tw {
+    font-size: 42px;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .title-title .tw {
+    font-size: 36px;
+  }
+}
+.title-title .en {
+  font-size: 32px;
+  letter-spacing: 0px;
+  font-family: "Noto Sans";
+}
+@media (max-width: 1399px) {
+  .title-title .en {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .title-title .en {
+    font-size: 24px;
+  }
+}
+.title-title .en.fz36 {
+  font-size: 36px;
+}
+@media (max-width: 1399px) {
+  .title-title .en.fz36 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1199px) {
+  .title-title .en.fz36 {
+    font-size: 28px;
+  }
+}
+.title-title .video_en {
+  margin: 4px 0 0 0.9em;
+}
+
+.video_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

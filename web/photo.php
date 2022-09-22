@@ -75,7 +75,7 @@ include "quote/template/head.php";
             <div class="s-title s-title-group layout">
               <div class="s-title-s-title-box layout">
                 <pre class="s-title-s-title"><span class="tw">相片剪影</span>
-<span class="en">PHOTO</span></pre>
+<span class="en">Photo</span></pre>
               </div>
             </div>
 

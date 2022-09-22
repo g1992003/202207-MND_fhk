@@ -10,7 +10,7 @@
         
       <div class="index-banner__header layout header nav">
         <?php
-            include "quote/template/nav.php";
+            include "quote/template/nav_index.php";
         ?>
         <px-posize
           x="1108fr 756fr 56px"

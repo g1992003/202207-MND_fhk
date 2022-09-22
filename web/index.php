@@ -21,7 +21,7 @@ include "quote/template/head.php";
 
       <div class="index-banner__header layout header nav">
         <?php
-        include "quote/template/nav.php";
+        include "quote/template/nav_index.php";
         ?>
         <px-posize x="1108fr 756fr 56px" y="100px minmax(0px, 600fr) 0px" lg-x="1108fr 756fr 56px" lg-y="100px minmax(0px, 600fr) 0px">
           <div class="index-banner__group">

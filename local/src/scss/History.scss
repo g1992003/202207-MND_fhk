@@ -71,9 +71,9 @@ $color_type_0: rgb(255, 255, 255);
   }
   .swiper-slide{
     width: 19.5%;
-    &:hover:not(.s_circle){
+    &:hover{
         .year{
-            font-weight: bold;
+            // font-weight: bold;
             font-size: 36px;
         }
         .line{
@@ -92,10 +92,59 @@ $color_type_0: rgb(255, 255, 255);
             }
         }
         .title_name{
-            font-size: 36px;
-            font-weight: bold;
+            // font-size: 32px;
+            // font-weight: bold;
             color: #1B597C;
-            border-bottom: 4px solid #1B597C;
+            // border-bottom: 4px solid #1B597C;
+        }
+        
+        &.s_circle{
+            .year{
+                font-size: 28px;
+                opacity: 1;
+            }
+            .line{
+                position: relative;
+                width: 100%;
+                height: 3px;
+                background: #4F4F4F;
+                transition: all 0.75s;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    z-index: 2;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: all 0.75s;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background: #fff;
+                    border: 3px solid #1B597C;
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transition: all 0.75s;
+                    z-index: 10;
+                    width: 24px;
+                    height: 24px;
+                    border-radius: 50%;
+                    background: #1B597C;
+                    opacity: 1;
+                }
+            }
+            .title_name{
+                font-size: 28px;
+                color: #1B597C;
+                .en{
+                    font-size: 20px;
+                }
+            }
         }
     }
     .s_circle{        
@@ -151,7 +200,7 @@ $color_type_0: rgb(255, 255, 255);
         }
     }
     .title_name{
-        font-size: 32px;
+        font-size: 28px;
         color: #747474;
         font-weight: 400;
         line-height: 1.895;
@@ -161,10 +210,10 @@ $color_type_0: rgb(255, 255, 255);
         display: inline-block;
         border-bottom: 4px solid transparent;
         p:first-child{
-          line-height: 1;
+            line-height: 1;
         }
         .en{
-            font-size: 24px;
+            font-size: 20px;
         }
     }
     &.s_circle{
@@ -189,6 +238,9 @@ $color_type_0: rgb(255, 255, 255);
         .title_name{
             font-size: 24px;
             color: #A5A5A5;
+            .en{
+                font-size: 18px;
+            }
         }
     }
   }  
@@ -218,8 +270,16 @@ $color_type_0: rgb(255, 255, 255);
 .history .title_name{
     width: 90%;
     span{
-        &.tw, &.en{
-            @include clamp(1.5,1)
+        &.tw{
+            height: 1.5em;
+            line-height: 1.5;
+            display: -webkit-inline-box;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            white-space: normal;
+        }
+        &.en{
+            @include clamp(1.2,2)
         }
     }
 }

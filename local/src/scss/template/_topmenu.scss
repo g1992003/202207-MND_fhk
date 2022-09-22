@@ -31,7 +31,7 @@
         @include mediaquery(768px, null) {
             &:hover a{
                 color: #1B597C;
-                font-weight: 700;
+                // font-weight: 700;
             }
         }
         &:first-child a{
@@ -48,14 +48,13 @@
             overflow: hidden;
             padding: 7px 30px 7px 10px;
             line-height: 1.4;
-            transition: all 0.5s;
+            transition: all 0.75s;
             margin-right: 56px;
             letter-spacing: 4px;
             @include mediaquery(null, 767px) {
                 padding: 5px 12px 6px;
             }
             > div{
-                transition: all 0.5s;
                 padding-bottom: 12px;
                 border-bottom: 3px solid transparent;
             }

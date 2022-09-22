@@ -28,7 +28,7 @@ Drug Prevention, Gender Equality, DUI Prevention, Disorderly Behaviour</pre>
                   <div class="txt-box-more layout">
 
                     <a href="video-control.php" class="btn-more btn-more-btn__more layout">
-                      <div class="btn-more-subtitle2 layout">查看更多</div>
+                      <div class="btn-more-subtitle2 layout">看更多</div>
                     </a>
 
                   </div>
@@ -53,7 +53,7 @@ Recruitment agency, recruitment list, military introduction, career planning, re
                   <div class="txt-box-more layout">
 
                     <a href="video.php" class="btn-more btn-more-btn__more layout">
-                      <div class="btn-more-subtitle2 layout">查看更多</div>
+                      <div class="btn-more-subtitle2 layout">看更多</div>
                     </a>
 
                   </div>
@@ -77,7 +77,7 @@ Use laws and regulations to promote and standardize to strengthen the concept</p
                   <div class="txt-box-more layout">
 
                     <a href="project.php" class="btn-more btn-more-btn__more layout">
-                      <div class="btn-more-subtitle2 layout">查看更多</div>
+                      <div class="btn-more-subtitle2 layout">看更多</div>
                     </a>
 
                   </div>

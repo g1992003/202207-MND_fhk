@@ -83,7 +83,7 @@ include "quote/template/head.php";
                                     <div class="title title-group layout">
                                         <h1 class="title-title-box layout">
                                             <pre class="title-title"><span class="tw">軍歌教唱</span>
-<span class="en fz36">SONG</span>
+<span class="en fz36">Song</span>
 </pre>
                                         </h1>
                                     </div>

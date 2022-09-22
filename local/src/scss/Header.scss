@@ -11,6 +11,7 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
 
 .header {
     transition: all 0.75s;
+
     &.hidden{
         opacity: 0;
         pointer-events: none
@@ -330,4 +331,29 @@ header{
     top: 0;
     left: 0;
     display: none;
+}
+.header_hover_after{
+    position: relative;
+    transition: all 0.75s;
+    &::after{
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: -10%;
+      width: 120%;
+      height: 2px;
+      background: #1b597c;
+      transition: all 0.75s;
+      opacity: 0;
+      @include xl {
+        left: -5%;
+        width: 110%;
+        height: 1px;
+      }
+    }
+    &:hover{
+        &::after{
+            opacity: 1;
+        }
+    }
 }

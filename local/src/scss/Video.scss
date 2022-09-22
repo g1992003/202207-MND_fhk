@@ -87,7 +87,7 @@ $font_type_2: 0.75em/1.5 "Noto Sans", Helvetica, Arial, serif;
       }
       .video_txt{
         color: #1B597C;
-        font-weight: 700;
+        // font-weight: 700;
       }
     }
     &.active{
@@ -414,6 +414,9 @@ $font_type_2: 0.75em/1.5 "Noto Sans", Helvetica, Arial, serif;
 }
 #top-menu-ul-1{
     margin-top: 6em;
+    .item_menu_Box{
+        text-align: center;
+    }
 }
 .video-flex.layout4.mt75{
     margin-top: 75px;
