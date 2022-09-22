@@ -212,4 +212,12 @@
             }
         }
     }
+    .flex-direction-nav {
+        a.flex-prev {
+            top: 0px;
+        }
+        a.flex-next {
+            top: 0px;
+        }
+    }
 }

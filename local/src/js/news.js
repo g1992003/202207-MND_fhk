@@ -9,7 +9,6 @@ $(function(){
     $('#close').on('click', function () {
         $('#modalBg').css('display', 'none')
         $('body').removeClass('modal-open')
-        console.log()
         $('html, body').animate({
             scrollTop: $('.new-section2__flex-item').offset().top - 160
          }, 1000);
@@ -27,7 +26,6 @@ $(function(){
 
     let num = 0;
     let lengthNum = $('.photo__list').length - 1
-    console.log(lengthNum)
     $('.new-section2__flex1 a').on('click', function(){
         let realIndex = $(this).index() / 2
         num = realIndex

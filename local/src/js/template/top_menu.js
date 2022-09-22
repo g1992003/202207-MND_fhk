@@ -29,10 +29,10 @@ $(function(){
         }else if(id === "top-menu-ul-1"){
             move = ((winW - menu_box_parent) + 681) / 2 ; 
         }
-            console.log(id)
         let sum = 0, i = 0, sclEnd;
         let pos = new Array();
         let sumArray = new Array();
+
 
         menu_li.each(function () {
 						//pos[i]計算每一個li到window的左邊距離
