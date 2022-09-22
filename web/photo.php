@@ -24,6 +24,9 @@ $end_page = $p + 1 <= $maxPage ? $p + 1 : $maxPage;
 $start_page = $end_page - 2 >= 1 ? $end_page - 2 : 1;
 if ($end_page - $start_page < 2) $end_page = $start_page + 2 <= $maxPage ? $start_page + 2 : $maxPage;
 
+//單位相簿
+$query = "SELECT c_title_1,c_title_2 FROM [a_category] $where";
+$c_data = sql_data($query, $link, 1);
 
 //內容
 $query = "SELECT * FROM [album] $where ORDER BY a_order offset {$start} rows fetch next {$check} rows only";
@@ -40,7 +43,7 @@ foreach ($data as $k => $v) {
 }
 
 $link = null;
-$title_var = "資通電軍指揮部 | 相片剪影 | " . $title_var;
+$title_var = $c_data["c_title_1"] . " | 相片剪影 | " . $title_var;
 
 include "quote/template/head.php";
 ?>
@@ -87,9 +90,8 @@ include "quote/template/head.php";
             <div class="title title-group layout">
               <h1 class="title-title-box layout">
                 <pre class="title-title">
-<span class="tw">資通電軍指揮部</span>
-<span class="en">Information Communications
-and Electronic Force Command</span></pre>
+<span class="tw"><?php echo $c_data["c_title_1"]; ?></span>
+<span class="en"><?php echo $c_data["c_title_2"]; ?></span></pre>
               </h1>
             </div>
 
@@ -107,8 +109,9 @@ and Electronic Force Command</span></pre>
                       <div class="photo-list-flex-item">
                         <h2 class="photo-list-medium-title-box layout">
                           <div class="photo-list-medium-title">
-                          <p><?php echo $v["a_title_1"]; ?></p>
-                          <p><?php echo $v["a_title_2"]; ?></p></div>
+                            <p><?php echo $v["a_title_1"]; ?></p>
+                            <p><?php echo $v["a_title_2"]; ?></p>
+                          </div>
                         </h2>
                       </div>
                     </a>

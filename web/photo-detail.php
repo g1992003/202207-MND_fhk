@@ -25,8 +25,13 @@ $start_page = $end_page - 2 >= 1 ? $end_page - 2 : 1;
 if ($end_page - $start_page < 2) $end_page = $start_page + 2 <= $maxPage ? $start_page + 2 : $maxPage;
 
 //標題
-$query = "SELECT a_title_1,a_title_2 FROM [album] $where";
+$query = "SELECT a_title_1,a_title_2,c_id FROM [album] $where";
 $title_data = sql_data($query, $link, 1);
+$c_id = $title_data["c_id"];
+
+//單位相簿
+$query = "SELECT c_title_1,c_title_2 FROM [a_category] WHERE c_id = $c_id";
+$c_data = sql_data($query, $link, 1);
 
 //內容
 $query = "SELECT p_img FROM [photo]  WHERE a_id = $id ORDER BY p_order offset {$start} rows fetch next {$check} rows only";
@@ -68,8 +73,8 @@ include "quote/template/head.php";
 
             <div class="s-title s-title-group layout">
               <div class="s-title-s-title-box layout">
-                <pre class="s-title-s-title"><span class="tw">資通電軍指揮部</span>
-<span class="en">Military Unit</span>
+                <pre class="s-title-s-title"><span class="tw"><?php echo $c_data["c_title_1"]; ?></span>
+<span class="en"><?php echo $c_data["c_title_2"]; ?></span>
 </pre>
               </div>
             </div>
