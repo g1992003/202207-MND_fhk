@@ -12,15 +12,6 @@ if ($id <= 30) {
     exit();
 }
 
-//年份
-if (!isset($year) || !is_numeric($year)) {
-    $year = '';
-    $where = "WHERE c_id = $id";
-    $page_set = "?id=$id&p="; //頁碼
-} else {
-    $where = "WHERE c_id = $id AND v_text LIKE '$year'";
-    $page_set = "?id=$id&year=$year&p="; //頁碼
-}
 $query = "SELECT DISTINCT CONVERT (VARCHAR(8000), v_text) AS v_year FROM [video] WHERE c_id = $id";
 $data = sql_data($query, $link);
 $year_data = array();
@@ -28,6 +19,13 @@ foreach ($data as $k => $v) {
     array_push($year_data, $v["v_year"]);
 }
 sort($year_data);
+
+//年份
+if (!isset($year) || !is_numeric($year)) {
+    $year = reset($year_data);
+}
+$where = "WHERE c_id = $id AND v_text LIKE '$year'";
+$page_set = "?id=$id&year=$year&p="; //頁碼
 
 //分頁設定開始
 $check = 4; //分頁數量
@@ -165,7 +163,8 @@ include "quote/template/head.php";
                                             <div class="video-list-flex-item">
                                                 <h2 class="video-list-video__txt-box layout">
                                                     <div class="video-list-video__txt"><span class="tw"><?php echo $v["v_title_1"]; ?></span>
-<span class="en"><?php echo $v["v_title_2"]; ?></span></div>
+                                                        <span class="en"><?php echo $v["v_title_2"]; ?></span>
+                                                    </div>
                                                 </h2>
                                             </div>
                                         </a>

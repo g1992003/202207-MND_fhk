@@ -25,12 +25,12 @@ include '../quote/head.php';
 		include '../quote/sidebar.php';
 		$_SESSION["dom_url"] = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
-		$title = array(0 => "其他基本設定", 6 => "頁尾版權",  21 => "首頁歡迎語《中》", 22 => "首頁歡迎語《英》", 23 => "首頁影片集錦", 24 => "心輔信箱");
+		$title = array(0 => "其他基本設定", 6 => "頁尾版權",  21 => "首頁歡迎語《中》", 22 => "首頁歡迎語《英》", 23 => "首頁影片集錦", 24 => "心輔信箱", 25 => "網站預設音檔");
 		$db_name = "document";
 		$id_name = "d_id";
 		$text_name = "d_text";
 
-		$query = "SELECT * FROM [$db_name] WHERE $id_name IN(6,21,22,23,24)";
+		$query = "SELECT * FROM [$db_name] WHERE $id_name IN(6,21,22,23,24,25)";
 		$data = sql_data($query, $link, 2, "d_id");
 		$link = null;
 		?>

@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="dist/css/HeaderS.css" />
 
 <audio loop autoplay class="music_play">
-    <source src="dist/audio/001.mp3" type="audio/mpeg">
+    <source src="<?php echo $meta_data[25]["d_text"]; ?>" type="audio/mpeg">
 </audio>
 
 <header class="header-group layout header hidden">
