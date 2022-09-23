@@ -102,7 +102,9 @@ include '../quote/head.php';
 	<script src="ckeditor/ckeditor.js"></script>
 	<script src="../js/window_load.js"></script>
 	<script type="text/javascript">
-		//	     		新增備註
+		//	新增備註
+		$('#form_update_23 input').after("<span style='color:red;font-weight:blod;'>建議尺寸：754*586</span>");
+
 		function doupdate(id) {
 			$("#form_update_" + id).submit();
 			alert("<?php echo $cms_lang[23][$language] . $cms_lang[41][$language]; ?>");

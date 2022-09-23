@@ -42,9 +42,11 @@ include '../quote/head.php';
 		if ($id == 1) {
 			$title = "輪播圖片管理";
 			$title2 = "輪播圖片管理";
+			$img_size = "1904*794";
 		} else {
 			$title = html_decode("分類《" . $row[0] . "》相簿管理");
 			$title2 = html_decode("《" . $row[2] . "》相片管理");
+			$img_size = "920*620";
 		}
 		$db_name = "photo";
 		$id_name = "p_id";
@@ -133,6 +135,7 @@ include '../quote/head.php';
 														<button type="button" onclick="del(<?php echo $v[$id_name]; ?>);" class="btn btn-sm btn-danger">刪除</span></button>
 														<hr>
 														<input style="text-align: center;" type="text" class="form-control input-sm" id="p_img<?php echo (int) $v[$id_name]; ?>" name="<?php echo $img_name; ?>" value="<?php echo html_decode($v[$img_name]); ?>" />
+														<div style='color:red;font-weight:blod;'>建議尺寸：<?php echo $img_size; ?></div>
 													</form>
 												</td>
 												<td style="text-align: center; vertical-align: middle; word-break:break-all;" width="30%">

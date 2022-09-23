@@ -62,6 +62,7 @@ include '../quote/head.php';
 
 		$link = null;
 		$title_current = "影音資訊";
+		$img_size = "736*490";
 
 		// 1、型態：input、date、textarea、img、file、select
 		// 2、ALL：標題
@@ -160,7 +161,8 @@ include '../quote/head.php';
 				el.innerHTML = "";
 				let temp = `<div class='form-group'>
 							<label class='col-sm-3 col-md-3 col-lg-2 control-label'>圖片顯示</label>
-							<div class='col-sm-9 col-md-9 col-lg-10'>`
+							<div class='col-sm-9 col-md-9 col-lg-10'>
+								<div style='color:red;font-weight:blod;'>建議尺寸：<?php echo $img_size; ?></div>`
 				if (nameElement1[0]) temp += `<img src='${nameElement1[0].value}' style="max-with:400px;height:400px">`
 				temp += `</div></div>`
 				el.innerHTML = temp;

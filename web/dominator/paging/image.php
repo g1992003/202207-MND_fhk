@@ -123,6 +123,7 @@ include '../quote/head.php';
 														<button type="button" onclick="del(<?php echo $v[$id_name]; ?>);" class="btn btn-sm btn-danger">刪除</span></button>
 														<hr>
 														<input style="text-align: center;" type="text" class="form-control input-sm" id="p_img<?php echo (int) $v[$id_name]; ?>" name="<?php echo $img_name; ?>" value="<?php echo html_decode($v[$img_name]); ?>" />
+														<span style='color:red;font-weight:blod;'>建議尺寸：1104*664</span>
 													</form>
 												</td>
 												<td style="text-align: center; vertical-align: middle; word-break:break-all;" width="30%">

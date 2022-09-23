@@ -45,10 +45,12 @@ include '../quote/head.php';
 			$title = "輪播圖片管理";
 			$title2 = "輪播圖片管理";
 			$title_current = "圖片";
+			$img_size = "1904*794";
 		} else {
 			$title = html_decode("分類《" . $row[0] . "》相簿管理");
 			$title2 = html_decode("《" . $row[2] . "》相片管理");
 			$title_current = "相片";
+			$img_size = "920*620";
 		}
 		$db_name = "photo";
 		$id_name = "p_id";
@@ -140,7 +142,8 @@ include '../quote/head.php';
 			el.innerHTML = "";
 			let temp = `<div class='form-group'>
 							<label class='col-sm-3 col-md-3 col-lg-2 control-label'>圖片顯示</label>
-							<div class='col-sm-9 col-md-9 col-lg-10'>`
+							<div class='col-sm-9 col-md-9 col-lg-10'>
+							<div style='color:red;font-weight:blod;'>建議尺寸：<?php echo $img_size; ?></div>`
 			if (nameElement1[0]) temp += `<img src='${nameElement1[0].value}' style="max-with:400px;height:400px">`
 			temp += `</div></div>`
 			el.innerHTML = temp;
