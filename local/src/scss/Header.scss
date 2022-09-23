@@ -98,7 +98,7 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     color: $color_type_2;
     text-align: center;
     letter-spacing: 0px;
-    white-space: pre-wrap;
+    // white-space: pre-wrap;
     line-height: 0.45;
     @include xl {
       text-align: center;
@@ -212,7 +212,7 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
     color: $color_type_2;
     text-align: center;
     letter-spacing: 0px;
-    white-space: pre-wrap;
+    // white-space: pre-wrap;
     line-height: 0.45;
   }
   &-flex-spacer5 {
@@ -313,6 +313,8 @@ $font_type_2: 0.7272727272727273em/1.5 "Noto Sans", Helvetica, Arial, serif;
 header{
     &.header{
         .header_ch{
+            font-family: 'Noto Sans TC', 'Noto Sans',sans-serif;
+            font-weight: 300;
             @include lg{
                 font-size: 20px;
             }
