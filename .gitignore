@@ -9,5 +9,7 @@ web/upload
 DB/*.ipynb
 DB/*.mdf
 DB/*.ldf
+*mp3
+*mp4
 
 

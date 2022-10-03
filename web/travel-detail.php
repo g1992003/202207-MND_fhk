@@ -71,7 +71,7 @@ include "quote/template/head.php";
         <div class="tag-menu--travel-block1 layout">
           <div class="tag-menu--travel-flex layout">
             <div class="tag-menu--travel-flex-item <?php echo ($c_id == 10) ? 'active' : ''; ?>">
-              <a href="javascript:;" class="tag-menu--travel-flex1 layout">
+              <a href="travel.php?id=10" class="tag-menu--travel-flex1 layout">
                 <div style="--src:url(../images/assets/e39073c847e5d903c038da2134776be7.png)" class="tag-menu--travel-group layout hover_img"></div>
                 <div style="--src:url(../images/Vector1.png)" class="tag-menu--travel-group layout hover_img_h"></div>
                 <h2 class="tag-menu--travel-medium-title-box layout">
@@ -82,7 +82,7 @@ include "quote/template/head.php";
               </a>
             </div>
             <div class="tag-menu--travel-flex-item <?php echo ($c_id == 11) ? 'active' : ''; ?>">
-              <a href="javascript:;" class="tag-menu--travel-flex2 layout">
+              <a href="travel.php?id=11" class="tag-menu--travel-flex2 layout">
                 <div style="--src:url(../images/assets/0aa24068d7a4f87736d413c4a1174fc4.png)" class="tag-menu--travel-group layout1 hover_img"></div>
                 <div style="--src:url(../images/Vector2.png)" class="tag-menu--travel-group layout1 hover_img_h"></div>
                 <h2 class="tag-menu--travel-medium-title-box layout1">
@@ -93,7 +93,7 @@ include "quote/template/head.php";
               </a>
             </div>
             <div class="tag-menu--travel-flex-item <?php echo ($c_id == 12) ? 'active' : ''; ?>">
-              <a href="javascript:;" class="tag-menu--travel-flex3 layout">
+              <a href="travel.php?id=12" class="tag-menu--travel-flex3 layout">
                 <div style="--src:url(../images/assets/43ce14c112bffd8443a30e877e82a310.png)" class="tag-menu--travel-image4 layout hover_img"></div>
                 <div style="--src:url(../images/Vector3.png)" class="tag-menu--travel-image4 layout hover_img_h"></div>
                 <h2 class="tag-menu--travel-medium-title-box layout2">
@@ -104,7 +104,7 @@ include "quote/template/head.php";
               </a>
             </div>
             <div class="tag-menu--travel-flex-item <?php echo ($c_id == 13) ? 'active' : ''; ?>">
-              <a href="javascript:;" class="tag-menu--travel-flex4 layout">
+              <a href="travel.php?id=13" class="tag-menu--travel-flex4 layout">
                 <div style="--src:url(../images/assets/b685d2c4039b550a112d820d9aaa3945.png)" class="tag-menu--travel-image3 layout hover_img"></div>
                 <div style="--src:url(../images/Vector4.png)" class="tag-menu--travel-image3 layout hover_img_h"></div>
                 <h2 class="tag-menu--travel-medium-title-box layout">
