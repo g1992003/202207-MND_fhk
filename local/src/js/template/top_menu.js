@@ -53,22 +53,32 @@ $(function(){
             menu_box = obj.find('.item_menu_Box').width();
             if (total_width > menu_box) {
                 obj.addClass('open_flexslider');
-                // obj.find('.item_menu_Box').scrollLeft(sumArray[active]);
+                obj.find('.item_menu_Box').scrollLeft(sumArray[active]);
             } else {
                 obj.removeClass('open_flexslider');
             }
         }).resize();
 
+        
+        let isclick = true;
         $('#' + id + ' .rbtn').on('click', function () {
-            if (sumArray[active] < total_width - menu_box) {
-                active++;
-                obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active] }, 600)
+            if(isclick){
+                isclick = false;
+                if (sumArray[active] < total_width - menu_box) {
+                    active++;
+                    obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active] }, 600)
+                }
+                setTimeout(function(){isclick = true}, 750)
             }
         })
         $('#' + id + ' .lbtn').on('click', function () {
-            if (sumArray[active] > 0) {
-                active--;
-                obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active] }, 600)
+            if(isclick){
+                isclick = false;
+                if (sumArray[active] > 0) {
+                    active--;
+                    obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active] }, 600)
+                }
+                setTimeout(function(){isclick = true}, 750)
             }
         })
         //判斷是否第一個或是最後一個            
