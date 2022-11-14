@@ -26,10 +26,12 @@ if ($Authenticate == true) {
 		}
 	}
 
-	$check_result = $link->prepare("SELECT $order_name FROM [$db] WHERE $id_name = $id", array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL)); //執行sql語法
-	$check_result->execute();
-	$row = $check_result->fetch(PDO::FETCH_ASSOC);
-	$check_value = $row[$order_name];
+	if ($order_name) {
+		$check_result = $link->prepare("SELECT $order_name FROM [$db] WHERE $id_name = $id", array(PDO::ATTR_CURSOR => PDO::CURSOR_SCROLL)); //執行sql語法
+		$check_result->execute();
+		$row = $check_result->fetch(PDO::FETCH_ASSOC);
+		$check_value = $row[$order_name];
+	}
 
 	$link->prepare("DELETE FROM [$db] WHERE $id_name = $id")->execute(); //執行sql語法
 
