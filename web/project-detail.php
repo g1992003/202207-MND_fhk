@@ -3,7 +3,7 @@ include 'dominator/system/ready.mak';
 include 'quote/include_data.php';
 
 if (!isset($id) || !is_numeric($id)) {
-  header("location:./");
+  echo "此文章不存在!";
   exit();
 }
 
@@ -12,7 +12,7 @@ $query = "SELECT * FROM [news] WHERE n_id = $id";
 $data = sql_data($query, $link, 1);
 
 if ($data["nc_id"] != 2) {
-  header("location:./");
+  echo "此文章不存在!";
   exit();
 }
 

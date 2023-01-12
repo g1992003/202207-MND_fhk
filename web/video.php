@@ -5,7 +5,7 @@ include 'quote/include_data.php';
 $id = (!isset($id) || !is_numeric($id)) ? 16 : $id;
 
 if ($id < 16 || $id > 20) {
-  header("location:./");
+  echo "此文章不存在!";
   exit();
 }
 
@@ -85,7 +85,7 @@ include "quote/template/head.php";
               foreach ($data as $k => $v) { ?>
                 <div class="video-flex-item5">
                   <div class="video-component layout">
-                    <a href="<?php echo $v["v_url"]; ?>" target="_blank" class="video-list video-list-flex layout song_video">
+                    <a href="<?php echo $v["v_url"]; ?>" target="_blank" rel="nofollow" class="video-list video-list-flex layout song_video">
                       <div class="video-list-flex-item">
                         <px-posize track-style='{"flexGrow":1}' x="0px 736fr 0px" y="0fr minmax(0px, max-content) 0fr" lg-x="0px 736fr 0px" lg-y="0fr minmax(0px, max-content) 0fr">
                           <div class="video-list-group">
@@ -99,7 +99,8 @@ include "quote/template/head.php";
                       <div class="video-list-flex-item">
                         <h2 class="video-list-video__txt-box layout">
                           <div class="video-list-video__txt"><span class="tw"><?php echo $v["v_title_1"]; ?></span>
-<span class="en"><?php echo $v["v_title_2"]; ?></span></div>
+                            <span class="en"><?php echo $v["v_title_2"]; ?></span>
+                          </div>
                         </h2>
                       </div>
                     </a>

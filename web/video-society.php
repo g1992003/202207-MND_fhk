@@ -8,7 +8,7 @@ $first_data = reset($c_data);
 
 $id = (!isset($id) || !is_numeric($id)) ? $first_data["c_id"] : $id;
 if ($id <= 30) {
-    header("location:./");
+    echo "此文章不存在!";
     exit();
 }
 
@@ -149,7 +149,7 @@ include "quote/template/head.php";
                                 <div class="video-flex-item5">
                                     <div class="video-component layout">
 
-                                        <a href="<?php echo $v["v_url"]; ?>" target="_blank" class="video-list video-list-flex layout song_video">
+                                        <a href="<?php echo $v["v_url"]; ?>" target="_blank" rel="nofollow" class="video-list video-list-flex layout song_video">
                                             <div class="video-list-flex-item">
                                                 <px-posize track-style='{"flexGrow":1}' x="0px 736fr 0px" y="0fr minmax(0px, max-content) 0fr" lg-x="0px 736fr 0px" lg-y="0fr minmax(0px, max-content) 0fr">
                                                     <div class="video-list-group">

@@ -58,7 +58,7 @@ include "quote/template/head.php";
                 <div class="psychological-section2__flex-item1">
                   <div class="psychological-section2__component layout">
 
-                    <a href="<?php echo $v["n_text"]; ?>" target="_blank" class="psy-box psy-box-flex layout">
+                    <a href="<?php echo $v["n_text"]; ?>" target="_blank" rel="nofollow" class="psy-box psy-box-flex layout">
                       <img src="<?php echo $v["n_img1"]; ?>" alt="" class="psy-box-image layout" />
                       <div class="psy-box-psy-title-box layout">
                         <pre class="psy-box-psy-title">

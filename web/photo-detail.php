@@ -3,7 +3,7 @@ include 'dominator/system/ready.mak';
 include 'quote/include_data.php';
 
 if (!isset($id) || !is_numeric($id)) {
-  header("location:./military.php");
+  echo "此文章不存在!";
   exit();
 }
 

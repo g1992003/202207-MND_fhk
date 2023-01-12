@@ -3,9 +3,10 @@ include 'dominator/system/ready.mak';
 include 'quote/include_data.php';
 
 if (!isset($id) || !is_numeric($id)) {
-  header("location:./");
+  echo "此文章不存在!";
   exit();
 }
+
 //輪播資料
 $query = "SELECT p_img FROM [photo]  WHERE a_id = 1 ORDER BY p_order";
 $banner_data = sql_data($query, $link);
