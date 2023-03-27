@@ -63,9 +63,9 @@ body.modal-open {
 }
 .modal {
     position: fixed;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     background-color: #fff;
     border-radius: 14px;
     position: relative;
@@ -73,7 +73,7 @@ body.modal-open {
     max-width: 88%;
     .modal-content{
         position: relative;
-        margin-top: 1000px;
+        margin: 75px 0;
         padding: 100px 185px 90px;
         li{
             width: 100%;
