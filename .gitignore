@@ -1,15 +1,17 @@
 #dominator/paging
-web/dominator/paging/ckeditor
-web/dominator/paging/ckfinder
+# web/dominator/paging/ckeditor
+# web/dominator/paging/ckfinder
 
 #plug_in
-web/plug_in
-web/upload
+# web/plug_in
+# web/upload
 
 DB/*.ipynb
 DB/*.mdf
 DB/*.ldf
 *mp3
 *mp4
+弱掃報告
+政戰園地(部屬)0116-v2
 
 
