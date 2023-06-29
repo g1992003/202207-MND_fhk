@@ -15,7 +15,7 @@ $c_data = sql_data($query, $link, 2, "c_id");
 
 $where = "WHERE c_id = $id";
 $check = 4; //分頁數量
-$page_set = "?p="; //頁碼
+$page_set = "?id=$id&p="; //頁碼
 //分頁設定開始
 $query = "SELECT COUNT(t_id) FROM [travel] $where";
 if (!isset($p) || !is_numeric($p) || $p < 1) $p = 1;
