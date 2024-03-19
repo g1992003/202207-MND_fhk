@@ -126,7 +126,8 @@ include "quote/template/head.php";
             <div class="new-section2__flex-item5">
               <div class="new-section2__block1 layout">
                 <a href="news.php?id=<?php echo $prev_id; ?>" class="new-section2__block2 layout">
-                  <div class="new-section2__buttom layout">&lt; 上一期</div>
+                  <div class="new-section2__buttom layout">
+                    < 下一期</div>
                 </a>
               </div>
             </div>
@@ -136,7 +137,7 @@ include "quote/template/head.php";
             <div class="new-section2__flex-item6">
               <div class="new-section2__block1 layout">
                 <a href="news.php?id=<?php echo $next_id; ?>" class="new-section2__block2 layout">
-                  <div class="new-section2__buttom1 layout">下一期 &gt;</div>
+                  <div class="new-section2__buttom1 layout">上一期 ></div>
                 </a>
               </div>
             </div>
